@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ION Racing - Join Us</title>
+
+    <link rel="preload" href="/assets/fonts/bebas-neue-v10-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="stylesheet" href="/css/general.css">
+    <link rel="stylesheet" href="/css/join.css">
+
+    <!-- *** SCRIPTS *** -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <script src="/scripts/join.js" defer></script>
+    <script src="/scripts/functionality.js" defer></script> <!-- *** defer = script loads only once the page has loaded *** -->
+</head>
+<body>
+
+    <!-- *** HEADER & NAVIGATION *** -->
+    <header class="main_header" id="navbar">
+        <div style="max-width: 1600px; display: flex; width: 100%; justify-content: space-between;">
+            <div id="logo_container">
+                <a href="index.html"><img src="/img/ION_Racing.png" alt="ION logo" class="logo"></a>
+            </div>
+    
+            <!-- NAVIGATION -->
+            <nav id="main_nav">
+                <button class="nav_toggle_btn" aria-expanded="false">
+                    <svg class="hamburger" viewBox=" 0 0 80 100" width="20">
+                        <rect class="line line_top" width="80" height="10" x="0" y="25" rx="8">
+                        </rect>
+                        <rect class="line line_mid" width="80" height="10" x="0" y="45" rx="8">
+                        </rect>
+                        <rect class="line line_bottom" width="80" height="10" x="0" y="65" rx="8">
+                        </rect>
+                    </svg>
+                </button>
+                <ul class="main_nav flex_container" data-visible="false">
+                    <!-- NAVIGATION - About -->
+                    <li>
+                        <a href="/html/about.html">About Us</a>
+                    </li>
+                    <!-- NAVIGATION - Team -->
+                    <li>
+                        <a href="/html/team.html">The Team</a>
+                    </li>
+                    <!-- NAVIGATION - Partners -->
+                    <li>
+                        <a href="/html/partners.html">Partners</a>
+                    </li>
+                    <!-- NAVIGATION - Garage -->
+                    <li>
+                        <a href="/html/garage.html">Garage</a>
+                    </li>
+                    <!-- NAVIGATION - Join -->
+                    <li>
+                        <a href="/html/join.html">Join Us</a>
+                        <hr>
+                    </li>
+                </ul>
+            </nav>  
+        </div>          
+    </header>
+    
+    <!-- *** MAIN CONTENT *** -->
+    <main class="content_container white_text" id="join_main">
+    <!-- *** Join Hero *** -->
+        <div id="join_hero" class="fullscreen hero_container">
+            <div id="heroDivider_container">
+                <div class="join_heroContainer" id="join_student">
+                    <h1>Are You Our Next Crewmember</h1>
+                    <div style="display: flex; align-items: center; justify-content: center;">
+                        <a href="#join_studentSection">
+                            <span>Learn More</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" viewBox="0 0 256 256"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="hero_overlayBtm"></div>
+                </div>
+                <div class="join_heroContainer" id="join_partner">
+                    <h1>Interested in Partnership?</h1>
+                    <div style="display: flex; align-items: center; justify-content: center;">
+                        <a href="#join_partnerSection">
+                            <span>Learn More</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" viewBox="0 0 256 256"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="hero_overlayBtm"></div>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- *** Content *** -->
+        <!-- *** FOR PARTNERS *** -->
+        <section id="join_partnerSection" style="padding-bottom: 4rem;">
+            <article class="triangle_cointainer">
+                <div class="overlayTop"></div>
+                <div class="triangle"></div>
+                <div id="becomePartner_section">
+                    <h1>Become a Partner</h1>
+                    <div">
+                        <p style="padding-bottom: 0.5rem; padding-top: 1rem;">
+                            Partners help make ION Racing a reality, they are our greatest supporters!
+                        </p>
+                        <p>
+                            Check out this years <a href="/html/partners.html" target="_blank" rel="partners" class="white_text">partners!</a>
+                        </p>
+                        <p>
+                            Should you be interested, please feel free to contact us via email or by filling out the application form below. If you have any questions, do not hesitate to reach out!               
+                        </p>
+                        <div class="buttons_container" style="display: flex;">
+                            <div class="gradient_btnContainer">
+                                <button class="gradient_btn"><a href="" target="_blank" style="color: #ffff; text-decoration: none;"">Fill Application</a></button>
+                            </div>
+                            <div class="gradient_btnContainer">
+                                <button class="gradient_btn"><a href="mailto:%70%6F%73%74%40%69%6F%6E%72%61%63%69%6E%67%2E%6E%6F?subject=Interested%20In%20Partnership" style="color: #ffff; text-decoration: none;"">Send Email</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <h2 class="center_text logo_color join_h2_article" style="margin-bottom: 2rem;">Why should you become a partner?</h2>
+                <div class="reasons_container" id="reasonsContainer_partners">
+                    <div class="reasons_item">
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#ffff" width="120" height="120">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M32 192L256 64l224 128-224 128L32 192z"/>
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M112 240v128l144 80 144-80V240M480 368V192M256 320v128"/>
+                            </svg>
+                        </div>
+                        <span class="logo_color">Investment in Future Talent</span>
+                        <p>
+                            By supporting ION, partners give  students the opportunity to gain knowledge, skills, and experiences that can contribute to their future careers. 
+                        </p>
+                    </div>
+                    <div class="reasons_item">
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="#ffff" viewBox="0 0 256 256">
+                                <path d="M119.76,217.94A8,8,0,0,1,112,224a8.13,8.13,0,0,1-2-.24l-32-8a8,8,0,0,1-2.5-1.11l-24-16a8,8,0,1,1,8.88-13.31l22.84,15.23,30.66,7.67A8,8,0,0,1,119.76,217.94Zm132.69-96.46a15.89,15.89,0,0,1-8,9.25l-23.68,11.84-55.08,55.09a8,8,0,0,1-7.6,2.1l-64-16a8.06,8.06,0,0,1-2.71-1.25L35.86,142.87,11.58,130.73a16,16,0,0,1-7.16-21.46L29.27,59.58h0a16,16,0,0,1,21.46-7.16l22.06,11,53-15.14a8,8,0,0,1,4.4,0l53,15.14,22.06-11a16,16,0,0,1,21.46,7.16l24.85,49.69A15.9,15.9,0,0,1,252.45,121.48Zm-46.18,12.94L179.06,80H147.24L104,122c12.66,8.09,32.51,10.32,50.32-7.63a8,8,0,0,1,10.68-.61l34.41,27.57Zm-187.54-18,17.69,8.85L61.27,75.58,43.58,66.73ZM188,152.66l-27.71-22.19c-19.54,16-44.35,18.11-64.91,5a16,16,0,0,1-2.72-24.82.6.6,0,0,1,.08-.08L137.6,67.06,128,64.32,77.58,78.73,50.21,133.46l49.2,35.15,58.14,14.53Zm49.24-36.24L212.42,66.73l-17.69,8.85,24.85,49.69Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <span class="logo_color">Networking and Relationship Building</span>
+                        <p>
+                            We arrange events throughout the year, creating a platform to network and build relationships with students, faculty members, and other partners. 
+                            These connections can lead to future collaborations, partnerships, or potential hires.
+                        </p>
+                    </div>
+                    <div class="reasons_item">
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" fill="#ffff" width="120" height="120">
+                                <path d="M256 464c-114.69 0-208-93.31-208-208S141.31 48 256 48s208 93.31 208 208-93.31 208-208 208zm0-384c-97 0-176 79-176 176s79 176 176 176 176-78.95 176-176S353.05 80 256 80z"/><path d="M323.67 292c-17.4 0-34.21-7.72-47.34-21.73a83.76 83.76 0 01-22-51.32c-1.47-20.7 4.88-39.75 17.88-53.62S303.38 144 323.67 144c20.14 0 38.37 7.62 51.33 21.46s19.47 33 18 53.51a84 84 0 01-22 51.3C357.86 284.28 341.06 292 323.67 292zm55.81-74zM163.82 295.36c-29.76 0-55.93-27.51-58.33-61.33-1.23-17.32 4.15-33.33 15.17-45.08s26.22-18 43.15-18 32.12 6.44 43.07 18.14 16.5 27.82 15.25 45c-2.44 33.77-28.6 61.27-58.31 61.27zM420.37 355.28c-1.59-4.7-5.46-9.71-13.22-14.46-23.46-14.33-52.32-21.91-83.48-21.91-30.57 0-60.23 7.9-83.53 22.25-26.25 16.17-43.89 39.75-51 68.18-1.68 6.69-4.13 19.14-1.51 26.11a192.18 192.18 0 00232.75-80.17zM163.63 401.37c7.07-28.21 22.12-51.73 45.47-70.75a8 8 0 00-2.59-13.77c-12-3.83-25.7-5.88-42.69-5.88-23.82 0-49.11 6.45-68.14 18.17-5.4 3.33-10.7 4.61-14.78 5.75a192.84 192.84 0 0077.78 86.64l1.79-.14a102.82 102.82 0 013.16-20.02z"/>
+                            </svg>
+                        </div>
+                        <span class="logo_color">Meet potential future employees</span>
+                        <p>
+                            Partners can leverage their involvement to identify potential candidates for internships, entry-level positions and future hires.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- *** FOR STUDENTS *** -->
+        <section id="join_studentSection">
+            <article class="triangle_cointainer" style="margin-bottom: 5rem;">
+                <div class="overlayTop"></div>
+                <div class="triangle"></div>
+                <div id="becomeCrew_section">
+                    <h1>Become a Crewmember</h1>
+                    <div style="margin: 0 1rem 0 15%; height: 170px; position: relative;">
+                        <p style="width: 100%; position: relative; padding-top: 0.5rem;">
+                            Are you a student who wants to be a part of ION Racing? Then your journey starts here! <br>
+                            You can send us an email or apply directly by filling out our application form. We hope to hear from you!           
+                        </p>
+                        <div class="gradient_btnContainer" style="position: absolute; right: 0; bottom: 0; margin: 0 2rem 0 0;">
+                            <button class="gradient_btn"><a href="" target="_blank" style="color: #ffff; text-decoration: none;"">Apply Here</a></button>
+                        </div>
+                    </div>
+                </div>
+            </article>  
+            <article>
+                <h2 class="center_text logo_color join_h2_article" style="padding-bottom: 2rem;">What can Ion offer you as a student?</h2>
+                <div class="reasons_container" id="reasonsContainer_student">
+                    <div class="reasons_item">
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" height="110" width="110">
+                                <circle fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="30" cx="256" cy="56" r="40"/><path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="30" d="M204.23 274.44c2.9-18.06 4.2-35.52-.5-47.59-4-10.38-12.7-16.19-23.2-20.15L88 176.76c-12-4-23.21-10.7-24-23.94-1-17 14-28 29-24 0 0 88 31.14 163 31.14s162-31 162-31c18-5 30 9 30 23.79 0 14.21-11 19.21-24 23.94l-88 31.91c-8 3-21 9-26 18.18-6 10.75-5 29.53-2.1 47.59l5.9 29.63 37.41 163.9c2.8 13.15-6.3 25.44-19.4 27.74S308 489 304.12 476.28l-37.56-115.93q-2.71-8.34-4.8-16.87L256 320l-5.3 21.65q-2.52 10.35-5.8 20.48L208 476.18c-4 12.85-14.5 21.75-27.6 19.46s-22.4-15.59-19.46-27.74l37.39-163.83z"/>
+                            </svg>
+                        </div>
+                        <span class="logo_color">Having Fun and Enjoying University Life</span>
+                        <p>
+                            Engaging in student organizations provides an opportunity to have fun, meet new people, and enjoy a more fulfilling university experience.
+                        </p>
+                    </div>
+                    <div class="reasons_item">
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" height="110" width="110">
+                                <path d="M436.67 184.11a27.17 27.17 0 01-38.3 0l-22.48-22.49a27.15 27.15 0 010-38.29l50.89-50.89a.85.85 0 00-.26-1.38C393.68 57 351.09 64.15 324.05 91c-25.88 25.69-27.35 64.27-17.87 98a27 27 0 01-7.67 27.14l-173 160.76a40.76 40.76 0 1057.57 57.54l162.15-173.3a27 27 0 0126.77-7.7c33.46 8.94 71.49 7.26 97.07-17.94 27.49-27.08 33.42-74.94 20.1-102.33a.85.85 0 00-1.36-.22z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="30"/>
+                                <path d="M224 284c-17.48-17-25.49-24.91-31-30.29a18.24 18.24 0 01-3.33-21.35 20.76 20.76 0 013.5-4.62l15.68-15.29a18.66 18.66 0 015.63-3.87 18.11 18.11 0 0120 3.62c5.45 5.29 15.43 15 33.41 32.52M317.07 291.3c40.95 38.1 90.62 83.27 110 99.41a13.46 13.46 0 01.94 19.92L394.63 444a14 14 0 01-20.29-.76c-16.53-19.18-61.09-67.11-99.27-107" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"/>
+                                <path d="M17.34 193.5l29.41-28.74a4.71 4.71 0 013.41-1.35 4.85 4.85 0 013.41 1.35h0a9.86 9.86 0 008.19 2.77c3.83-.42 7.92-1.6 10.57-4.12 6-5.8-.94-17.23 4.34-24.54a207 207 0 0119.78-22.6c6-5.88 29.84-28.32 69.9-44.45A107.31 107.31 0 01206.67 64c22.59 0 40 10 46.26 15.67a89.54 89.54 0 0110.28 11.64 78.92 78.92 0 00-9.21-2.77 68.82 68.82 0 00-20-1.26c-13.33 1.09-29.41 7.26-38 14-13.9 11-19.87 25.72-20.81 44.71-.68 14.12 2.72 22.1 36.1 55.49a6.6 6.6 0 01-.34 9.16l-18.22 18a6.88 6.88 0 01-9.54.09c-21.94-21.94-36.65-33.09-45-38.16s-15.07-6.5-18.3-6.85a30.85 30.85 0 00-18.27 3.87 11.39 11.39 0 00-2.64 2 14.14 14.14 0 00.42 20.08l1.71 1.6a4.63 4.63 0 010 6.64L71.73 246.6a4.71 4.71 0 01-3.41 1.4 4.86 4.86 0 01-3.41-1.35l-47.57-46.43a4.88 4.88 0 010-6.72z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"/>
+                            </svg>
+                        </div>
+                        <span class="logo_color">Skill Development</span>
+                        <p>
+                            Being a part of ION may give you a platform to enhance various skills beyond academic learning. Through participation, you may get the chance to develop skills like leadership, communication, teamwork, time management and more.
+                        </p>
+                    </div>
+                    <div class="reasons_item">
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="#ffff" viewBox="0 0 256 256">
+                                <path stroke-width="4" d="M119.76,217.94A8,8,0,0,1,112,224a8.13,8.13,0,0,1-2-.24l-32-8a8,8,0,0,1-2.5-1.11l-24-16a8,8,0,1,1,8.88-13.31l22.84,15.23,30.66,7.67A8,8,0,0,1,119.76,217.94Zm132.69-96.46a15.89,15.89,0,0,1-8,9.25l-23.68,11.84-55.08,55.09a8,8,0,0,1-7.6,2.1l-64-16a8.06,8.06,0,0,1-2.71-1.25L35.86,142.87,11.58,130.73a16,16,0,0,1-7.16-21.46L29.27,59.58h0a16,16,0,0,1,21.46-7.16l22.06,11,53-15.14a8,8,0,0,1,4.4,0l53,15.14,22.06-11a16,16,0,0,1,21.46,7.16l24.85,49.69A15.9,15.9,0,0,1,252.45,121.48Zm-46.18,12.94L179.06,80H147.24L104,122c12.66,8.09,32.51,10.32,50.32-7.63a8,8,0,0,1,10.68-.61l34.41,27.57Zm-187.54-18,17.69,8.85L61.27,75.58,43.58,66.73ZM188,152.66l-27.71-22.19c-19.54,16-44.35,18.11-64.91,5a16,16,0,0,1-2.72-24.82.6.6,0,0,1,.08-.08L137.6,67.06,128,64.32,77.58,78.73,50.21,133.46l49.2,35.15,58.14,14.53Zm49.24-36.24L212.42,66.73l-17.69,8.85,24.85,49.69Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <span class="logo_color">Networking</span>
+                        <p>
+                            Joining ION Racing provides you with an opportunity to expand your social and professional networks. Connect with peers who share similar interests and build relationships with faculty and industry professionals through networking events and activities.
+                        </p>
+                    </div>
+                    <div class="reasons_item">
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="#ffff" viewBox="0 0 256 256"><path d="M210.78,39.25l-130.25-23A16,16,0,0,0,62,29.23l-29.75,169a16,16,0,0,0,13,18.53l130.25,23h0a16,16,0,0,0,18.54-13l29.75-169A16,16,0,0,0,210.78,39.25ZM178.26,224h0L48,201,77.75,32,208,55ZM89.34,58.42a8,8,0,0,1,9.27-6.48l83,14.65a8,8,0,0,1-1.39,15.88,8.36,8.36,0,0,1-1.4-.12l-83-14.66A8,8,0,0,1,89.34,58.42ZM83.8,89.94a8,8,0,0,1,9.27-6.49l83,14.66A8,8,0,0,1,174.67,114a7.55,7.55,0,0,1-1.41-.13l-83-14.65A8,8,0,0,1,83.8,89.94Zm-5.55,31.51A8,8,0,0,1,87.52,115L129,122.29a8,8,0,0,1-1.38,15.88,8.27,8.27,0,0,1-1.4-.12l-41.5-7.33A8,8,0,0,1,78.25,121.45Z"></path>
+                            </svg>
+                        </div>
+                        <span class="logo_color">Enhancing Your Resume</span>
+                        <p>
+                            Active involvement in student organizations shows to potential employers that a student is proactive and capable of managing multiple responsibilities.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- *** POSITIONS *** -->
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <section id="positions_section">
+                    <h2 class="logo_color">Positions</h2>
+                    <p style="margin-bottom: 2rem; margin-top: 0.5rem;">
+                        Check out the current positions at Ion Racing and their availability below. <br> 
+                        Can't find what you're looking for, or maybe you have a vision for a fresh role? <br> 
+                        We're all ears – <a href="mailto:%70%6F%73%74%40%69%6F%6E%72%61%63%69%6E%67%2E%6E%6F?subject=Question(s)%20Regarding%20Positions" style="color: #ffff;">share your ideas and aspirations with us</a>!
+                    </p>
+
+                        <!-- *** CATEGORY SELECTION *** -->
+                        <div style="position: relative; height: 3rem; bottom: 0;">
+                           
+                                <a @click="setPositions(category.id)" v-for="category in positionCategories" :key="category.id" :id="'category_' + category.id" class="categoryContainer">
+                                    {{ category.categoryTitle }}
+                                </a>
+   
+                        </div>
+                        <!-- *** POSITIONS *** -->
+                        <div class="positions_container">
+                            <!-- *** Mech positions *** -->
+                            <div class="position_container" v-for="position in mechPositions" :key="position.id" v-if="mechIsSelected">
+                                <div class="positionData_container">
+                                    <!-- *** Position Title *** -->
+                                    <span class="position_title">{{ position.positionTitle }}</span>
+                                    <!-- *** Position Description *** -->
+                                    <p style="padding-top: 1rem; padding-bottom: 1rem;">
+                                        {{ position.positionDescription }}
+                                    </p>
+                                </div>
+                                <!-- *** IMAGE *** -->
+                                <div class="positionImg_container" :style="{ 'background-image': 'url(/img/positions/mech/' + position.positionImgCode + '.jpg)' }"></div>                                    
+                                <!-- *** EXTRA INFO *** -->
+                                <div class="position_extrasContainer">
+                                    <ul>
+                                        <span class="positionExtras">Relevant Tasks</span>
+                                        <li v-for="task in position.tasks" :key="task.taskId">
+                                            <span style="position: relative; padding-right: 1.5rem;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#ffff" viewBox="0 0 256 256" style="position: absolute; bottom: 5%;">
+                                                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            {{ task.taskDescription }}
+                                        </li>
+                                    </ul>
+                                </div>
+                            <!-- *** AVAILABILITY STATUS *** -->
+                                <div class="availability_status">
+                                    <!-- *** STATUS: available *** -->
+                                    <span class="positionExtras" v-if="position.isAvailable">
+                                        <span>Status:</span> <span class="available">Available</span>
+                                        <span style="position: relative;">
+                                            <svg style="position: absolute; bottom: 0%; opacity: 0.9;" xmlns="http://www.w3.org/2000/svg" width="18" height="18" class="ionicon" viewBox="0 0 512 512">
+                                                <path fill="none" stroke="#00be36" stroke-linecap="square" stroke-miterlimit="10" stroke-width="44" d="M416 128L192 384l-96-96"/>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                    <!-- *** STATUS: unavailable *** -->
+                                    <span class="positionExtras" v-else>
+                                        <span>Status:</span> <span class="unavailable">Unavailable</span>
+                                        <span style="position: relative;">
+                                            <svg style="opacity: 0.3; position: absolute; bottom: 0%;" width="18" height="18" fill="#ff0000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path d="M414.39 97.61A224 224 0 1097.61 414.39 224 224 0 10414.39 97.61zM432 256a175.09 175.09 0 01-35.8 106.26L149.74 115.8A175.09 175.09 0 01256 80c97.05 0 176 79 176 176zm-352 0a175.09 175.09 0 0135.8-106.26L362.26 396.2A175.09 175.09 0 01256 432c-97 0-176-78.95-176-176z"/>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- *** Ele positions *** -->
+                            <div class="position_container" v-for="position in elePositions" :key="position.id" v-if="eleIsSelected">
+                                <div class="positionData_container">
+                                    <!-- *** Position Title *** -->
+                                    <span class="position_title">{{ position.positionTitle }}</span>
+                                    <!-- *** Position Description *** -->
+                                    <p style="padding-top: 1rem; padding-bottom: 1rem;">
+                                        {{ position.positionDescription }}
+                                        
+                                    </p>
+                                </div>
+                                <!-- *** IMAGE *** -->
+                                <div class="positionImg_container" :style="{ 'background-image': 'url(/img/positions/ele/' + position.positionImgCode + '.jpg)' }"></div>                                    
+                                <!-- *** EXTRA INFO *** -->
+                                <div class="position_extrasContainer">
+                                    <ul>
+                                        <span class="positionExtras">Relevant Tasks</span>
+                                        <li v-for="task in position.tasks" :key="task.taskId">
+                                            <span style="position: relative; padding-right: 1.5rem;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#ffff" viewBox="0 0 256 256" style="position: absolute; bottom: 5%;">
+                                                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            {{ task.taskDescription }}
+                                        </li>
+                                    </ul>
+                                </div>
+                            <!-- *** AVAILABILITY STATUS *** -->
+                                <div class="availability_status">
+                                    <!-- *** STATUS: available *** -->
+                                    <span class="positionExtras" v-if="position.isAvailable">
+                                        <span>Status:</span> <span class="available">Available</span>
+                                        <span style="position: relative;">
+                                            <svg style="position: absolute; bottom: 0%; opacity: 0.9;" xmlns="http://www.w3.org/2000/svg" width="18" height="18" class="ionicon" viewBox="0 0 512 512">
+                                                <path fill="none" stroke="#00be36" stroke-linecap="square" stroke-miterlimit="10" stroke-width="44" d="M416 128L192 384l-96-96"/>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                    <!-- *** STATUS: unavailable *** -->
+                                    <span class="positionExtras" v-else>
+                                        <span>Status:</span> <span class="unavailable">Unavailable</span>
+                                        <span style="position: relative;">
+                                            <svg style="opacity: 0.3; position: absolute; bottom: 0%;" width="18" height="18" fill="#ff0000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path d="M414.39 97.61A224 224 0 1097.61 414.39 224 224 0 10414.39 97.61zM432 256a175.09 175.09 0 01-35.8 106.26L149.74 115.8A175.09 175.09 0 01256 80c97.05 0 176 79 176 176zm-352 0a175.09 175.09 0 0135.8-106.26L362.26 396.2A175.09 175.09 0 01256 432c-97 0-176-78.95-176-176z"/>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- *** It positions *** -->
+                            <div class="position_container" v-for="position in itPositions" :key="position.id" v-if="itIsSelected">
+                                <div class="positionData_container">
+                                    <!-- *** Position Title *** -->
+                                    <span class="position_title">{{ position.positionTitle }}</span>
+                                    <!-- *** Position Description *** -->
+                                    <p style="padding-top: 1rem; padding-bottom: 1rem;">
+                                        {{ position.positionDescription }}
+                                        
+                                    </p>
+                                </div>
+                                <!-- *** IMAGE *** -->
+                                <div class="positionImg_container" :style="{ 'background-image': 'url(/img/positions/it/' + position.positionImgCode + '.jpg)' }"></div>                                    
+                                <!-- *** EXTRA INFO *** -->
+                                <div class="position_extrasContainer">
+                                    <ul>
+                                        <span class="positionExtras">Relevant Tasks</span>
+                                        <li v-for="task in position.tasks" :key="task.taskId">
+                                            <span style="position: relative; padding-right: 1.5rem;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#ffff" viewBox="0 0 256 256" style="position: absolute; bottom: 5%;">
+                                                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            {{ task.taskDescription }}
+                                        </li>
+                                    </ul>
+                                </div>
+                            <!-- *** AVAILABILITY STATUS *** -->
+                                <div class="availability_status">
+                                    <!-- *** STATUS: available *** -->
+                                    <span class="positionExtras" v-if="position.isAvailable">
+                                        <span>Status:</span> <span class="available">Available</span>
+                                        <span style="position: relative;">
+                                            <svg style="position: absolute; bottom: 0%; opacity: 0.9;" xmlns="http://www.w3.org/2000/svg" width="18" height="18" class="ionicon" viewBox="0 0 512 512">
+                                                <path fill="none" stroke="#00be36" stroke-linecap="square" stroke-miterlimit="10" stroke-width="44" d="M416 128L192 384l-96-96"/>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                    <!-- *** STATUS: unavailable *** -->
+                                    <span class="positionExtras" v-else>
+                                        <span>Status:</span> <span class="unavailable">Unavailable</span>
+                                        <span style="position: relative;">
+                                            <svg style="opacity: 0.3; position: absolute; bottom: 0%;" width="18" height="18" fill="#ff0000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path d="M414.39 97.61A224 224 0 1097.61 414.39 224 224 0 10414.39 97.61zM432 256a175.09 175.09 0 01-35.8 106.26L149.74 115.8A175.09 175.09 0 01256 80c97.05 0 176 79 176 176zm-352 0a175.09 175.09 0 0135.8-106.26L362.26 396.2A175.09 175.09 0 01256 432c-97 0-176-78.95-176-176z"/>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- *** Admin positions *** -->
+                            <div class="position_container" v-for="position in adminPositions" :key="position.id" v-if="adminIsSelected">
+                                <div class="positionData_container">
+                                    <!-- *** Position Title *** -->
+                                    <span class="position_title">{{ position.positionTitle }}</span>
+                                    <!-- *** Position Description *** -->
+                                    <p style="padding-top: 1rem; padding-bottom: 1rem;">
+                                        {{ position.positionDescription }}
+                                        
+                                    </p>
+                                </div>
+                                <!-- *** IMAGE *** -->
+                                <div class="positionImg_container" :style="{ 'background-image': 'url(/img/positions/admin/' + position.positionImgCode + '.jpg)' }"></div>                                    
+                                <!-- *** EXTRA INFO *** -->
+                                <div class="position_extrasContainer">
+                                    <ul>
+                                        <span class="positionExtras">Relevant Tasks</span>
+                                        <li v-for="task in position.tasks" :key="task.taskId">
+                                            <span style="position: relative; padding-right: 1.5rem;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#ffff" viewBox="0 0 256 256" style="position: absolute; bottom: 5%;">
+                                                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            {{ task.taskDescription }}
+                                        </li>
+                                    </ul>
+                                </div>
+                            <!-- *** AVAILABILITY STATUS *** -->
+                                <div class="availability_status">
+                                    <!-- *** STATUS: available *** -->
+                                    <span class="positionExtras" v-if="position.isAvailable">
+                                        <span>Status:</span> <span class="available">Available</span>
+                                        <span style="position: relative;">
+                                            <svg style="position: absolute; bottom: 0%; opacity: 0.9;" xmlns="http://www.w3.org/2000/svg" width="18" height="18" class="ionicon" viewBox="0 0 512 512">
+                                                <path fill="none" stroke="#00be36" stroke-linecap="square" stroke-miterlimit="10" stroke-width="44" d="M416 128L192 384l-96-96"/>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                    <!-- *** STATUS: unavailable *** -->
+                                    <span class="positionExtras" v-else>
+                                        <span>Status:</span> <span class="unavailable">Unavailable</span>
+                                        <span style="position: relative;">
+                                            <svg style="opacity: 0.3; position: absolute; bottom: 0%;" width="18" height="18" fill="#ff0000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path d="M414.39 97.61A224 224 0 1097.61 414.39 224 224 0 10414.39 97.61zM432 256a175.09 175.09 0 01-35.8 106.26L149.74 115.8A175.09 175.09 0 01256 80c97.05 0 176 79 176 176zm-352 0a175.09 175.09 0 0135.8-106.26L362.26 396.2A175.09 175.09 0 01256 432c-97 0-176-78.95-176-176z"/>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                </section>                  
+            </div>
+  
+        </section>
+    </main>
+
+    <!-- *** FOOTER *** -->
+    <footer class="footer white_text" id="footer"> 
+        <div class="footer_content_container">
+            <!-- *** BROWSE *** -->
+            <div class="footer_items_container" id="browseSec">
+                <h3>Browse</h3>
+                <hr>
+                <div>
+                    <ul>
+                        <li>
+                            <div class="svg_container">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 256 256">
+                                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <a href="/html/index.html">Home</a>
+                        </li>
+                        <li>
+                            <div class="svg_container">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 256 256">
+                                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <a href="/html/about.html">About Us</a>
+                        </li>
+                        <li>
+                            <div class="svg_container">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 256 256">
+                                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <a href="/html/partners.html">Partners</a>
+                        </li>
+                    </ul>           
+                </div>
+            </div>
+            <!-- *** TAKE ACTION *** -->
+            <div class="footer_items_container" id="actionSec">
+                <h3>Take Action</h3>
+                <hr>
+                <div>
+                    <div>
+                        <ul>
+                            <li>
+                                <div class="svg_container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 256 256">
+                                        <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <a href="/html//join.html#join_studentSection">Become a Member</a>
+                            </li>
+                            <li>
+                                <div class="svg_container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 256 256">
+                                        <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <a href="/html//join.html#join_partnerSection">Become a Partner</a>
+                            </li>
+                        </ul>  
+                    </div>            
+                </div>
+            </div>
+            <!-- *** CONTACT US *** -->
+            <div class="footer_items_container" id="contactSec">
+                <h3>Contact Us</h3>
+                <hr>
+                <div id="contact_info">
+                    <div id="mail" style="display: flex;">
+                        <div class="svg_container">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                                <path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <p>
+                            &#112;&#111;&#115;&#116;&#64;&#105;&#111;&#110;&#114;&#97;&#99;&#105;&#110;&#103;&#46;&#110;&#111;
+                        </p>
+                    </div>
+                    <div id="address" style="display: flex;">
+                        <div class="svg_container">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                                <path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div id="address_container">
+                            <p>Kristine Bonnevies Veg 22, </p>
+                            <p>4021 Stavanger, </p>
+                            <p>Norway</p>
+
+                            <div id="entrance_container">
+                                <div id="entrance" style="display: flex;">
+                                    <p class="entrance_item">Entrance:</p>
+                                    <p>
+                                        Kjølv Egelands hus, <br> Inngang Vest
+                                    </p>
+                                </div>
+
+                                <div id="room" style="display: flex;">
+                                    <p class="entrance_item">Room:</p>
+                                    <p>KE D121</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+            <!-- *** SOCIALS *** -->
+            <div class="footer_items_container" id="socialsSec">
+                <h3>Socials</h3>
+                <hr>
+                <div id="socials">
+                    <ul style="display: flex;">
+                        <li>
+                                    <a href="https://www.facebook.com/IONRACING/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/>
+                                        </svg>
+                                    </a>
+                        </li>
+                        <li>
+                                    <a href="https://www.instagram.com/ionracinguis/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z"/>
+                                        </svg>
+                                    </a>
+                        </li>
+                        <li>
+                                    <a href="https://www.linkedin.com/company/ion-racing-uis/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                        </svg>
+                                    </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr style="width: 95%; max-width: 2650px;">
+        <div class="extras_conteiner">
+            <p style="text-align: center; opacity: 0.5;">Org nr: 997 173 465</p>
+            <p style="text-align: center; opacity: 0.5;">&copy; <span id="copyYear"></span> ION Racing UiS</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!-- *** COMMENT *** -->

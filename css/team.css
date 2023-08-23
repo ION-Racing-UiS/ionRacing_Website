@@ -1,0 +1,273 @@
+#team_hero{
+    width: 100%;
+    height: 100vh;
+
+    background-color: #09090d;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40%;
+
+    margin-bottom: 4rem;
+    position: relative;
+}
+#team_hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(180deg, #09090d 50%, rgba(255,255,255,0) 100%);
+}
+#team_hero h1{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    width: 100%;
+}
+
+
+div.gradient_overlay_top{
+    height: 10rem;
+}
+input[type=radio] {
+    accent-color: #009DDF;
+}
+
+.main_container{
+    padding: 3rem 0rem 2rem 0rem;
+}
+
+#team_viewSetting{
+    max-width: 1400px;
+    width: 100%;
+    padding-left: 2rem;
+}
+button.Settings_btn, button.SettingsView_btn{
+    background-color: #09090d;
+    color: #ffffff;
+    border: none;
+    padding: 0.1rem 1rem 0 1rem;
+    margin: 0 !important; 
+
+    font-size: 1rem;
+    display: inline-flex; /* Use flexbox to make the button an inline-flex container */
+    align-items: center; /* Center elements vertically */
+    justify-content: center;
+    width: 100%;
+
+    cursor: pointer;
+}
+button.Settings_btn span{
+    padding-right: 0.5rem;
+}
+button.SettingsView_btn span{
+    padding-right: 0.5rem;
+}
+.dropdown ul{
+    padding: 0;
+    margin: 0;
+}
+.dropdown li{
+    list-style: none;
+    text-align: center;
+    padding: 0.5rem 1rem 0.2rem 1rem;
+}
+.dropdown hr{
+    margin: 0.2rem 1rem 0rem 0.7rem;
+}
+
+.dropdown_options{
+    background-color: #13141E;
+    padding-bottom: 0.5rem;
+    border-radius: 3px;
+
+    cursor: pointer;
+}
+
+#viewCategories_container{
+    padding-top: 1.5rem;
+}
+input#viewAll_opt{
+    margin-right: 1rem;
+}
+
+.team_showcase h4{
+    font-size: 1.4rem;
+    font-weight: bold;
+
+    text-align: center;
+    margin: 1rem;
+}
+.divider{
+    width: auto;
+    position: relative;
+
+    display: flex; 
+    flex: 1;
+}
+.divider hr{
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    margin: 0;
+}
+.section_divider{
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.members_container{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.team_showcase section{
+    margin: 0;
+    padding: 3rem 0.5rem 0 0.5rem;
+}
+
+/* For devices that can hover */
+@media (hover: hover){
+    .membercard::before,.membercard::after{
+        content: '';
+        position: absolute;
+        inset: 0rem;
+        z-index: -1;
+        border-radius: inherit;
+        background: conic-gradient(from var(--gradient-angle), var(--clr_1), var(--clr_2), var(--clr_1));
+        animation: rotation 10s linear infinite;
+    }
+}
+
+.membercard_content{
+    background-color: #13141E;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    padding: 2rem 0 4.5rem 0;
+
+    position: relative;
+}
+.membercard{
+    padding: 0.35rem;
+    margin-bottom: 2rem;
+
+    width: 85%;
+
+    border-radius: 10px;
+    position: relative;
+
+    transition: transform 0.3s ease-in-out;
+
+}
+.membercard:hover{
+    background: linear-gradient(-140deg, #3A014E, #3A014E, #0063CA, #009DDF);
+    transform: scale(1.025);
+}
+
+
+.membercard img{
+    width: 250px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+.member_info p{
+    text-align: center;
+}
+.member_info{
+    width: 80%;
+}
+.name_p{
+    font-size: 1.2rem;
+    padding: 2rem 0 1rem 0;
+}
+
+
+
+
+/* ******************** MEDIA ******************** */
+/*  --- TABLET ---  */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .membercard{
+        max-width: 350px;
+        width: 18rem;
+    }
+    .members_container{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 10px;
+        width: 90%;
+    }
+    .members_container img{
+        position: absolute;
+        top: 5%;
+    }
+    div.member_info{
+        position: absolute;
+        top: 62.5%;
+    }
+
+    div.membercard{
+        margin: 0 1rem 2rem 1rem;
+    }
+    div.membercard_content{
+        max-height: 350px;
+        height: 20rem;
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+}
+
+
+/*  --- DESKTOP ---  */
+@media only screen and (min-width: 992px) {
+    /* GRID container */
+    .members_container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 1rem;
+
+        position: relative;
+    }
+
+    /* GRID items */
+    .membercard{
+        max-width: 350px;
+        width: 18rem;
+        justify-self: center; /* Center horizontally */
+        align-self: center;
+    }
+
+    div.membercard_content{
+        max-height: 300px;
+        height: 18rem;
+    }
+
+    .membercard img{
+        max-width: 75%;
+        position: absolute;
+        top: 5%;
+    }
+    div.member_info{
+        position: absolute;
+        top: 60%;
+    }
+    h4.team_showcase{
+        font-size: 1.8rem;
+    }
+    #team_viewSetting span{
+        font-size: 1.2rem;
+    }
+    #team_viewSetting{
+        padding-left: 8%;
+    }
+}

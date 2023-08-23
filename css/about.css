@@ -1,0 +1,165 @@
+#about_hero{
+    background-image: url(/img/homePage/about.jpg);
+    background-size: cover;
+    background-position: 30% 0%;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+#about_hero::before {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.3;
+    max-height: 1200px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+#about_hero h1{
+    opacity: 0.9;
+}
+#about_container{
+    padding-top: 4rem;
+}
+
+.about_container{
+    box-sizing: border-box;
+}
+
+#about_container article, #about_container img{
+    border-radius: 5px;
+}
+#about_container img{
+    width: 100%;
+}
+
+.about_row1 article, #about_container article{
+    padding: 4rem 1rem 4rem 1rem;
+}
+.about_row1 article{
+    min-height: 400px;
+}
+
+.about_container p{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.about_container h2{
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.about_container span{
+    font-weight: 800;
+}
+
+.about_container li{
+    list-style: none; 
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+.about_container svg{
+    position: absolute; 
+    top: -10%;
+}
+.majors_category{
+    margin-left: 2.5rem;
+}
+
+
+
+/* ******************** MEDIA ******************** */
+
+/*  --- MOBILE ---  */
+@media (max-width: 767px){
+
+}
+
+
+/*  --- TABLET ---  */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about_row1 article, #about_container article{
+        padding: 4rem 1rem 4rem 1rem;
+    }
+    .about_row1 article{
+        min-height: 400px;
+        max-width: 500px;
+    }
+
+    #about_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #about_container img{
+        margin-top: 1rem;
+        width: 80%;
+    }
+    #about_container article{
+        max-width: 500px;
+    }
+
+}
+
+
+/*  --- DESKTOP ---  */
+@media only screen and (min-width: 992px) {
+    #about_container{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 1rem 0 1rem;
+        position: relative;
+        min-height: 1000px;
+        max-width: 1000px;
+    }
+    #about_container article{
+        margin: 0 0rem 1rem 0rem;
+    }
+    .about_row1{
+        display: flex;
+    }
+    article#about_diversitySection{
+        min-width: 400px;
+        max-width: 400px;
+        max-height: 35%;
+        padding: 4rem 6rem 8rem 4rem;
+        position: absolute;
+        margin-left: 1rem;
+        bottom: 5%;
+        right: 0%;
+    }
+    article#about_diversitySection p{
+        width: 450px;
+    }
+
+    article#about_generalSection{
+        padding: 7rem 6rem 0rem 4rem;
+        width: 60%;
+        height: 10%;
+    }
+    article#about_engineerSection{
+        padding: 2rem 0 0 1rem;
+        margin-right: 0;
+        width: 50%;
+    }
+    #about_container img{
+        max-width: 425px;
+        position: absolute;
+        left: 0%;
+        bottom: 12%;
+    }
+}
+
+
+/*  --- TABLET & DESKTOP ---  */
+@media only screen and (min-width: 768px){
+    
+}

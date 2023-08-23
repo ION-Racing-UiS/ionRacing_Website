@@ -1,0 +1,28 @@
+
+
+
+
+/* ******************** MEDIA ******************** */
+
+/*  --- MOBILE ---  */
+@media (max-width: 767px){
+
+}
+
+
+/*  --- TABLET ---  */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/*  --- DESKTOP ---  */
+@media only screen and (min-width: 992px) {
+
+}
+
+
+/*  --- TABLET & DESKTOP ---  */
+@media only screen and (min-width: 768px){
+    
+}

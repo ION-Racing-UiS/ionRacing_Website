@@ -1,0 +1,237 @@
+#home_hero{
+    background-image: url(/img/homePage/froya_side.jpeg);
+    background-size: 290% 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    color: #ffff;
+    margin: 0 auto;
+    position: relative;
+}
+#home_hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(180deg, #09090d 50%, rgba(255,255,255,0) 100%);
+}
+#homeHero_headings{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    width: 100%;
+}
+#homeHero_headings h1{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 1.5rem;
+}
+#homeHero_headings h2{
+    margin: 0 auto;
+    width: 80%;
+}
+.home_section h3{
+    font-size: 1.5rem;
+    color: #ffff;
+    opacity: 0.8;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.5rem;
+    padding-bottom: 1rem;
+}
+#home_about_section p, #home_competition_section p{
+    padding: 0.5rem 0 1.5rem 0;
+}
+#home_about_section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+#home_aboutImg{
+    width: 100%; 
+    border-radius: 5px; 
+    margin-top: 2rem; 
+}
+#home_aboutInfo{
+    padding-left: 1rem;
+    padding-right: 4rem;
+}
+
+#home_competition_section{
+    padding-bottom: 0;
+}
+#home_competition_section h3{
+    padding-left: 1rem;
+}
+section.home_section{
+    padding: 0 0.5rem 4rem 0.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#home_competition_container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: auto;
+    gap: 1rem;
+}
+#home_competitionImg_1{
+    background-image: url(/img/homePage/compSilver.jpg);
+    background-size: cover;
+    background-position: 100% 40%;
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row: span 1;
+    border-radius: 5px;
+    height: 140px;
+}
+#home_competitionInfo{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row: span 1;  
+    padding: 0.5rem 1rem 1.5rem 1rem;
+}
+#home_competitionImg_2{
+    background-image: url(/img/homePage/compRace.jpg);
+    background-size: cover;
+    background-position: 100% 45%;
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row: span 1;
+    border-radius: 5px;
+    height: 120px;
+}
+#home_competitionImg_3{
+    background-image: url(/img/homePage/compAn.jpg);
+    background-size: cover;
+    background-position: 100% 45%;
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: span 1;
+    border-radius: 5px;
+    height: 100px;
+}
+#home_competitionImg_4{
+    background-image: url(/img/homePage/comp.jpg);
+    background-size: 130%;
+    background-position: 50% 55%;
+    background-repeat: no-repeat;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row: span 1;
+    border-radius: 5px;
+    height: 100px;
+}
+
+
+
+/* ******************** MEDIA ******************** */
+/*  --- TABLET ---  */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .home_imgContainer{
+        max-width: 50%;
+    }
+
+    #home_competition_container{
+        grid-template-columns: repeat(8, 1fr);
+        grid-auto-rows: auto;
+    }
+    #home_competitionImg_1{
+        background-position: 100% 50%;
+        grid-column-start: 1;
+        grid-column-end: 9;
+        height: 250px;
+    }
+    #home_competitionInfo{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        padding: 0.5rem 1rem 1.5rem 1rem;
+    }
+    #home_competitionImg_2{
+        grid-column-start: 5;
+        grid-column-end: 9;
+        height: 100%;
+    }
+    #home_competitionImg_3{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        height: 250px;
+    }
+    #home_competitionImg_4{
+        grid-column-start: 6;
+        grid-column-end: 9;
+        height: 250px;
+    }
+    
+}
+
+
+/*  --- DESKTOP ---  */
+@media only screen and (min-width: 992px) {
+    .home_imgContainer{
+        max-width: 55%;
+    }
+
+    #homeHero_headings h2{
+        font-size: 2rem;
+    }
+
+    #home_competition_container{
+        grid-template-columns: repeat(9, 1fr);
+    }
+    #home_competitionImg_1{
+        background-position: 100% 55%;
+        grid-column-start: 1;
+        grid-column-end: 10;
+        height: 280px;
+    }
+    #home_competitionInfo{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        padding: 2rem 5rem 2rem 1rem;
+        height: auto;
+    }
+    #home_competitionImg_2{
+        background-position: 100% 55%;
+        grid-column-start: 5;
+        grid-column-end: 10;
+        height: 100%;
+    }
+    #home_competitionImg_3{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        height: 250px;
+    }
+    #home_competitionImg_4{
+        background-size: 100%;
+        grid-column-start: 6;
+        grid-column-end: 10;
+        height: 250px;
+    }
+}
+
+
+/*  --- TABLET & DESKTOP ---  */
+@media only screen and (min-width: 768px){
+    #home_hero{
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    #home_hero::before {
+        height: 200px;
+    }
+    #homeHero_headings h2{
+        max-width: 400px;
+    }
+
+    #home_about_section{
+        display: flex;
+    }
+
+    #home_about_section{
+        padding-bottom: 8rem;
+    }
+}
