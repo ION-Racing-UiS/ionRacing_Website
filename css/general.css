@@ -434,7 +434,7 @@ footer .extras_conteiner p{
 
 /* ******************** MEDIA ******************** */
 /*  PHONE MEDIA  */
-@media (max-width: 35em){
+@media (max-width: 767px){
     /*  NAVBAR  */
     .main_nav{
         position: fixed;
@@ -447,13 +447,11 @@ footer .extras_conteiner p{
 
         transform: translateX(100%);
         transition: transform 350ms ease-in;
+        background: hsl(0 0% 100% / 0.1);  /* REMINDER: hsl(hue, saturation, lightness, alpha=transparency) */
+        backdrop-filter: blur(1rem);
+        -webkit-backdrop-filter: blur(1rem);
     }
-    @supports(backdrop-filter: blur(1rem)){
-        .main_nav{
-            background: hsl(0 0% 100% / 0.1);  /* REMINDER: hsl(hue, saturation, lightness, alpha=transparency) */
-            backdrop-filter: blur(1rem);
-        }
-    }
+
     #main_nav ul{
         position: absolute;
         top: 0%;
@@ -618,6 +616,9 @@ footer .extras_conteiner p{
 
         transform: translateX(100%);
         transition: transform 350ms ease-in;
+        background: hsl(0 0% 100% / 0.1);  /* REMINDER: hsl(hue, saturation, lightness, alpha=transparency) */
+        backdrop-filter: blur(1rem);
+        -webkit-backdrop-filter: blur(1rem);
     }
     #main_nav ul{
         position: absolute;
