@@ -9,7 +9,7 @@
 - [ ] Some simple animations for better experience and flow (almost none atm --> work in progress)
 - [ ] "Stay Updated" --> section at bottom of home page, containing Ion's latest social media posts (Facebook & Instagram)
 - [ ] Garage Page
-    -  Plan: Get everybody involved, have a garage we all can be proud of. Would be very nice to get inputs and giving everybody a say in this, vote for desins, come with ideas etc.
+    -  Plan: Get everybody involved, have a garage we all can be proud of. Would be very nice to get inputs and giving everybody a say in this, vote for designs, come with ideas etc.
 
 ### ! Possiblie oopsies... (will check out) !
 - Not sure if the website works perfectly on all browsers. Possibly a problem with nav on safari (mobile).
@@ -77,7 +77,7 @@ TIPS: ctrl + F (windows) *** OR *** command + F (mac)  --> To quickly find the r
     > Add task by copying the " {...data...}, " -object inside "tasks: []". 
     
     > [!WARNING]
-    > REMEMBER to check the id and taskId, as each task should have its unique id and each position has its own. Just look at the previous position-object and add 1 (increment).
+    > REMEMBER to check the id and taskId, as each task should have its unique id and each position has its own id. Just look at the previous position-object and add 1 (increment).
 
     > [!IMPORTANT]
     > Remember to change the "isAvailable: true/false" boolean variable, depending on the availability of the position (true = available, false = unavailable).
