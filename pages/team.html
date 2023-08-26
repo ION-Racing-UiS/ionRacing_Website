@@ -40,24 +40,24 @@
                 <ul class="main_nav flex_container" data-visible="false">
                     <!-- NAVIGATION - About -->
                     <li>
-                        <a href="/html/about.html">About Us</a>
+                        <a href="/pages/about.html">About Us</a>
                     </li>
                     <!-- NAVIGATION - Team -->
                     <li>
-                        <a href="/html/team.html">The Team</a>
+                        <a href="/pages/team.html">The Team</a>
                         <hr>
                     </li>
                     <!-- NAVIGATION - Partners -->
                     <li>
-                        <a href="/html/partners.html">Partners</a>
+                        <a href="/pages/partners.html">Partners</a>
                     </li>
                     <!-- NAVIGATION - Garage -->
                     <li>
-                        <a href="/html/garage.html">Garage</a>
+                        <a href="/pages/garage.html">Garage</a>
                     </li>
                     <!-- NAVIGATION - Join -->
                     <li>
-                        <a href="/html/join.html">Join Us</a>
+                        <a href="/pages/join.html">Join Us</a>
                     </li>
                 </ul>
             </nav>  
@@ -161,7 +161,7 @@
                             <div class="members_container">
                                 <div class="membercard" v-for="member in year.boardMembers" :key="member.memberId" @click="setHover()">
                                     <div class="membercard_content">
-                                        <img :src="'/img/teams/members/' + getYear() + '/board/' + member.imgCode + '.jpg'" alt="Partner logo"> 
+                                        <img :src="'/img/teams/members/' + getYear() + '/board/' + member.imgCode + '.jpg'" alt="Team member image"> 
                                         <div class="member_info">
                                             <p class="name_p">{{ member.memberName }}</p>
                                             <p>{{ member.roles }}</p>
@@ -185,7 +185,7 @@
                             <div class="members_container">
                                 <div class="membercard" v-for="member in year.adminMembers" :key="member.memberId">
                                     <div class="membercard_content">
-                                        <img :src="'/img/teams/members/' + getYear() + '/admin/' + member.imgCode + '.jpg'" alt="Partner logo"> 
+                                        <img :src="'/img/teams/members/' + getYear() + '/admin/' + member.imgCode + '.jpg'" alt="Team member image"> 
                                         <div class="member_info">
                                             <p class="name_p">{{ member.memberName }}</p>
                                             <p>{{ member.roles }}</p>
@@ -209,7 +209,7 @@
                             <div class="members_container">
                                 <div class="membercard" v-for="member in year.mechMembers" :key="member.memberId">
                                     <div class="membercard_content">
-                                        <img :src="'/img/teams/members/' + getYear() + '/mech/' + member.imgCode + '.jpg'" alt="Partner logo"> 
+                                        <img :src="'/img/teams/members/' + getYear() + '/mech/' + member.imgCode + '.jpg'" alt="Team member image"> 
                                         <div class="member_info">
                                             <p class="name_p">{{ member.memberName }}</p>
                                             <p>{{ member.roles }}</p>
@@ -233,7 +233,7 @@
                             <div class="members_container">
                                 <div class="membercard" v-for="member in year.eleMembers" :key="member.memberId">
                                     <div class="membercard_content">
-                                        <img :src="'/img/teams/members/' + getYear() + '/ele/' + member.imgCode + '.jpg'" alt="Partner logo"> 
+                                        <img :src="'/img/teams/members/' + getYear() + '/ele/' + member.imgCode + '.jpg'" alt="Team member image"> 
                                         <div class="member_info">
                                             <p class="name_p">{{ member.memberName }}</p>
                                             <p>{{ member.roles }}</p>
@@ -257,7 +257,7 @@
                             <div class="members_container">
                                 <div class="membercard" v-for="member in year.itMembers" :key="member.memberId">
                                     <div class="membercard_content">
-                                        <img :src="'/img/teams/members/' + getYear() + '/it/' + member.imgCode + '.jpg'" alt="Partner logo"> 
+                                        <img :src="'/img/teams/members/' + getYear() + '/it/' + member.imgCode + '.jpg'" alt="Team member image"> 
                                         <div class="member_info">
                                             <p class="name_p">{{ member.memberName }}</p>
                                             <p>{{ member.roles }}</p>
@@ -288,7 +288,7 @@
                                     </path>
                                 </svg>
                             </div>
-                            <a href="/html/index.html">Home</a>
+                            <a href="../index.html">Home</a>
                         </li>
                         <li>
                             <div class="svg_container">
@@ -297,7 +297,7 @@
                                     </path>
                                 </svg>
                             </div>
-                            <a href="/html/about.html">About Us</a>
+                            <a href="/pages/about.html">About Us</a>
                         </li>
                         <li>
                             <div class="svg_container">
@@ -306,7 +306,7 @@
                                     </path>
                                 </svg>
                             </div>
-                            <a href="/html/partners.html">Partners</a>
+                            <a href="/pages/partners.html">Partners</a>
                         </li>
                     </ul>           
                 </div>
@@ -325,7 +325,7 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <a href="/html//join.html#join_studentSection">Become a Member</a>
+                                <a href="/pages//join.html#join_studentSection">Become a Member</a>
                             </li>
                             <li>
                                 <div class="svg_container">
@@ -334,7 +334,7 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <a href="/html//join.html#join_partnerSection">Become a Partner</a>
+                                <a href="/pages//join.html#join_partnerSection">Become a Partner</a>
                             </li>
                         </ul>  
                     </div>            

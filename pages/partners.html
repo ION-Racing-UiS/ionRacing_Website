@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ION Racing - Garage</title>
+    <title>ION Racing - Partners</title>
 
     <link rel="preload" href="/assets/fonts/bebas-neue-v10-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-    
     <link rel="stylesheet" href="/css/general.css">
-    <link rel="stylesheet" href="/css/garage.css">
+    <link rel="stylesheet" href="/css/partners.css">
 
     <!-- *** SCRIPTS *** -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <script src="/scripts/partners.js" defer></script>
     <script src="/scripts/functionality.js" defer></script> <!-- *** defer = script loads only once the page has loaded *** -->
+
 </head>
 <body>
 
@@ -39,24 +40,24 @@
                 <ul class="main_nav flex_container" data-visible="false">
                     <!-- NAVIGATION - About -->
                     <li>
-                        <a href="/html/about.html">About Us</a>
+                        <a href="/pages/about.html">About Us</a>
                     </li>
                     <!-- NAVIGATION - Team -->
                     <li>
-                        <a href="/html/team.html">The Team</a>
+                        <a href="/pages/team.html">The Team</a>
                     </li>
                     <!-- NAVIGATION - Partners -->
                     <li>
-                        <a href="/html/partners.html">Partners</a>
+                        <a href="/pages/partners.html">Partners</a>
+                        <hr>
                     </li>
                     <!-- NAVIGATION - Garage -->
                     <li>
-                        <a href="/html/garage.html">Garage</a>
-                        <hr>
+                        <a href="/pages/garage.html">Garage</a>
                     </li>
                     <!-- NAVIGATION - Join -->
                     <li>
-                        <a href="/html/join.html">Join Us</a>
+                        <a href="/pages/join.html">Join Us</a>
                     </li>
                 </ul>
             </nav>  
@@ -65,25 +66,69 @@
     
     
 <!-- *** MAIN CONTENT *** -->
-    <main class="content_container white_text" id="garage_main">
-        <!-- *** GARAGE HERO *** -->
-        <div id="garage_hero" class="fullscreen hero_container">
-            <h1 class="logo_color">In Progress</h1>
-            <h2>✨Stay Tuned✨</h2>
+    <!-- *** HERO *** -->
+    <main class="content_container white_text">
+        <div id="partner_hero" class="fullscreen hero_container">
+            <div class="gradient_overlay_top"></div>
+            <div id="partner_heroTxt" class="flex_center">
+                <h1 class="center_text">Partners</h1>
+                <p style="padding: 0 10% 0 12%;">
+                    The main reasons we get to do what we do, are our amazing partners! <br>
+                    Partners play a crucial role in our work, and are just as much part of the team as the students working on the car.
+                    We depend on each and every partner as they provide us with resources like software, materials, services, funding and more.
+                    We are truly grateful to all of them.
+                </p>
+                <h3 class="center_text" style="letter-spacing: 0.5px;">
+                    To all our current, past and future partners: <br> <span style="text-decoration: underline;">thank you</span> so much for being a part of <br> the ION Racing team!
+                </h3>
+                <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                    <a class="hero_toContent_link" href="#partners_container">
+                        <svg width="41" height="15" viewBox="0 0 41 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="path-1-inside-1_505_297" fill="white">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M39.2417 0.012207L20.5 8L1.80167 0.012207L0.5 0.585069L20.5 14.8196L40.5 0.575815L39.2417 0.012207Z"/>
+                            </mask>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M39.2417 0.012207L20.5 8L1.80167 0.012207L0.5 0.585069L20.5 14.8196L40.5 0.575815L39.2417 0.012207Z" fill="white"/>
+                            <path d="M39.2417 0.012207L43.3294 -9.11416L39.3411 -10.9005L35.3209 -9.18711L39.2417 0.012207ZM20.5 8L16.5715 17.196L20.4955 18.8723L24.4208 17.1993L20.5 8ZM1.80167 0.012207L5.73015 -9.18383L1.74246 -10.8873L-2.22648 -9.14061L1.80167 0.012207ZM0.5 0.585069L-3.52815 -8.56775L-19.6417 -1.47618L-5.29858 8.73225L0.5 0.585069ZM20.5 14.8196L14.7014 22.9668L20.5019 27.0952L26.3011 22.965L20.5 14.8196ZM40.5 0.575815L46.3011 8.72121L60.5278 -1.41096L44.5877 -8.55055L40.5 0.575815ZM35.3209 -9.18711L16.5792 -1.19931L24.4208 17.1993L43.1625 9.21152L35.3209 -9.18711ZM24.4285 -1.19603L5.73015 -9.18383L-2.12681 9.20824L16.5715 17.196L24.4285 -1.19603ZM-2.22648 -9.14061L-3.52815 -8.56775L4.52815 9.73789L5.82981 9.16502L-2.22648 -9.14061ZM-5.29858 8.73225L14.7014 22.9668L26.2986 6.67246L6.29858 -7.56211L-5.29858 8.73225ZM26.3011 22.965L46.3011 8.72121L34.6989 -7.56958L14.6989 6.67424L26.3011 22.965ZM44.5877 -8.55055L43.3294 -9.11416L35.154 9.13858L36.4123 9.70218L44.5877 -8.55055Z" fill="white" mask="url(#path-1-inside-1_505_297)"/>
+                        </svg>    
+                    </a>
+                </div>
+            </div>
+            <div class="fullscreen darken_overlay"></div>
+        </div>
+    
+        <!-- *** PARTNERS *** -->
+        <div id="partners_container">
+            <!-- *** Main Partner *** -->
+            <section v-for="category in partnerSections" :key="category.i" style="padding-bottom: 6rem;">
+                <!-- *** Divider start *** -->
+                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <div class=" partner_section_divider" v-if="category.active">
+                        <div class="partner_dividerLineContainer"><hr></div>
+                            <div class="flex_center" style="flex-direction: column;">
+                                <div v-html="category.svgMarkup">
+                                </div>
+                                <h4 class="center_text category_title">{{ category.label }}</h4> 
+                            </div>
+                        <div class="partner_dividerLineContainer"><hr></div>
+                    </div>
+                </div>
+                <!-- *** Divider end *** -->
 
-            <!-- *** LINK DOWN TO CONTENT *** -->
-            <!-- ***
-            <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
-                <a class="hero_toContent_link" href="">
-                    <svg width="41" height="15" viewBox="0 0 41 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="path-1-inside-1_505_297" fill="white">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M39.2417 0.012207L20.5 8L1.80167 0.012207L0.5 0.585069L20.5 14.8196L40.5 0.575815L39.2417 0.012207Z"/>
-                        </mask>
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M39.2417 0.012207L20.5 8L1.80167 0.012207L0.5 0.585069L20.5 14.8196L40.5 0.575815L39.2417 0.012207Z" fill="white"/>
-                        <path d="M39.2417 0.012207L43.3294 -9.11416L39.3411 -10.9005L35.3209 -9.18711L39.2417 0.012207ZM20.5 8L16.5715 17.196L20.4955 18.8723L24.4208 17.1993L20.5 8ZM1.80167 0.012207L5.73015 -9.18383L1.74246 -10.8873L-2.22648 -9.14061L1.80167 0.012207ZM0.5 0.585069L-3.52815 -8.56775L-19.6417 -1.47618L-5.29858 8.73225L0.5 0.585069ZM20.5 14.8196L14.7014 22.9668L20.5019 27.0952L26.3011 22.965L20.5 14.8196ZM40.5 0.575815L46.3011 8.72121L60.5278 -1.41096L44.5877 -8.55055L40.5 0.575815ZM35.3209 -9.18711L16.5792 -1.19931L24.4208 17.1993L43.1625 9.21152L35.3209 -9.18711ZM24.4285 -1.19603L5.73015 -9.18383L-2.12681 9.20824L16.5715 17.196L24.4285 -1.19603ZM-2.22648 -9.14061L-3.52815 -8.56775L4.52815 9.73789L5.82981 9.16502L-2.22648 -9.14061ZM-5.29858 8.73225L14.7014 22.9668L26.2986 6.67246L6.29858 -7.56211L-5.29858 8.73225ZM26.3011 22.965L46.3011 8.72121L34.6989 -7.56958L14.6989 6.67424L26.3011 22.965ZM44.5877 -8.55055L43.3294 -9.11416L35.154 9.13858L36.4123 9.70218L44.5877 -8.55055Z" fill="white" mask="url(#path-1-inside-1_505_297)"/>
-                    </svg>    
-                </a>
-            </div> *** -->
+                <!-- *** Partner start *** -->
+                <div style="display: flex; flex-direction: column; justify-content: center;">
+                    <div :id="category.id">
+                        <div v-for="partner in category.partners" :key="partner.i" :class="category.class_partnerDiv" v-if="category.active" class="">
+                            <a :href="partner.url" target="_blank">
+                               <img :src="'/img/logos/' + partner.logo" alt="Partner logo"> 
+                            </a>
+                            <p v-if="category.showP" class="Partner_txt">
+                                {{ partner.txt }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- *** Partner end *** -->
+            </section>
         </div>
     </main>
 
@@ -104,7 +149,7 @@
                                     </path>
                                 </svg>
                             </div>
-                            <a href="/html/index.html">Home</a>
+                            <a href="../index.html">Home</a>
                         </li>
                         <li>
                             <div class="svg_container">
@@ -113,7 +158,7 @@
                                     </path>
                                 </svg>
                             </div>
-                            <a href="/html/about.html">About Us</a>
+                            <a href="/pages/about.html">About Us</a>
                         </li>
                         <li>
                             <div class="svg_container">
@@ -122,7 +167,7 @@
                                     </path>
                                 </svg>
                             </div>
-                            <a href="/html/partners.html">Partners</a>
+                            <a href="/pages/partners.html">Partners</a>
                         </li>
                     </ul>           
                 </div>
@@ -141,7 +186,7 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <a href="/html//join.html#join_studentSection">Become a Member</a>
+                                <a href="/pages//join.html#join_studentSection">Become a Member</a>
                             </li>
                             <li>
                                 <div class="svg_container">
@@ -150,7 +195,7 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <a href="/html//join.html#join_partnerSection">Become a Partner</a>
+                                <a href="/pages//join.html#join_partnerSection">Become a Partner</a>
                             </li>
                         </ul>  
                     </div>            
