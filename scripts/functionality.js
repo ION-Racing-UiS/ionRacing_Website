@@ -23,7 +23,7 @@ let last_scroll_position = 0;
 window.addEventListener('scroll', () => {
     const current_scroll_position = window.scrollY;
 
-    if (current_scroll_position === 0){
+    if (current_scroll_position === 0 || current_scroll_position <= 25){
         body.classList.add('scroll_up');
     }
     else if (current_scroll_position > last_scroll_position && !body.classList.contains('scroll_down')){
