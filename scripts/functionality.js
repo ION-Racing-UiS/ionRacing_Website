@@ -23,8 +23,8 @@ let last_scroll_position = 0;
 window.addEventListener('scroll', () => {
     const current_scroll_position = window.scrollY;
 
-    if (current_scroll_position < 0){
-        body.classList.remove('scroll_up');
+    if (current_scroll_position === 0){
+        body.classList.add('scroll_up');
     }
     else if (current_scroll_position > last_scroll_position && !body.classList.contains('scroll_down')){
         body.classList.remove('scroll_up');
@@ -34,7 +34,6 @@ window.addEventListener('scroll', () => {
         body.classList.remove('scroll_down');
         body.classList.add('scroll_up');
     }
-
     last_scroll_position = current_scroll_position;
 })
 
