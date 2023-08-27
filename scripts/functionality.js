@@ -12,7 +12,7 @@ navToggle.addEventListener('click', () => {
     if (navActive === false){
         navActive = true;
         nav.setAttribute('data-visible', 'true');
-        body.classList.add('unscrollable');
+        document.body.style.overflow = 'hidden'; // Prevent scrolling
 
         //opening animations
         topLine.style.animation = 'down-rotate 1s ease-out both';
@@ -21,7 +21,7 @@ navToggle.addEventListener('click', () => {
     }else{
         navActive = false;
         nav.setAttribute('data-visible', 'false');
-        body.classList.remove('unscrollable'); 
+        document.body.style.overflow = 'auto'; // Prevent scrolling 
         
         //closing animations
         topLine.style.animation = 'up-rotate-reverse 1s ease-out both';
