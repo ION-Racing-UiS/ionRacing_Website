@@ -523,6 +523,8 @@ footer .extras_conteiner p{
     }
 
     body.unscrollable {
+        width: 100vw; 
+        height: 100vh; 
         overflow: hidden;
     }
 
