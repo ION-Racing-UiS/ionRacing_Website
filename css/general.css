@@ -94,7 +94,7 @@ body{
 .hero_toContent_link{
     position: absolute; 
     bottom: 0; 
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -153,7 +153,7 @@ h1, h2, h3{
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 0;
 
     z-index: 99;
@@ -435,94 +435,6 @@ footer .extras_conteiner p{
 /* ******************** MEDIA ******************** */
 /*  PHONE MEDIA  */
 @media (max-width: 767px){
-    /*  NAVBAR  */
-    .main_nav{
-        position: fixed;
-        inset: 0 0 0 40%;
-
-        flex-direction: column;
-        padding: min(20vh, 10rem) 2rem;
-
-        --gap: 2em;
-
-        transform: translateX(100%);
-        transition: transform 350ms ease-in;
-        background: hsl(0 0% 100% / 0.1);  /* REMINDER: hsl(hue, saturation, lightness, alpha=transparency) */
-        backdrop-filter: blur(1rem);
-        -webkit-backdrop-filter: blur(1rem);
-    }
-
-    #main_nav ul{
-        position: absolute;
-        top: 0%;
-        height: 100vh;
-        padding: 8rem 2rem 0 4rem;
-    }
-    #main_nav ul li{
-        text-align: center;
-    }
-    img.logo{
-        margin-left: 1rem;
-    }
-
-    body.unscrollable {
-        overflow: hidden;
-    }
-
-    .nav_toggle_btn{
-        position: absolute;
-        top: 0.7rem;
-        right: 1rem;
-        z-index: 9999;
-
-        background-color: transparent;
-        fill: #FFFFFF;
-
-        width: 2.8rem;
-        border: none;
-        aspect-ratio: 1;
-
-        padding: 0;
-
-        display: block;
-    }
-    .main_nav[data-visible='true']{
-        transform: translateX(0%);
-    }
-    .nav_toggle_btn[aria-expanded='true']{
-        background-color: transparent;
-
-        position: fixed;
-    }
-
-    .nav_toggle_btn .line{
-        transition: 
-            y 300ms ease-in 300ms,
-            rotate 300ms ease-in,
-            opacity 0ms 300ms;
-        transform-origin: center;
-    }
-    .nav_toggle_btn[aria-expanded='true'] .line{
-        transition: 
-            y 300ms ease-in,
-            rotate 300ms ease-in 300ms,
-            opacity 0ms 300ms;
-        ;
-    }
-
-    .nav_toggle_btn[aria-expanded='true'] :is(.line_top, .line_bottom){
-        y: 45;
-    }
-    .nav_toggle_btn[aria-expanded='true'] .line_top {
-        rotate: 45deg;
-    }
-    .nav_toggle_btn[aria-expanded='true'] .line_bottom {
-        rotate: -45deg;
-    }
-    .nav_toggle_btn[aria-expanded='true'] .line_mid {
-        opacity: 0;
-    }
-
     /*  BUTTONS  */
     .main_btn_style{
         width: 80%;
@@ -532,7 +444,6 @@ footer .extras_conteiner p{
     .content_container section{
         padding: 2rem 2rem 0 2rem;
     }
-
 
     .hero_info{
         width: 100%;
@@ -559,7 +470,181 @@ footer .extras_conteiner p{
         padding: 15% 0 0 0;
         margin: 15% 0 0 0;
     }
+
+    .nav_toggle_btn{
+        margin: 0 0 0 80%;
+    }
 }
+
+/* Mobile & Tablets*/
+@media only screen and (max-width: 991px){
+    /*  NAVBAR  */
+    .main_nav{
+        width: 100%;
+        padding-left: 0;
+    }
+    .main_nav li hr{
+        max-width: 50%;
+        margin-bottom: 0;
+    }
+
+    #main_nav ul{
+        position: absolute;
+        top: 0%;
+        right: -300px;
+        height: 100%;
+        width: 100%;
+        padding: 8rem 0rem 0 0rem;
+
+        transition: right 0.5s ease-in-out;
+    }
+    #main_nav ul[data-visible="false"]{
+        background-color: rgba(1, 61, 86, 0.25);  /* REMINDER: hsl(hue, saturation, lightness, alpha=transparency) */
+        backdrop-filter: blur(1rem);
+        -webkit-backdrop-filter: blur(1rem);
+        right: -100%;
+    }
+    #main_nav ul[data-visible="true"]{
+        background-color: rgba(1, 61, 86, 0.25);  /* REMINDER: hsl(hue, saturation, lightness, alpha=transparency) */
+        backdrop-filter: blur(1rem);
+        -webkit-backdrop-filter: blur(1rem);
+        right: 0;
+    }
+
+    #main_nav ul li{
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 0;
+    }
+    img.logo{
+        margin-left: 1rem;
+    }
+
+    body.unscrollable {
+        overflow: hidden;
+    }
+
+    .nav_toggle_btn{
+        display: block;
+        z-index: 9999;
+    }
+
+    #main_nav{
+        width: 60%;
+        height: 100vh;
+        position: fixed;
+        right: 0;
+    }
+    #main_nav button{
+        background-color: transparent;
+        position: relative;
+        top: 1rem;
+        right: 1rem;
+        border: none;
+    }
+
+    .nav_toggle_btn svg {
+        width: 40px;
+    }
+
+    #top-line, #bottom-line, #middle-line {
+        transform-box: fill-box;
+        transform-origin: center;
+    }
+
+    
+    /* Opening animations */
+    @keyframes up-rotate {
+        0% {
+            animation-timing-function: cubic-bezier(0.16, -0.88, 0.97, 0.53);
+            transform: translateY(0px);
+        }
+        30% {
+            transform-origin: center;
+            animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+            transform: translateY(-10px);
+        }
+        100% {
+            transform-origin: center;
+            transform: translateY(-10px) rotate(45deg) scale(0.9);
+        }
+    }
+
+    @keyframes down-rotate {
+        0% {
+            animation-timing-function: cubic-bezier(0.16, -0.88, 0.97, 0.53);
+            transform: translateY(0px);
+        }
+        30% {
+            transform-origin: center;
+            animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+            transform: translateY(10px);
+        }
+        100% {
+            transform-origin: center;
+            transform: translateY(10px) rotate(-45deg) scale(0.9);
+        }
+    }
+
+    @keyframes hide {
+        29% {
+            opacity: 1;
+        }
+        30% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    /* Closing animations */
+    @keyframes up-rotate-reverse {
+        0% {
+            transform-origin: center;
+            transform: translateY(10px) rotate(45deg) scale(0.9);
+        }
+        30% {
+            transform-origin: center;
+            animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+            transform: translateY(10px);
+        }
+        100% {
+            animation-timing-function: cubic-bezier(0.16, -0.88, 0.97, 0.53);
+            transform: translateY(0px) rotate(0deg) scale(1); /* Change to rotate(0deg) and scale(1) */
+        }
+    }
+
+    @keyframes down-rotate-reverse {
+        0% {
+            transform-origin: center;
+            transform: translateY(-10px) rotate(-45deg) scale(0.9);
+        }
+        30% {
+            transform-origin: center;
+            animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+            transform: translateY(-10px);
+        }
+        100% {
+            animation-timing-function: cubic-bezier(0.16, -0.88, 0.97, 0.53);
+            transform: translateY(0px) rotate(0deg) scale(1); /* Change to rotate(0deg) and scale(1) */
+        }
+    }
+
+    @keyframes show-reverse {
+        0% {
+            opacity: 0;
+        }
+        29% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
+
 
 /* Tablets (768px to 991px) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -604,101 +689,12 @@ footer .extras_conteiner p{
         position: relative;
     }
 
-    /*  NAVBAR  */
-    .main_nav{
-        position: fixed;
-        inset: 0 0 0 40%;
-
-        flex-direction: column;
-        padding: min(20vh, 10rem) 2rem;
-
-        --gap: 2em;
-
-        transform: translateX(100%);
-        transition: transform 350ms ease-in;
-        background: hsl(0 0% 100% / 0.1);  /* REMINDER: hsl(hue, saturation, lightness, alpha=transparency) */
-        backdrop-filter: blur(1rem);
-        -webkit-backdrop-filter: blur(1rem);
-    }
-    #main_nav ul{
-        position: absolute;
-        top: 0%;
-        height: 100vh;
-        right: 0%;
-        padding: 8rem 2rem 0 4rem;
-    }
-    img.logo{
-        margin-left: 1rem;
-    }
-    @supports(backdrop-filter: blur(1rem)){
-        .main_nav{
-            background: hsl(0 0% 100% / 0.1);  /* REMINDER: hsl(hue, saturation, lightness, alpha=transparency) */
-            backdrop-filter: blur(1rem);
-        }
-    }
-    body.unscrollable {
-        overflow: hidden;
-    }
-
     .nav_toggle_btn{
-        position: absolute;
-        top: 0.7rem;
-        right: 1rem;
-        z-index: 9999;
-
-        background-color: transparent;
-        fill: #FFFFFF;
-
-        width: 2.8rem;
-        border: none;
-        aspect-ratio: 1;
-
-        padding: 0;
-
-        display: block;
-    }
-    .main_nav[data-visible='true']{
-        transform: translateX(0%);
-    }
-    .nav_toggle_btn[aria-expanded='true']{
-        background-color: transparent;
-
-        position: fixed;
+        margin: 0 0 0 85%;
     }
 
-    .nav_toggle_btn .line{
-        transition: 
-            y 300ms ease-in 300ms,
-            rotate 300ms ease-in,
-            opacity 0ms 300ms;
-        transform-origin: center;
-    }
-    .nav_toggle_btn[aria-expanded='true'] .line{
-        transition: 
-            y 300ms ease-in,
-            rotate 300ms ease-in 300ms,
-            opacity 0ms 300ms;
-        ;
-    }
-
-    .nav_toggle_btn[aria-expanded='true'] :is(.line_top, .line_bottom){
-        y: 45;
-    }
-    .nav_toggle_btn[aria-expanded='true'] .line_top {
-        rotate: 45deg;
-    }
-    .nav_toggle_btn[aria-expanded='true'] .line_bottom {
-        rotate: -45deg;
-    }
-    .nav_toggle_btn[aria-expanded='true'] .line_mid {
-        opacity: 0;
-    }
-    .main_nav a{
-        font-size: 1.2rem;
-        text-align: center;
-    }
-    .main_nav li{
-        text-align: center;
+    #main_nav ul li a{
+        font-size: 1.25rem;
     }
 }
 
@@ -707,6 +703,9 @@ footer .extras_conteiner p{
 @media only screen and (min-width: 992px) {
     .hero_container, .darken_overlay{
         max-height: 1200px;
+    }
+    .hero_toContent_link{
+        padding-bottom: 4rem;
     }
 
     /* FONTS & HEADINGS */
@@ -749,6 +748,22 @@ footer .extras_conteiner p{
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+
+
+    #main_nav{
+        width: 500px;
+        margin-right: 1rem;
+    }
+    .main_nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main_nav li a{
+        padding-right: 0;
+    }
+    .main_nav li:hover{
+        color: #009DDF;
     }
 }
 

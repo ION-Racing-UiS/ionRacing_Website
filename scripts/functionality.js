@@ -1,24 +1,38 @@
 //Navbar
 const nav = document.querySelector('.main_nav');
 const navToggle = document.querySelector('.nav_toggle_btn');
+const topLine = document.getElementById('top-line');
+const middleLine = document.getElementById('middle-line');
+const bottomLine = document.getElementById('bottom-line');
 const body = document.body;
 
-navToggle.addEventListener('click', () => {
-    const visibility = nav.getAttribute('data-visible');
+let navActive = false;
 
-    if (visibility === 'false'){
-        nav.setAttribute('data-visible', true);
-        navToggle.setAttribute('aria-expanded', true);
-        document.body.classList.add('unscrollable');
+navToggle.addEventListener('click', () => {
+    if (navActive === false){
+        navActive = true;
+        nav.setAttribute('data-visible', 'true');
+        body.classList.add('unscrollable');
+
+        //opening animations
+        topLine.style.animation = 'down-rotate 1s ease-out both';
+        bottomLine.style.animation = 'up-rotate 1s ease-out both';
+        middleLine.style.animation = 'hide 1s ease-out forwards';
+    }else{
+        navActive = false;
+        nav.setAttribute('data-visible', 'false');
+        body.classList.remove('unscrollable'); 
+        
+        //closing animations
+        topLine.style.animation = 'up-rotate-reverse 1s ease-out both';
+        bottomLine.style.animation = 'down-rotate-reverse 1s ease-out both';
+        middleLine.style.animation = 'show-reverse 1s ease-out forwards';
     }
-    else{
-        nav.setAttribute('data-visible', false);
-        navToggle.setAttribute('aria-expanded', false);
-        body.classList.remove('unscrollable');
-    }
+
 });
 
 
+// Controls the visibility of the header, depending on position and scrolling
 let last_scroll_position = 0;
 window.addEventListener('scroll', () => {
     const current_scroll_position = window.scrollY;
