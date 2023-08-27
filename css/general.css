@@ -535,7 +535,7 @@ footer .extras_conteiner p{
 
     #main_nav{
         width: 60%;
-        height: 100vh;
+        height: 100%;
         position: fixed;
         right: 0;
     }
