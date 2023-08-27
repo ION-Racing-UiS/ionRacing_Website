@@ -392,7 +392,7 @@ span.unavailable, span.available{
         max-width: 400px;
     }
     #reasonsContainer_student .reasons_item:nth-child(2),  #reasonsContainer_student .reasons_item:nth-child(3){
-        height: 400px;
+        height: 450px;
     }
 
     #join_hero{
