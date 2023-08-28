@@ -62,6 +62,13 @@ const partnersApp = Vue.createApp({
                             url: 'https://www.altium.com/',
                             txt: 'Altium is a global software company that provides electronic design solutions used for designing printed circuit boards. Altium Designer, serves industries like automotive, aerospace, defense, and telecommunications, offering unified electronics design in a Microsoft Windows environment.'
                         },
+                        {
+                            i: 2,
+                            logo: 'platinum/kissoft.png',
+                            url: 'https://www.kissoft.com/en',
+                            txt: 'KISSsoft® is a modular calculation program for the design, optimization and verification of machine elements according to international standards. The individually customized software packages for a wide variety of applications guarantee tailor made solutions and the integration to all common CAD software complete the product.'
+                        }
+
                     ]
                 },
                 // GOLD 
@@ -241,11 +248,16 @@ const partnersApp = Vue.createApp({
                             logo: 'bronze/nmklogo.png',
                             url: 'https://www.nmk.no/'
                         },
-                        {
+                        { 
                             i: 0,
                             logo: 'bronze/bøhn.png',
                             url: 'https://www.bohncontainer.no/'
                         },
+                        {
+                            i: 17,
+                            logo: 'bronze/Metallteknikk.png',
+                            url: 'https://metallteknikk.no/'
+                        }
                     ]
                 },
             ],
