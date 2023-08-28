@@ -752,6 +752,7 @@ footer .extras_conteiner p{
     #main_nav{
         width: 500px;
         margin-right: 1rem;
+        padding-top: 1.25rem;
     }
     .main_nav{
         display: flex;
