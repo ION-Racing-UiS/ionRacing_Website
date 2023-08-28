@@ -21,7 +21,7 @@ navToggle.addEventListener('click', () => {
     }else{
         navActive = false;
         nav.setAttribute('data-visible', 'false');
-        document.body.style.overflow = 'auto'; // Prevent scrolling 
+        document.body.style.overflow = 'auto'; // Prevent scrolling
         
         //closing animations
         topLine.style.animation = 'up-rotate-reverse 1s ease-out both';
