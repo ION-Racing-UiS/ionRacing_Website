@@ -395,6 +395,43 @@ const positionsApp = Vue.createApp({
             itPositions: [
                 {
                     id: 0,
+                    positionTitle: 'Website developer',
+                    positionImgCode: 'itFiller',
+                    positionDescription: 'In this position you\'re going to be maintaining the website and developing eventual updates. <br> You will learn: Javascript, CSS, HTML, Vue.js, Github ',
+                    isAvailable: false,
+
+                    tasks: [
+                        {
+                            taskId: 0,
+                            taskDescription: 'Maintenance '
+                        },{
+                            taskId: 1,
+                            taskDescription: 'Updates'
+                        },{
+                            taskId: 2,
+                            taskDescription: 'Deployment'
+                        },{
+                            taskId: 3,
+                            taskDescription: 'Design'
+                        },
+                    ]
+                },
+                {
+                    id: 1,
+                    positionTitle: 'Logging and software',
+                    positionImgCode: 'itFiller',
+                    positionDescription: 'In this position you\'re going to work with the electrical group on extracting data from the ECU logs. <br> <H6> You will learn:</H6>',
+                    isAvailable: false,
+
+                    tasks: [
+                        {
+                            taskId: 0,
+                            taskDescription: 'Task'
+                        },
+                    ]
+                },
+                {
+                    id: 2,
                     positionTitle: 'ItTitle',
                     positionImgCode: 'itFiller',
                     positionDescription: 'Description',
