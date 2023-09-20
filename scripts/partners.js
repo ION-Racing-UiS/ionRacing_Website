@@ -64,8 +64,8 @@ const partnersApp = Vue.createApp({
                         },
                         {
                             i: 2,
-                            logo: 'platinum/kissoft.png',
-                            url: 'https://www.kissoft.com/en',
+                            logo: 'platinum/kisssoft.png',
+                            url: 'https://www.kisssoft.com/en',
                             txt: 'KISSsoft® is a modular calculation program for the design, optimization and verification of machine elements according to international standards. The individually customized software packages for a wide variety of applications guarantee tailor made solutions and the integration to all common CAD software complete the product.'
                         }
 
