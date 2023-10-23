@@ -64,9 +64,15 @@ const partnersApp = Vue.createApp({
                         },
                         {
                             i: 2,
-                            logo: 'platinum/kisssoft.png',
+                            logo: 'platinum/kisssoft.svg',
                             url: 'https://www.kisssoft.com/en',
                             txt: 'KISSsoft® is a modular calculation program for the design, optimization and verification of machine elements according to international standards. The individually customized software packages for a wide variety of applications guarantee tailor made solutions and the integration to all common CAD software complete the product.'
+                        },
+                        {
+                            i: 3,
+                            logo: 'platinum/metallteknikk.png',
+                            url: 'https://metallteknikk.no/',
+                            txt: 'Metallteknikk is a subsupplier of advanced sheet metal processing and welding of mainly stainless-steel materials. Metallteknikk has modern machinery for the processing of plates, consisting of lasers, plasma, punching, and bending machines. '
                         }
 
                     ]
