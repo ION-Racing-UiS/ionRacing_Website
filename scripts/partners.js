@@ -5,7 +5,7 @@ const partnersApp = Vue.createApp({
         // MAIN
         {
           // Section data
-          active: false,
+          active: true,
           i: 0,
           id: "main_section",
           partner_class: "",
