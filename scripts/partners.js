@@ -22,7 +22,7 @@ const partnersApp = Vue.createApp({
           partners: [
             {
               i: 0,
-              logo: "title/Archer.svg",
+              logo: "title/Archer_White.png",
               url: "https://www.archerwell.com/",
               txt:
                 "Archer is a global oil services company with a heritage that stretches back over 40 years, with a strong focus on safety and delivering the highest quality products and services.  \n Archer operates in 40 locations providing drilling services, well integrity & intervention, plug & abandonment and decommissioning to its upstream oil and gas clients.",
