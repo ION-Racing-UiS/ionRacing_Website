@@ -2961,7 +2961,375 @@ const viewSettingsApp = Vue.createApp({
                             
                         },
                     ]
-                },
+                },// Year: 2024 -status: WIP
+                {
+                    i: 8, 
+                    year: '2024',
+
+                    // MEMBERS
+                    boardMembers: [
+                        {
+                            memberId: 0,
+                            memberName: 'Stian Nygård',
+                            imgCode: 'stny',
+                            roles: 'Project Leader',
+                            linkedUrl: 'https://www.linkedin.com/in/stian-nyg%C3%A5rd-0934a9256/',
+                            
+                        },{
+                            memberId: 1,
+                            memberName: 'Marie Alle',
+                            imgCode: 'maal',
+                            roles: 'Head of Heads',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 2,
+                            memberName: 'Lars Johann Indreeide',
+                            imgCode: 'lain',
+                            roles: 'Chief Information Officer',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 3,
+                            memberName: 'Einar Kjeka',
+                            imgCode: 'eikj',
+                            roles: 'Head of Production',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 4,
+                            memberName: 'Tomas Martin Alvestad',
+                            imgCode: 'toal',
+                            roles: 'Chief Mechanical Engineer',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 5,
+                            memberName: 'Børre Brosvoll Bolheim',
+                            imgCode: 'borre',
+                            roles: 'Bheif Belectical Bengineer',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 6,
+                            memberName: 'Lise Knudsen',
+                            imgCode: 'likn',
+                            roles: 'Chief Financial Officer',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 7,
+                            memberName: 'Runar Wallenius Skaget',
+                            imgCode: 'filler',
+                            roles: 'Chief Technical Officer',
+                            linkedUrl: '',
+                            
+                        }
+                        
+                    ],
+                    adminMembers: [
+                        {
+                            memberId: 0,
+                            memberName: 'Marie Alle',
+                            imgCode: 'maal',
+                            roles: 'Group leader Administration',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 1,
+                            memberName: 'Ezster Kopacz',
+                            imgCode: 'ezko',
+                            roles: 'Head of events',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 2,
+                            memberName: 'Juweriya Matan',
+                            imgCode: 'juma',
+                            roles: 'Head of Social Media',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberID: 3,
+                            memberName: 'Anne Isabel Rivero Jotun',
+                            imgCode: 'anjo',
+                            roles: 'Graphical Design',
+                            linkedUrl: '',
+                        },{
+                            memberId: 4,
+                            memberName: 'Emma Digernes Parnas',
+                            imgCode: 'empa',
+                            roles: 'Sponsor Relations',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 5,
+                            memberName: 'Kamilla Gjerstad Jørgensen',
+                            imgCode: 'kajo',
+                            roles: 'Sponsor Relations',
+                            linkedUrl: '',
+                        },
+                        
+                    ],
+                    mechMembers: [
+                        {
+                            memberId: 0,
+                            memberName: 'Tomas Martin Alvestad',
+                            imgCode: 'toal',
+                            roles: 'Cheif Mechanical Engineer',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 1,
+                            memberName: 'Einar Kjeka',
+                            imgCode: 'eikj',
+                            roles: 'Head of Production',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 2,
+                            memberName: 'Even Braut',
+                            imgCode: 'evbr',
+                            roles: 'Bodywork',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 3,
+                            memberName: 'Sondre Carlsen',
+                            imgCode: 'soca',
+                            roles: 'Bodywork',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 4,
+                            memberName: 'Even Holen',
+                            imgCode: 'evho',
+                            roles: 'Aerodynamics',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 5,
+                            memberName: 'Karl Henrik Lermo',
+                            imgCode: 'kale',
+                            roles: 'Aerodynamics',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 6,
+                            memberName: 'Ørjan Mannsverk',
+                            imgCode: 'orma',
+                            roles: 'Aerodynamics',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 7,
+                            memberName: 'Astror Albert',
+                            imgCode: 'asal',
+                            roles: 'Steering and Brakes, Ergonomics',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 8,
+                            memberName: 'Lasse Pihl',
+                            imgCode: 'lapi',
+                            roles: 'Steering and Brakes, Ergonomics',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 9,
+                            memberName: 'Loai Shikh Mohamed',
+                            imgCode: 'lomo',
+                            roles: 'Ergonomics',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 10,
+                            memberName: 'Hamza Shafiq',
+                            imgCode: 'hash',
+                            roles: 'Chassis',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 11,
+                            memberName: 'Jacob Hazell',
+                            imgCode: 'jaha',
+                            roles: 'Electromechanical',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 12,
+                            memberName: 'Tayeb Amedi',
+                            imgCode: 'taam',
+                            roles: 'Electromechanical',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 13,
+                            memberName: 'Jorge Rosales',
+                            imgCode: 'jora',
+                            roles: 'Electromechanical',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 14,
+                            memberName: 'Mubarik Omar Ali Abdi',
+                            imgCode: 'muab',
+                            roles: 'Drivetrain',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 15,
+                            memberName: 'Ole Emil Strømsnes Egelandsaa',
+                            imgCode: 'oleg',
+                            roles: 'Drivetrain',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 16,
+                            memberName: 'Steven Høiland',
+                            imgCode: 'stho',
+                            roles: 'Suspension',
+                            linkedUrl: '',
+                            
+                        },
+                        
+                    ],
+                    eleMembers: [
+                        {
+                            memberId: 0,
+                            memberName: 'Sondre Rosvoll Solheim',
+                            imgCode: 'borre',
+                            roles: 'Chief Electrical Engineer',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 1,
+                            memberName: 'Runar Wallenius Skaget',
+                            imgCode: 'filler',
+                            roles: 'Chief Technical Officer',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Aditya Borah',
+                            imgCode: 'adbo',
+                            roles: 'ECU Sensors',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Tom Mantel',
+                            imgCode: 'toma',
+                            roles: 'ECU Sensors',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Alister Suttie',
+                            imgCode: 'alsu',
+                            roles: 'Low voltage',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Tormod Engen',
+                            imgCode: 'toen',
+                            roles: 'Low Voltage',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Tomas Øverby',
+                            imgCode: 'toov',
+                            roles: 'Low Voltage',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Athavem Tharmaratnam',
+                            imgCode: 'atth',
+                            roles: 'Embedded',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Frida Wagner',
+                            imgCode: 'frwa',
+                            roles: 'Embedded',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Joakim Olerud Jensen',
+                            imgCode: 'joje',
+                            roles: 'Embedded',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Herman Sparøy',
+                            imgCode: 'hesp',
+                            roles: 'Embedded',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Mohammed Hassan Raghe',
+                            imgCode: 'mora',
+                            roles: 'Embedded',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Sander Tyvand Hovet',
+                            imgCode: 'redhead',
+                            roles: 'ECU control',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Markus Brekka',
+                            imgCode: 'mabr',
+                            roles: 'ECU',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Uliana Kulebyakina',
+                            imgCode: 'ulku',
+                            roles: 'ECU',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Vegar Steen',
+                            imgCode: 'vest',
+                            roles: 'MCU',
+                            linkedUrl: '', 
+                        },
+                        
+                    ],
+                    itMembers: [
+                        {
+                            memberId: 0,
+                            memberName: 'Lars Johann Indreeide',
+                            imgCode: 'lain',
+                            roles: 'Head of IT',
+                            linkedUrl: '',
+                            
+                        },{
+                            memberId: 0,
+                            memberName: 'Alexander Kruke Bjugan',
+                            imgCode: 'albj',
+                            roles: 'AI Engineer',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Martin Sævareid Lauritsen',
+                            imgCode: 'mala',
+                            roles: 'AI Engineer',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Anna Sund',
+                            imgCode: 'filler',
+                            roles: 'Web developer & Design',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
+                            memberName: 'Lukas Fernandes Berntsen',
+                            imgCode: 'filler',
+                            roles: 'AI Engineer',
+                            linkedUrl: '', 
+                        },
+                        
+                    ]
+                }
             ],
 
 
