@@ -3157,13 +3157,6 @@ const viewSettingsApp = Vue.createApp({
                             linkedUrl: '',
                             
                         },{
-                            memberId: 12,
-                            memberName: 'Tayeb Amedi',
-                            imgCode: 'taam',
-                            roles: 'Electromechanical',
-                            linkedUrl: '',
-                            
-                        },{
                             memberId: 13,
                             memberName: 'Jorge Rosales',
                             imgCode: 'jora',
@@ -3291,6 +3284,13 @@ const viewSettingsApp = Vue.createApp({
                             imgCode: 'vest',
                             roles: 'MCU',
                             linkedUrl: '', 
+                        },{
+                            memberId: 12,
+                            memberName: 'Tayeb Amedi',
+                            imgCode: 'taam',
+                            roles: 'Dashboard',
+                            linkedUrl: '',
+                            
                         },
                         
                     ],
