@@ -3287,7 +3287,7 @@ const viewSettingsApp = Vue.createApp({
                             linkedUrl: '', 
                         },{
                             memberId: 0,
-                            memberName: 'Vegar Steen',
+                            memberName: 'Vegard Steen',
                             imgCode: 'vest',
                             roles: 'MCU',
                             linkedUrl: '', 
