@@ -2979,7 +2979,7 @@ const viewSettingsApp = Vue.createApp({
                             memberId: 1,
                             memberName: 'Marie Alle',
                             imgCode: 'maal',
-                            roles: 'Head of Heads',
+                            roles: 'Head of Administration',
                             linkedUrl: '',
                             
                         },{
