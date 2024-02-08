@@ -3005,9 +3005,9 @@ const viewSettingsApp = Vue.createApp({
                             
                         },{
                             memberId: 5,
-                            memberName: 'Børre Brosvoll Bolheim',
+                            memberName: 'Sondre Rosvoll Solheim',
                             imgCode: 'borre',
-                            roles: 'Bheif Belectical Bengineer',
+                            roles: 'Cheif Electical Engineer',
                             linkedUrl: '',
                             
                         },{
@@ -3239,7 +3239,7 @@ const viewSettingsApp = Vue.createApp({
                             linkedUrl: '', 
                         },{
                             memberId: 0,
-                            memberName: 'Athavem Tharmaratnam',
+                            memberName: 'Athavan Tharmaratnam',
                             imgCode: 'atth',
                             roles: 'Embedded',
                             linkedUrl: '', 
