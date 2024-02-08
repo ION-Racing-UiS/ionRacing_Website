@@ -3232,6 +3232,12 @@ const viewSettingsApp = Vue.createApp({
                             linkedUrl: '', 
                         },{
                             memberId: 0,
+                            memberName: 'Per Gundersen Lund',
+                            imgCode: 'filler',
+                            roles: 'High Voltage',
+                            linkedUrl: '', 
+                        },{
+                            memberId: 0,
                             memberName: 'Athavan Tharmaratnam',
                             imgCode: 'atth',
                             roles: 'Embedded',
