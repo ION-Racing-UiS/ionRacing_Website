@@ -2979,7 +2979,7 @@ const viewSettingsApp = Vue.createApp({
                             memberId: 1,
                             memberName: 'Marie Alle',
                             imgCode: 'maal',
-                            roles: 'Head of Administration',
+                            roles: 'Chief Administrative Officer',
                             linkedUrl: '',
                             
                         },{
@@ -3000,14 +3000,14 @@ const viewSettingsApp = Vue.createApp({
                             memberId: 4,
                             memberName: 'Tomas Martin Alvestad',
                             imgCode: 'toal',
-                            roles: 'Chief Mechanical Engineer',
+                            roles: 'Head of Mechanical',
                             linkedUrl: '',
                             
                         },{
                             memberId: 5,
                             memberName: 'Sondre Rosvoll Solheim',
                             imgCode: 'borre',
-                            roles: 'Cheif Electical Engineer',
+                            roles: 'Head of Electrical',
                             linkedUrl: '',
                             
                         },{
@@ -3021,7 +3021,7 @@ const viewSettingsApp = Vue.createApp({
                             memberId: 7,
                             memberName: 'Runar Wallenius Skaget',
                             imgCode: 'filler',
-                            roles: 'Chief Technical Officer',
+                            roles: 'Chief Technical Engineer',
                             linkedUrl: '',
                             
                         }
@@ -3037,7 +3037,7 @@ const viewSettingsApp = Vue.createApp({
                             
                         },{
                             memberId: 1,
-                            memberName: 'Ezster Kopacz',
+                            memberName: 'Eszter Kopacz',
                             imgCode: 'ezko',
                             roles: 'Head of events',
                             linkedUrl: '',
@@ -3067,6 +3067,12 @@ const viewSettingsApp = Vue.createApp({
                             memberName: 'Kamilla Gjerstad Jørgensen',
                             imgCode: 'kajo',
                             roles: 'Sponsor Relations',
+                            linkedUrl: '',
+                        },{
+                            memberId: 6,
+                            memberName: 'Lene Liset',
+                            roles: 'Corporate Relations',
+                            imgCode: 'filler',
                             linkedUrl: '',
                         },
                         
