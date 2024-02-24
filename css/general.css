@@ -703,7 +703,7 @@ footer .extras_conteiner p{
 /* Desktops */
 @media only screen and (min-width: 992px) {
     .hero_container, .darken_overlay{
-        max-height: 1200px;
+        max-height: none;
     }
     .hero_toContent_link{
         padding-bottom: 4rem;
@@ -775,7 +775,7 @@ main{
 
     flex: 1 0 auto;
     width: 100%;
-    max-width: 1800px;
+    max-width: none;
     padding-bottom: 4rem;
 }
 

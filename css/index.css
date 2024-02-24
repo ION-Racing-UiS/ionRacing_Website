@@ -65,7 +65,7 @@
 }
 section.home_section{
     padding: 0 0.5rem 4rem 0.5rem;
-    max-width: 1100px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -175,10 +175,17 @@ section.home_section{
         max-width: 55%;
     }
 
+    p.white_text{
+        margin: 0 0 1rem 0;
+    }
+
     #homeHero_headings h2{
         font-size: 2rem;
     }
 
+    #home_aboutInfo{
+        padding-right: 8rem;
+    }
     #home_competition_container{
         grid-template-columns: repeat(9, 1fr);
     }
@@ -213,6 +220,15 @@ section.home_section{
     }
 }
 
+/*  --- LARGE DISPLAY ---  */
+@media only screen and (min-width: 2000px){
+    #home_aboutInfo{
+        padding-right: 15rem;
+    }
+    section.home_section{
+        max-width: 1800px;
+    }
+}
 
 /*  --- TABLET & DESKTOP ---  */
 @media only screen and (min-width: 768px){

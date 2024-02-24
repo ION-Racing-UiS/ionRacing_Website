@@ -443,6 +443,15 @@ span.unavailable, span.available{
     }
 }
 
+/*  --- LARGE DESKTOP ---  */
+@media only screen and (min-width: 2000px){
+    #becomePartner_section{
+        padding: 0 0 0 10rem;
+    }
+    #becomeCrew_section{
+        padding: 0 10rem 0 0;
+    }
+}
 
 /*  --- TABLET & DESKTOP ---  */
 @media only screen and (min-width: 768px){

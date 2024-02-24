@@ -15,8 +15,8 @@
     height: 100%;
     background-color: #000000;
     opacity: 0.3;
-    max-height: 1200px;
-    max-width: 1800px;
+    max-height: none;
+    max-width: none;
     margin: 0 auto;
 }
 #about_hero h1{
