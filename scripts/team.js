@@ -3190,7 +3190,13 @@ const viewSettingsApp = Vue.createApp({
                             roles: 'Suspension',
                             linkedUrl: '',
                             
-                        },
+                        },{
+                            memberId: 17,
+                            memberName: 'Eva Dabouei',
+                            imgCode: 'evda',
+                            roles: 'Suspension',
+                            linkedUrl: '',
+                        }
                         
                     ],
                     eleMembers: [
