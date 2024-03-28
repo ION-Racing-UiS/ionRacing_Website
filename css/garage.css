@@ -31,7 +31,28 @@
     opacity: 0.5;
 }
 #garage_main{
-    padding: 0;
+    padding: 15%;
+
+}
+
+h1 {
+  max-width: 70%;
+  font-size: 6.5rem; 
+}
+
+#garage_cont{
+  position: relative;
+  display: flex;
+  padding-top: 1100px;
+}
+
+.garageimg{
+  max-width: 70%;
+  max-height: 90%;
+  padding: 5em 0 5em 0;
+  width: 3243px;
+  /* -webkit-box-reflect: below -150px linear-gradient(0deg, transparent, black); */
+  /* for later i guess */
 }
 
 
@@ -39,8 +60,13 @@
 
 /*  --- MOBILE ---  */
 @media (max-width: 767px){
+  h1 {
+    font-size: 2rem;
+  }
 
 }
+
+
 
 
 /*  --- TABLET ---  */
