@@ -14,11 +14,11 @@
     <link rel="apple-touch-icon" href="/assets/Tab/ionTabIcon.ico">
     
     <link rel="stylesheet" href="/css/general.css">
-    <link rel="stylesheet" href="/css/garage.css">
+    <link rel="stylesheet" href="/css/test.css">
 
     <!-- *** SCRIPTS *** -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
-    <script src="/scripts/garage.js" defer></script>
+    <script src="/scripts/test.js" defer></script>
     <script src="/scripts/functionality.js" defer></script> <!-- *** defer = script loads only once the page has loaded *** -->
 </head>
 <body>
@@ -80,7 +80,7 @@
         <h1>2022 - Gullfakse </h1>
         <img class="garageimg" src="../img/garagePage/cars/2022/2022.png" alt="2022 - Gullfakse">
       </div>
-        <div>
+      <div>
         <h1>2019 - Baldr </h1>
         <img class="garageimg" src="../img/garagePage/cars/2019/2019.png" alt="2019 - Baldr">
       </div>
@@ -96,7 +96,7 @@
         <h1>2016 - Embla </h1>
         <img class="garageimg" src="../img/garagePage/cars/2016/2016.png" alt="2016- Embla">
       </div>
-       <div>
+      <div>
         <h1>2015 - Mjölnir </h1>
         <img class="garageimg" src="../img/garagePage/cars/2015/2015.png" alt="2015 - Mjölnir">
       </div>
@@ -113,6 +113,77 @@
         <img class="garageimg" src="../img/garagePage/cars/2012/2012.png" alt="2012 - Lille Trille">
       </div>
 
+
+
+
+       <!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img class="garageimg" src="../img/garagePage/cars/2023/2023.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img class="garageimg" src="../img/garagePage/cars/2022/2022.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img class="garageimg" src="../img/garagePage/cars/2019/2019.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img class="garageimg" src="../img/garagePage/cars/2018/2018.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="../img/garagePage/cars/2023/2023.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="../img/garagePage/cars/2022/2022.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="../img/garagePage/cars/2019/2019.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="../img/garagePage/cars/2018/2018.png" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
             <!-- *** LINK DOWN TO CONTENT *** -->
       <!-- ***
             <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
