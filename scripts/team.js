@@ -2977,8 +2977,8 @@ const viewSettingsApp = Vue.createApp({
                             
                         },{
                             memberId: 1,
-                            memberName: 'Marie Alle',
-                            imgCode: 'maal',
+                            memberName: 'Emma Digernes Parnas',
+                            imgCode: 'empa',
                             roles: 'Chief Administrative Officer',
                             linkedUrl: '',
                             
@@ -3030,8 +3030,8 @@ const viewSettingsApp = Vue.createApp({
                     adminMembers: [
                         {
                             memberId: 0,
-                            memberName: 'Marie Alle',
-                            imgCode: 'maal',
+                            memberName: 'Emma Digernes Parnas',
+                            imgCode: 'empa',
                             roles: 'Group leader Administration',
                             linkedUrl: '',
                             
@@ -3057,8 +3057,8 @@ const viewSettingsApp = Vue.createApp({
                             linkedUrl: '',
                         },{
                             memberId: 4,
-                            memberName: 'Emma Digernes Parnas',
-                            imgCode: 'empa',
+                            memberName: 'Marie Alle',
+                            imgCode: 'maal',
                             roles: 'Sponsor Relations',
                             linkedUrl: '',
                             

@@ -24,8 +24,7 @@ const partnersApp = Vue.createApp({
               i: 0,
               logo: "title/Archer_White.png",
               url: "https://www.archerwell.com/",
-              txt:
-                "Archer is a global oil services company with a heritage that stretches back over 40 years, with a strong focus on safety and delivering the highest quality products and services.  \n Archer operates in 40 locations providing drilling services, well integrity & intervention, plug & abandonment and decommissioning to its upstream oil and gas clients.",
+              txt: "Archer is a global oil services company with a heritage that stretches back over 40 years, with a strong focus on safety and delivering the highest quality products and services.  \n Archer operates in 40 locations providing drilling services, well integrity & intervention, plug & abandonment and decommissioning to its upstream oil and gas clients.",
             },
           ],
         },
@@ -51,43 +50,37 @@ const partnersApp = Vue.createApp({
               i: 0,
               logo: "platinum/uis.png",
               url: "https://www.uis.no/en",
-              txt:
-                "The University of Stavanger (UiS) is an innovative and international university with a strong commitment to well-being, green transition, and lifelong learning. It fosters an open and collaborative environment for education, research, and artistic development, engaging with global communities for meaningful impact.",
+              txt: "The University of Stavanger (UiS) is an innovative and international university with a strong commitment to well-being, green transition, and lifelong learning. It fosters an open and collaborative environment for education, research, and artistic development, engaging with global communities for meaningful impact.",
             },
             {
               i: 2,
               logo: "platinum/altium.svg",
               url: "https://www.altium.com/",
-              txt:
-                "Altium is a global software company that provides electronic design solutions used for designing printed circuit boards. Altium Designer, serves industries like automotive, aerospace, defense, and telecommunications, offering unified electronics design in a Microsoft Windows environment.",
+              txt: "Altium is a global software company that provides electronic design solutions used for designing printed circuit boards. Altium Designer, serves industries like automotive, aerospace, defense, and telecommunications, offering unified electronics design in a Microsoft Windows environment.",
             },
             {
               i: 3,
               logo: "platinum/caetek.png",
               url: "https://caetek.fi/",
-              txt:
-                "CaeTek provides software and cloud solutions for simulation, IoT, high performance computing (HPC), data analytics, and artificial intelligence (AI).",
+              txt: "CaeTek provides software and cloud solutions for simulation, IoT, high performance computing (HPC), data analytics, and artificial intelligence (AI).",
             },
             {
               i: 3,
               logo: "platinum/kisssoft.svg",
               url: "https://www.kisssoft.com/en",
-              txt:
-                "KISSsoft® is a modular calculation program for the design, optimization and verification of machine elements according to international standards. The individually customized software packages for a wide variety of applications guarantee tailor made solutions and the integration to all common CAD software complete the product.",
+              txt: "KISSsoft® is a modular calculation program for the design, optimization and verification of machine elements according to international standards. The individually customized software packages for a wide variety of applications guarantee tailor made solutions and the integration to all common CAD software complete the product.",
             },
             {
               i: 4,
               logo: "platinum/metallteknikk.png",
               url: "https://metallteknikk.no/",
-              txt:
-                "Metallteknikk is a subsupplier of advanced sheet metal processing and welding of mainly stainless-steel materials. Metallteknikk has modern machinery for the processing of plates, consisting of lasers, plasma, punching, and bending machines. ",
+              txt: "Metallteknikk is a subsupplier of advanced sheet metal processing and welding of mainly stainless-steel materials. Metallteknikk has modern machinery for the processing of plates, consisting of lasers, plasma, punching, and bending machines. ",
             },
             {
               i: 5,
               logo: "platinum/tesla.svg",
               url: "https://www.tesla.com/",
-              txt:
-                "Tesla, a trailblazer in electric vehicles and sustainable energy, leads the automotive industry with cutting-edge technology and environmental consciousness. Committed to quality and sustainability, Tesla stands at the forefront of innovation in electric vehicle manufacturing.",
+              txt: "Tesla, a trailblazer in electric vehicles and sustainable energy, leads the automotive industry with cutting-edge technology and environmental consciousness. Committed to quality and sustainability, Tesla stands at the forefront of innovation in electric vehicle manufacturing.",
             },
           ],
         },
@@ -111,8 +104,7 @@ const partnersApp = Vue.createApp({
             {
               i: 0, //check 2324
               logo: "gold/clarion.png",
-              url:
-                "https://www.strawberry.no/hotell/norge/stavanger/clarion-hotel-energy/?utm_campaign=gmb-listing&utm_medium=organic&utm_source=google",
+              url: "https://www.strawberry.no/hotell/norge/stavanger/clarion-hotel-energy/?utm_campaign=gmb-listing&utm_medium=organic&utm_source=google",
             },
             {
               i: 1, //check 2324
@@ -128,6 +120,11 @@ const partnersApp = Vue.createApp({
               i: 3, //check 2324
               logo: "gold/ansys.png",
               url: "https://www.ansys.com/",
+            },
+            {
+              i: 4, //check 2324
+              logo: "gold/tekna.png",
+              url: "https://www.tekna.no/en/",
             },
           ],
         },
@@ -149,11 +146,6 @@ const partnersApp = Vue.createApp({
           class_partnerDiv: "silver_partner",
           partners: [
             {
-              i: 0, //check 2324
-              logo: "silver/rs.png",
-              url: "https://no.rs-online.com/web/",
-            },
-            {
               i: 1, //check 2324
               logo: "silver/bremnes.png",
               url: "https://seashore.no/",
@@ -170,14 +162,40 @@ const partnersApp = Vue.createApp({
             },
             {
               i: 4, //check 2324
+              logo: "bronze/trainor.png",
+              url: "https://www.trainor.no/",
+            },
+            {
+              i: 5, //check 2324
               logo: "silver/lyse.png",
               url: "https://www.lyse.no/",
             },
             {
-              i: 5, //check 2324
+              i: 6, //check 2324
               logo: "silver/stamas.webp",
               url: "https://www.stamas.no/",
             },
+            {
+              i: 7, //check 2324
+              logo: "silver/nito.svg", 
+              url: "https://www.nito.no/en/",
+            },
+            { // might need to go live?
+              i: 8, //check 2324     
+              logo: "silver/vectornav.png", 
+              url: "https://www.vectornav.com/",
+            },
+            // {
+            //   i: 9, //check 2324 Skal vere her, men er ikke klar
+            //   logo: "silver/solatrykk.png", //img not ready, webpage down, no logo to fetch
+            //   url: "", //Their website is broken, and linking there is questionable at best.
+            // },
+            {
+              i: 10, //check 2324
+              logo: "silver/biesterfeld.png", 
+              url: "https://biesterfeld.no/",
+            },
+            
           ],
         },
         // BRONZE
@@ -238,15 +256,31 @@ const partnersApp = Vue.createApp({
               url: "https://www.reime.no/",
             },
             {
-              i: 9, //100% guaranteed to be sponsor, men ikke på sponsor dokumentet for some reason??
-              logo: "bronze/trainor.png",
-              url: "https://www.trainor.no/",
+              i: 9, //check 2324
+              logo: "silver/rs.png", // Todo: fix folder and image structure
+              url: "https://no.rs-online.com/web/",
             },
             {
-              i: 10, //Tomas Martin maybe? Har den her til vi kan få avklart det
-              logo: "bronze/haaflu.png",
-              url: "",
+              i: 10, //check 2324
+              logo: "bronze/propaint.png",
+              url: "", //no url
             },
+            {
+              i: 11, //check 2324
+              logo: "bronze/vmv.png",
+              url: "https://vmv.as/en/,"
+            },
+            {
+              i: 12, //check 2324
+              logo: "bronze/smed.png",
+              url: "https://smed.no/",
+            }
+
+            // {
+            //   i: 10, //Tomas Martin maybe? Har den her til vi kan få avklart det
+            //   logo: "bronze/haaflu.png",
+            //   url: "",
+            // },
           ],
         },
       ],
