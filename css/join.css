@@ -226,7 +226,7 @@ section#join_partnerSection, section#join_studentSection{
 }
 
 
-.positions_container{
+.departments_container{
     background-color: #13141E;
     padding: 3rem 1rem 1rem 1rem;
     border-radius: 5px;
@@ -234,16 +234,16 @@ section#join_partnerSection, section#join_studentSection{
     z-index: 999;
 }
 
-section#positions_section{
+section#roles_section{
     padding: 0 1rem 0 1rem;
     margin-top: 8rem;
     position: relative;
 }
-.positions_container ul{
+.departments_container ul{
     padding: 0 0 0 0;
     margin: 1.5rem 0 0 0;
 }
-.positions_container li{
+.departments_container li{
     list-style: none;
     padding-top: 0.5rem;
     padding-left: 0.5rem;
@@ -289,10 +289,30 @@ span.unavailable, span.available{
     margin-top: 1rem;
     border-radius: 5px;
 }
+.positionImg_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
 
 .join_h2_article{
     padding-right: 1rem;
     padding-left: 1rem;
+}
+
+.position_descrip{
+    padding-top: 1rem; 
+    padding-bottom: 1rem;
+}
+
+.taskSvgSpan{
+    position: relative; 
+    padding-right: 1.5rem;
+}
+
+.taskSvg{
+    position: absolute; bottom: 5%;
 }
 
 
@@ -323,7 +343,7 @@ span.unavailable, span.available{
         margin-left: 2rem;
         padding-left: 8rem;
     }
-    .positions_container{
+    .departments_container{
         padding: 2rem 2rem 2rem 2rem;
         width: 600px;
     }
@@ -342,7 +362,7 @@ span.unavailable, span.available{
         bottom: 25%;
     }
 
-    .positions_container{
+    .departments_container{
         padding: 4rem 2rem 2rem 2rem;
         width: 930px;
     }
@@ -353,12 +373,12 @@ span.unavailable, span.available{
         row-gap: 1rem;
         column-gap: 2rem;
 
-        margin-bottom: 8rem;
+        margin-bottom: 10rem;
     }
     .positionImg_container{
         grid-row: span 2;
     }
-    .positions_container{
+    .departments_container{
         min-width: 900px;
         max-width: 1000px;
     }
@@ -478,26 +498,26 @@ span.unavailable, span.available{
 
     #category_0{
         left: 10px;
-        width: 5rem;
+        width: 7rem;
         font-weight: 600;
     }
     #category_1{
-        left: calc(10px + 5rem + 20px); 
-        width: 5rem;
+        left: calc(10px + 7rem + 20px); 
+        width: 7rem;
         font-weight: 600;
     }
     #category_2{
-        left: calc(10px + 5rem + 20px + 5rem + 20px);
-        width: 5rem;
+        left: calc(10px + 7rem + 20px + 7rem + 20px);
+        width: 7rem;
         font-weight: 600;
     }
     #category_3{
-        left: calc(10px + 5rem + 20px + 5rem + 20px + 5rem + 20px);
-        width: 5rem;
+        left: calc(10px + 7rem + 20px + 7rem + 20px + 7rem + 20px);
+        width: 7rem;
         font-weight: 600;
     }
     .position_extrasContainer ul{
-        max-width: 50%;
+        max-width: 100%;
     }
     .position_extrasContainer ul li{
         margin-top: 0.5rem;

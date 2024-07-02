@@ -1,0 +1,9 @@
+[
+    {
+        "roleId":0,
+        "roleTitle":"ELE TEST",
+        "roleDescription":"SOMETHING",
+        "roleImgCode":"/img/positions/ele/eleFiller.jpg", 
+        "tasks":[""]
+    }
+]
