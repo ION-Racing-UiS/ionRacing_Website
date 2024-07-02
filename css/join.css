@@ -320,7 +320,9 @@ span.unavailable, span.available{
 
 /*  --- MOBILE ---  */
 @media (max-width: 767px){
-
+    .categoryContainer{
+        font-size: 0.6rem;
+    }
 }
 
 
