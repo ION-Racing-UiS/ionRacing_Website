@@ -1,499 +1,187 @@
-const positionsApp = Vue.createApp({
-    data() {
-        return{
-            selectedPosition: 0, // id of selected position
-            mechIsSelected: true, // default
-            eleIsSelected: false,
-            itIsSelected: false,
-            adminIsSelected: false,
+window.onload = function(){
+    setDepartment(0);
+    getData('/websiteData/departments/mech.json', 'dept_0');
+    getData('/websiteData/departments/electro.json', 'dept_1');
+    getData('/websiteData/departments/admin.json', 'dept_2');
+    getData('/websiteData/departments/it.json', 'dept_3');
+};
 
-            // POSITION CATEGORIES for the positions-navigation
-            positionCategories: [
-                // id: 0 --> Mech
-                // id: 1 --> Ele
-                // id: 2 --> IT
-                // id: 3 --> Admin
-                {
-                    id: 0,
-                    categoryTitle: 'Mechanical',
-                    isSelected: false
-                },
-                {
-                    id: 1,
-                    categoryTitle: 'Electrical',
-                    isSelected: false
-                },
-                {
-                    id: 2,
-                    categoryTitle: 'IT',
-                    isSelected: false
-                },
-                {
-                    id: 3,
-                    categoryTitle: 'Admin',
-                    isSelected: false
-                }
-            ],
+// Creating DOM-elements
+function create_Html_DataElements(deptDiv, positionDiv, roleTitle, roleDescription){
+    // Position Container --> Data
+    const dataDiv = document.createElement('div');
+    dataDiv.className = 'positionData_container';
 
+    // Data --> Title
+    const titleSpan = document.createElement('span');
+    titleSpan.className = 'position_title';
+    titleSpan.textContent = roleTitle;
 
-            // POSITIONS DATA
-            // --- Positions MECH
-            mechPositions: [
-/*      Mech template, handy for ctrl+c/v
-                {
-                    id: 0,
-                    positionTitle: 'Mechtitle',
-                    positionImgCode: 'mechFiller',
-                    positionDescription: 'Description',
-                    isAvailable: true,
+    // Data --> Description
+    const descriptionP = document.createElement('p');
+    descriptionP.className = 'position_descrip';
+    descriptionP.innerHTML = roleDescription;
 
-                    tasks: [
-                        {
-                            taskId: 0,
-                            taskDescription: 'Task'
-                        },
-                    ]
-                }, */
-                {
-                    id: 0,
-                    positionTitle: 'Chassis',
-                    positionImgCode: 'mechFiller',
-                    positionDescription: 'Design and production of the cars spaceframe and/or monocoque. <br> The chassis is the main component of the car, tying all components together, in addition to protecting the driver in the event of an accident. <br> You will learn:<br> Triangulation, force distribution, welding theory, teamwork, workshop skills.',
-                    isAvailable: true,
+    deptDiv.appendChild(positionDiv);
+    positionDiv.appendChild(dataDiv);
+    dataDiv.appendChild(titleSpan);
+    dataDiv.appendChild(descriptionP);
+};
+function create_Html_ImgElements(positionDiv, roleImgCode) {
+    // Position Container --> Image
+    const imgDiv = document.createElement('div');
+    imgDiv.className = 'positionImg_container';
+    
+    const imgElement = document.createElement('img');
+    imgElement.src = roleImgCode;
+    imgElement.alt = 'Error loading the image';
+    
+    positionDiv.appendChild(imgDiv);
+    imgDiv.appendChild(imgElement);
+};
+function create_Html_ExtraElements(positionDiv, tasks) {
+    // Position Container --> Extra info
+    const extraDiv = document.createElement('div');
+    extraDiv.className = 'position_extrasContainer';
 
-                    tasks: [
-                        {
-                            taskId: 0,
-                            taskDescription: 'Structural design'
-                        },
-                        {
-                            taskId: 1,
-                            taskDescription: 'Safety'
-                        },
-                        {
-                            taskId: 2,
-                            taskDescription: 'Triangulation'
-                        },
-                        {
-                            taskId: 3,
-                            taskDescription: 'Steel'
-                        },
-                        {
-                            taskId: 4,
-                            taskDescription: 'Welding'
-                        },
-                        {
-                            taskId: 5,
-                            taskDescription: 'Carbon fiber monocoque'
-                        },
-                        {
-                            taskId: 6,
-                            taskDescription: 'Spaceframe'
-                        },
+    const tasksUl = document.createElement('ul');
 
-                    ]
-                },
-                {
-                    id: 1,
-                    positionTitle: 'Suspension',
-                    positionImgCode: 'mechFiller',
-                    positionDescription: 'Design and production of the cars suspension. <br> The purpose of the suspension is to keep the car stuck to the ground at all times, in addition to ensuring good handling and good driving cpabilities. <br> You will learn:<br> Force distribution, simulations suspension theory, dynamic driving theory, teamwork, workshop skills.',
-                    isAvailable: true,
+    const tasksSpan = document.createElement('span');
+    tasksSpan.className = 'positionExtras';
+    tasksSpan.textContent = 'Relevant Tasks';
 
-                    tasks: [
-                        {
-                            taskId: 1,
-                            taskDescription: 'Structural designs'
-                        },
-                        {
-                            taskId: 2,
-                            taskDescription: 'Forces'
-                        },
-                        {
-                            taskId: 3,
-                            taskDescription: 'Simulations'
-                        },
-                        {
-                            taskId: 4,
-                            taskDescription: 'OptimumG & OptimumLap'
-                        },
-                        {
-                            taskId: 5,
-                            taskDescription: 'Uprights'
-                        },
-                        {
-                            taskId: 6,
-                            taskDescription: 'Wheelhubs'
-                        },
-                        {
-                            taskId: 7,
-                            taskDescription: 'Carbontubes'
-                        },
-                        {
-                            taskId: 8,
-                            taskDescription: 'Bearings'
-                        },
+    // Tasks DOM-appending
+    positionDiv.appendChild(extraDiv);
+    extraDiv.appendChild(tasksUl);
+    tasksUl.appendChild(tasksSpan);
 
-                    ]
-                },                {
-                    id: 2,
-                    positionTitle: 'Drivetrain',
-                    positionImgCode: 'mechFiller',
-                    positionDescription: 'Design and production of the cars drivetrain. <br>The drivetrain transmits the forces given by the motor into the wheels. This is done either through direct drive, or by utilizing a gearbox connected to a transmission. <br>You will learn:<br> Transmission systems, gearbox design, bearings, gears, teamwork, lap time simulations, KISSsoft simulations, workshop skills.',
-                    isAvailable: true,
+    // Tasks & SVG
+    for (let i = 0; i < tasks.length; i++) {
+        const tasksLi = document.createElement('li');
+        const taskLiSpan = document.createElement('span');
+        taskLiSpan.textContent = tasks[i];
+    
+        // Tasks SVG
+        const taskSpan = document.createElement('span');
+        taskSpan.className = 'taskSvgSpan';
+    
+        const taskSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        taskSvg.setAttribute('class', 'taskSvg');
+        taskSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+        taskSvg.setAttribute('width', '15');
+        taskSvg.setAttribute('height', '15');
+        taskSvg.setAttribute('fill', '#ffff');
+        taskSvg.setAttribute('viewBox', '0 0 256 256');
+            
+        const taskSvgPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        taskSvgPath.setAttribute('d', "M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z");        
+    
+        taskSpan.appendChild(taskSvg);
+        taskSvg.appendChild(taskSvgPath); 
+        tasksUl.appendChild(tasksLi);
+        tasksLi.appendChild(taskSpan);
+        tasksLi.appendChild(taskLiSpan);  
+    };
+};
 
-                    tasks: [
-                        {
-                            taskId: 0,
-                            taskDescription: 'Power Transfer'
-                        },{
-                            taskId: 1,
-                            taskDescription: 'Gearbox'
-                        },{
-                            taskId: 2,
-                            taskDescription: 'Differential'
-                        },{
-                            taskId: 3,
-                            taskDescription: 'Chaindrive'
-                        },{
-                            taskId: 4,
-                            taskDescription: 'KISSsoft'
-                        },{
-                            taskId: 5,
-                            taskDescription: 'Simulations'
-                        },{
-                            taskId: 6,
-                            taskDescription: 'Torque'
-                        },{
-                            taskId: 7,
-                            taskDescription: 'Powertrain'
-                        },{
-                            taskId: 8,
-                            taskDescription: 'Electric motor'
-                        },
-                    ]
-                },
-                {
-                    id: 3,
-                    positionTitle: 'Ergonomics',
-                    positionImgCode: 'mechFiller',
-                    positionDescription: 'Design and production of the cars cockpit and safety equipment. <br>The ergonomics group is responsible for the cockpit, consisting of the cars steering and pedal system, in addition to the seat, firewall, dashboard, and safety equipment. <br> You will learn:<br> Surface modelling and 3D-Scanning, mold making, ergonomics theory, CAD, carbon fiber molding and infusion, teamwork, workshop skills.',
-                    isAvailable: true,
+// Getting JSON-data
+function getData(deptJsonLink, deptID){
+    fetch(deptJsonLink).then(res => res.json()).then(data => {
+        let deptDiv = document.getElementById(deptID);
+        
+        for (let i = 0; i < data.length; i++) {
+            let roleTitle = data[i].roleTitle;
+            let roleDescription = data[i].roleDescription;
+            let roleImgCode = data[i].roleImgCode;
+            let tasks = data[i].tasks;
 
-                    tasks: [
-                        {
-                            taskId: 0,
-                            taskDescription: 'Ergonomics'
-                        },{
-                            taskId: 1,
-                            taskDescription: 'Cockpit'
-                        },{
-                            taskId: 2,
-                            taskDescription: 'Comfort'
-                        },{
-                            taskId: 3,
-                            taskDescription: 'Safety'
-                        },{
-                            taskId: 4,
-                            taskDescription: 'Drivers seat'
-                        },{
-                            taskId: 5,
-                            taskDescription: 'Steering wheel'
-                        },{
-                            taskId: 6,
-                            taskDescription: 'Pedalbox'
-                        },{
-                            taskId: 7,
-                            taskDescription: 'Firewall'
-                        },
-                    ]
-                },
-                                {
-                    id: 4,
-                    positionTitle: 'Aerodynamics',
-                    positionImgCode: 'mechFiller',
-                    positionDescription: 'Design and production of the cars aero package. The cars aero package has the function of providing downforce to the car, resulting in better grip while driving, yielding faster lap times on the track. <br>You will learn:<br> CFD analysis, aerodynamic simulation, carbon fiber molding, CAD, surface modeling, teamwork, workshop skills.',
-                    isAvailable: true,
+            // Position Container
+            const positionDiv = document.createElement('div');
+            positionDiv.className = 'position_container';
 
-                    tasks: [
-                        {
-                            taskId: 0,
-                            taskDescription: 'Aerodynamic simulations'
-                        },{
-                            taskId: 1,
-                            taskDescription: 'Digital wind tunnel'
-                        },{
-                            taskId: 2,
-                            taskDescription: 'Ansys'
-                        },{
-                            taskId: 3,
-                            taskDescription: 'NablaFlow'
-                        },{
-                            taskId: 4,
-                            taskDescription: 'XFFLR5'
-                        },{
-                            taskId: 5,
-                            taskDescription: 'Handling'
-                        },{
-                            taskId: 6,
-                            taskDescription: 'Downforce'
-                        },{
-                            taskId: 7,
-                            taskDescription: 'Airfoils'
-                        },{
-                            taskId: 8,
-                            taskDescription: 'Frontwing, Rearwing, Diffuser & Sidepods'
-                        },{
-                            taskId: 9,
-                            taskDescription: 'CFD'
-                        },
-                    ]
-                },{
-                    id: 5,
-                    positionTitle: 'Bodywork',
-                    positionImgCode: 'mechFiller',
-                    positionDescription: 'Design and production of the cars bodywork. <br>The bodywork is a key component in ensuring good aerodynamic flow around the car, in addition to protecting the driver from foreign objects on the track. The bodywork is designed around the cars chassis and is coordinated along with other components. <br> You will learn:<br> CAD, Teamwork, Carbonfiber molding and infusion, Workshop skills.',
-                    isAvailable: true,
-
-                    tasks: [
-                        {
-                            taskId: 0,
-                            taskDescription: 'Bodywork'
-                        },{
-                            taskId: 1,
-                            taskDescription: 'Carbon Fiber'
-                        },{
-                            taskId: 2,
-                            taskDescription: 'Aerodynamics'
-                        },{
-                            taskId: 3,
-                            taskDescription: 'Surface modeling'
-                        },{
-                            taskId: 4,
-                            taskDescription: 'CAD'
-                        },{
-                            taskId: 5,
-                            taskDescription: 'Molding & Infusion'
-                        },{
-                            taskId: 6,
-                            taskDescription: 'Layup'
-                        },
-                    ]
-                },{
-                    id: 6,
-                    positionTitle: 'Cooling',
-                    positionImgCode: 'mechFiller',
-                    positionDescription: 'Design and production of the cars cooling system. The cooling system is intended to keep the car running at a normal operating temperature at all times, controlling the heat from the motor and circuit boards. <br>You will learn:<br> Thermodynamic theory, Fluid dynamics, Cooling loops, teamwork, workshop skills.',
-                    isAvailable: true,
-
-                    tasks: [
-                        {
-                            taskId: 0,
-                            taskDescription: 'Fluid Dynamics'
-                        },{
-                            taskId: 1,
-                            taskDescription: 'Thermodynamics'
-                        },{
-                            taskId: 2,
-                            taskDescription: 'Water pump'
-                        },{
-                            taskId: 3,
-                            taskDescription: 'Cooling loop'
-                        },{
-                            taskId: 4,
-                            taskDescription: 'Radiator'
-                        },{
-                            taskId: 5,
-                            taskDescription: 'Coolant'
-                        },{
-                            taskId: 6,
-                            taskDescription: 'Flowrate'
-                        },{
-                            taskId: 7,
-                            taskDescription: 'CNC & Milling'
-                        },
-                    ]
-                },{
-                    id: 7,
-                    positionTitle: 'Electro-Mechanical',
-                    positionImgCode: 'mechFiller',
-                    positionDescription: 'Coordination between mechanical and electrical systems on the car. <br>Includes design and production of components such as the cars battery container, ECU & MCU containers and the like. <br>You will learn:<br> Teamwork, coordination skills, carbon fiber molding and infusion, some electrical theory.',
-                    isAvailable: true,
-
-                    tasks: [
-                        {
-                            taskId: 0,
-                            taskDescription: 'Coordination'
-                        },{
-                            taskId: 1,
-                            taskDescription: 'Electrical systems'
-                        },{
-                            taskId: 0,
-                            taskDescription: 'Battery, MCU & ECU Containers '
-                        },{
-                            taskId: 0,
-                            taskDescription: 'Wiring protection'
-                        },{
-                            taskId: 0,
-                            taskDescription: 'Mechanical guidance to the electrical team'
-                        },{
-                            taskId: 0,
-                            taskDescription: 'Workshop skills'
-                        },
-                    ]
-                },{
-                    id: 8,
-                    positionTitle: 'Support systems mechanical',
-                    positionImgCode: 'mechFiller',
-                    positionDescription: 'Responsible for misc. support items such as the battery trolley, push bar, quick jack. <br> You will learn:<br> Teamwork, Coordination skills, Welding, Grinding, Painting',
-                    isAvailable: true,
-
-                    tasks: [
-                        {
-                            taskId: 0,
-                            taskDescription: 'Push bar'
-                        },{
-                            taskId: 1,
-                            taskDescription: 'Battery Trolley'
-                        },{
-                            taskId: 2,
-                            taskDescription: 'Misc Mechanical Parts'
-                        },{
-                            taskId: 3,
-                            taskDescription: 'Welding'
-                        },{
-                            taskId: 4,
-                            taskDescription: 'Grinding'
-                        },{
-                            taskId: 5,
-                            taskDescription: 'Painting'
-                        },
-                    ]
-                },
-                
-
-
-            ],
-            // --- Positions ELECTRO
-            elePositions: [
-                {
-                    id: 0,
-                    positionTitle: 'EleTitle',
-                    positionImgCode: 'eleFiller',
-                    positionDescription: 'Description',
-                    isAvailable: true,
-
-                    tasks: [
-                        {
-                            taskId: 0,
-                            taskDescription: 'Task'
-                        },
-                    ]
-                },
-            ],
-            // --- Positions DATA
-            itPositions: [
-                {
-                    id: 0,
-                    positionTitle: 'ItTitle',
-                    positionImgCode: 'itFiller',
-                    positionDescription: 'Description',
-                    isAvailable: false,
-
-                    tasks: [
-                        {
-                            taskId: 0,
-                            taskDescription: 'Task'
-                        },
-                    ]
-                },
-            ],
-            // --- Positions ADMIN
-            adminPositions: [
-                {
-                    id: 0,
-                    positionTitle: 'AdminTitle',
-                    positionImgCode: 'adminFiller',
-                    positionDescription: 'Description',
-                    isAvailable: true,
-
-                    tasks: [
-                        {
-                            taskId: 0,
-                            taskDescription: 'Task'
-                        },
-                    ]
-                },
-            ]
-        };
-    },
-    methods: {
-        setPositions(id){
-            // getting the span elements (each category)
-            let mechElement = document.getElementById('category_' + 0);
-            let eleElement = document.getElementById('category_' + 1);
-            let itElement = document.getElementById('category_' + 2);
-            let adminElement = document.getElementById('category_' + 3);
-
-            switch(id){
-                case 0:
-                    this.mechIsSelected = true;
-                    this.eleIsSelected = false;
-                    this.itIsSelected = false;
-                    this.adminIsSelected = false;
-
-                    mechElement.style.paddingBottom = '2rem';
-                    eleElement.style.paddingBottom = '0.5rem';
-                    itElement.style.paddingBottom = '0.5rem';
-                    adminElement.style.paddingBottom = '0.5rem';
-                    break;
-                case 1:
-                    this.mechIsSelected = false;
-                    this.eleIsSelected = true;
-                    this.itIsSelected = false;
-                    this.adminIsSelected = false;
-
-                    mechElement.style.paddingBottom = '0.5rem';
-                    eleElement.style.paddingBottom = '2rem';
-                    itElement.style.paddingBottom = '0.5rem';
-                    adminElement.style.paddingBottom = '0.5rem';
-                    break;
-                case 2:
-                    this.mechIsSelected = false;
-                    this.eleIsSelected = false;
-                    this.itIsSelected = true;
-                    this.adminIsSelected = false;
-
-                    mechElement.style.paddingBottom = '0.5rem';
-                    eleElement.style.paddingBottom = '0.5rem';
-                    itElement.style.paddingBottom = '2rem';
-                    adminElement.style.paddingBottom = '0.5rem';
-                    break;
-                case 3:
-                    this.mechIsSelected = false;
-                    this.eleIsSelected = false;
-                    this.itIsSelected = false;
-                    this.adminIsSelected = true;
-
-                    mechElement.style.paddingBottom = '0.5rem';
-                    eleElement.style.paddingBottom = '0.5rem';
-                    itElement.style.paddingBottom = '0.5rem';
-                    adminElement.style.paddingBottom = '2rem';
-                    break;
-                default:
-                    this.mechIsSelected = true;
-                    this.eleIsSelected = false;
-                    this.itIsSelected = false;
-                    this.adminIsSelected = false;
-
-                    mechElement.style.paddingBottom = '2rem';
-                    eleElement.style.paddingBottom = '0.5rem';
-                    itElement.style.paddingBottom = '0.5rem';
-                    adminElement.style.paddingBottom = '0.5rem';
-            }
-        },
-        showPositions(){
-
+            const mediaQuery = window.matchMedia('(min-width: 992px)');
+            if (mediaQuery.matches) {
+                // Desktop
+                if (i%2 == 0) {
+                    create_Html_DataElements(deptDiv, positionDiv, roleTitle, roleDescription);
+                    create_Html_ImgElements(positionDiv, roleImgCode);
+                    create_Html_ExtraElements(positionDiv, tasks);
+                } 
+                else {
+                    create_Html_ImgElements(positionDiv, roleImgCode);
+                    create_Html_DataElements(deptDiv, positionDiv, roleTitle, roleDescription);
+                    create_Html_ExtraElements(positionDiv, tasks);
+                };
+            } 
+            else {
+                // NOT desktop
+                create_Html_DataElements(deptDiv, positionDiv, roleTitle, roleDescription);
+                create_Html_ImgElements(positionDiv, roleImgCode);
+                create_Html_ExtraElements(positionDiv, tasks);
+            };
         }
-    }
-}).mount('#positions_section');
+    });
+};
+
+// Displaying/hiding HTML content
+function setDisplayNone(htmlElement){
+    htmlElement.style.display = 'none';
+};
+function setDisplayBlock(htmlElement){
+    htmlElement.style.display = 'block';
+};
+
+
+function displayDepartment(deptID){
+    let deptList = ['dept_0', 'dept_1', 'dept_2', 'dept_3'];
+
+    for (let i = 0; i < deptList.length; i++) {
+        let deptElement = document.getElementById(deptList[i]);
+        if (deptList[i] === deptID){
+            setDisplayBlock(deptElement);
+        }else{
+            setDisplayNone(deptElement);
+        };
+    };
+};
+
+function setDepartment(id){
+    // ['Mechanical', 'Electronics', 'Administration', 'Informatics'];
+    let mechElement = document.getElementById('category_' + 0);
+    let eleElement = document.getElementById('category_' + 1);
+    let itElement = document.getElementById('category_' + 2);
+    let adminElement = document.getElementById('category_' + 3);
+
+    // Dynamic styling for the positions-navigation
+    switch(id){
+        case 0:
+            mechElement.style.paddingBottom = '2rem';
+            eleElement.style.paddingBottom = '0.5rem';
+            itElement.style.paddingBottom = '0.5rem';
+            adminElement.style.paddingBottom = '0.5rem';
+        break;
+        case 1:
+            mechElement.style.paddingBottom = '0.5rem';
+            eleElement.style.paddingBottom = '2rem';
+            itElement.style.paddingBottom = '0.5rem';
+            adminElement.style.paddingBottom = '0.5rem';
+        break;
+        case 2:
+            mechElement.style.paddingBottom = '0.5rem';
+            eleElement.style.paddingBottom = '0.5rem';
+            itElement.style.paddingBottom = '2rem';
+            adminElement.style.paddingBottom = '0.5rem';
+        break;
+        case 3:
+            mechElement.style.paddingBottom = '0.5rem';
+            eleElement.style.paddingBottom = '0.5rem';
+            itElement.style.paddingBottom = '0.5rem';
+            adminElement.style.paddingBottom = '2rem';
+        break;
+    };
+
+    let depId = 'dept_' + id;
+    displayDepartment(depId);
+
+    return depId;
+};

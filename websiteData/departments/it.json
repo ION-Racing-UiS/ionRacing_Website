@@ -1,0 +1,9 @@
+[
+    {
+        "roleId":0,
+        "roleTitle":"Web developer",
+        "roleDescription":"",
+        "roleImgCode":"/img/positions/it/itFiller.jpg",
+        "tasks":["Maintainance", "UX & UI", "Web solutions", "Troubleshooting"]
+    }
+]
