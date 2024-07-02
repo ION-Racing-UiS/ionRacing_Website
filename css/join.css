@@ -267,17 +267,6 @@ span.position_title{
     font-weight: 700;
 }
 
-span.unavailable{
-    opacity: 0.3;
-}
-span.available{
-    opacity: 0.9;
-}
-span.unavailable, span.available{
-    padding-left: 0.55rem;
-    padding-right: 0.25rem;
-}
-
 
 
 .positionImg_container{
