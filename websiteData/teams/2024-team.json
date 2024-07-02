@@ -1,0 +1,62 @@
+[
+    {
+        "dept": 1,
+        "deptName": "Board",
+        "members": [ 
+            {
+                "name": "",
+                "imgCode": "",
+                "Roles": "",
+                "linkedUrl": ""
+            }
+        ]
+    },
+    {
+        "dept": 2,
+        "deptName": "Administration",
+        "members": [ 
+            {
+                "name": "",
+                "imgCode": "",
+                "Roles": "",
+                "linkedUrl": ""
+            }
+        ]
+    },
+    {
+        "dept": 3,
+        "deptName": "Mechanical",
+        "members": [ 
+            {
+                "name": "",
+                "imgCode": "",
+                "Roles": "",
+                "linkedUrl": ""
+            }
+        ]
+    },
+    {
+        "dept": 4,
+        "deptName": "Electronics",
+        "members": [ 
+            {
+                "name": "",
+                "imgCode": "",
+                "Roles": "",
+                "linkedUrl": ""
+            }
+        ]
+    },
+    {
+        "dept": 5,
+        "deptName": "Data",
+        "members": [ 
+            {
+                "name": "",
+                "imgCode": "",
+                "Roles": "",
+                "linkedUrl": ""
+            }
+        ]
+    }
+]
