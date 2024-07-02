@@ -6,7 +6,8 @@
 }
 #becomeCrew_section{
     position: absolute; 
-    top: 12%; z-index: 999; 
+    top: 12%; 
+    z-index: 999; 
     padding-left: 2rem; 
     padding-right: 1rem;
 }
@@ -17,7 +18,7 @@
     display: flex;
 }
 #heroDivider_container{
-    background-color: #0B0C12;
+    background-color: #151723;
     width: 100%;
     height: 95%;
 
@@ -149,7 +150,7 @@ section#join_partnerSection, section#join_studentSection{
     width: 100%;
 }
 .reasons_item{
-    background-color: #13141E;
+    background-color: #151723;
     width: 60%;
     height: auto;
 
@@ -214,7 +215,7 @@ section#join_partnerSection, section#join_studentSection{
 
 .categoryContainer{
     background-color: #009DDF; 
-    color: #13141E; 
+    color: #151723; 
 
     position: absolute;
     bottom: 0;
@@ -227,7 +228,7 @@ section#join_partnerSection, section#join_studentSection{
 
 
 .departments_container{
-    background-color: #13141E;
+    background-color: #151723;
     padding: 3rem 1rem 1rem 1rem;
     border-radius: 5px;
 
