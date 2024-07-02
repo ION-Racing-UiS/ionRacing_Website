@@ -1,9 +1,9 @@
 [
     {
         "roleId":0,
-        "roleTitle":"ELE TEST",
-        "roleDescription":"SOMETHING",
+        "roleTitle":"Electro",
+        "roleDescription":"Description in progress...",
         "roleImgCode":"/img/positions/ele/eleFiller.jpg", 
-        "tasks":[""]
+        "tasks":["In progress..."]
     }
 ]
