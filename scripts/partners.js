@@ -177,25 +177,31 @@ const partnersApp = Vue.createApp({
             },
             {
               i: 7, //check 2324
-              logo: "silver/nito.svg", 
+              logo: "silver/nito.svg",
               url: "https://www.nito.no/en/",
             },
             { // might need to go live?
               i: 8, //check 2324     
-              logo: "silver/vectornav.png", 
+              logo: "silver/vectornav.png",
               url: "https://www.vectornav.com/",
             },
-            // {
-            //   i: 9, //check 2324 Skal vere her, men er ikke klar
-            //   logo: "silver/solatrykk.png", //img not ready, webpage down, no logo to fetch
-            //   url: "", //Their website is broken, and linking there is questionable at best.
-            // },
+            //{
+            //  i: 9, //check 2324
+            //  logo: "silver/solatrykkeri.png", 
+            //  url: "https://www.solatrykkeri.no/",
+            //},
             {
               i: 10, //check 2324
-              logo: "silver/biesterfeld.png", 
+              logo: "silver/vibemyr.png",
+              url: "https://vibemyr.no/",
+            },
+            {
+              i: 11, //check 2324
+              logo: "silver/biesterfeld.png",
               url: "https://biesterfeld.no/",
             },
-            
+
+
           ],
         },
         // BRONZE
@@ -274,13 +280,12 @@ const partnersApp = Vue.createApp({
               i: 12, //check 2324
               logo: "bronze/smed.png",
               url: "https://smed.no/",
-            }
-
-            // {
-            //   i: 10, //Tomas Martin maybe? Har den her til vi kan få avklart det
-            //   logo: "bronze/haaflu.png",
-            //   url: "",
-            // },
+            },
+            {
+              i: 13, //Tomas Martin maybe? Har den her til vi kan få avklart det
+              logo: "bronze/haaflu.png",
+              url: "",
+            },
           ],
         },
       ],
