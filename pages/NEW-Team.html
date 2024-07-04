@@ -66,7 +66,7 @@
     
     <main class="content_container white_text" id="teamApp">
         <div id="team_hero" class="fullscreen hero_container">
-            <h1 class="center_text">The <span class="logo_color">YEAR</span> Team</h1>
+            <h1 class="center_text">The <span class="logo_color" id="displayedYear_hero"></span> Team</h1>
             <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
                 <a class="hero_toContent_link" href="#team_content">
                     <svg width="41" height="15" viewBox="0 0 41 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -85,10 +85,10 @@
             <div style="display: flex; justify-content: center; ">
                 <div id="team_viewSetting">
                     <div style="display: flex;" id="viewYear_container">
-                        <span>Meet the</span>
+                        <span>Meet the </span>
                         <div class="dropdown">
                             <button class="Settings_btn">
-                                <span class="logo_color">All</span>
+                                <span class="logo_color" id="displayedYear"></span>
                                 <div>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#ffffff" viewBox="0 0 256 256">
                                         <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
@@ -98,14 +98,7 @@
                             </button>
                             <hr>
                             <div class="dropdown_options" id="yearSelect_Dd">
-                                <ul>
-                                    <li class="logo_color" data->
-                                        2024
-                                    </li>
-                                    <li class="logo_color">
-                                        2023
-                                    </li>
-                                </ul>
+
                             </div>
                         </div>
                         <span>team</span>
