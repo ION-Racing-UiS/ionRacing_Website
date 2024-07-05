@@ -88,7 +88,7 @@
                         <span>Meet the </span>
                         <div class="dropdown">
                             <button class="Settings_btn">
-                                <span class="logo_color" id="displayedYear"></span>
+                                <span id="displayedYear"></span>
                                 <div>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#ffffff" viewBox="0 0 256 256">
                                         <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
@@ -105,12 +105,12 @@
                     </div>
     
                     <div style="display: flex;" id="viewCategories_container">
-                        <span style="padding-right: 1.5rem;">View:</span>
+                        <span style="padding-right: 0.5rem;">View:</span>
                         <div style="display: flex;">                        
                             <div style="display: flex; flex-direction: row;">
                                 <div class="dropdown">
                                     <button class="SettingsView_btn">
-                                        <span class="logo_color">CATEGORY</span>
+                                        <span id="displayedCategory"></span>
                                         <div>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#ffffff" viewBox="0 0 256 256">
                                                 <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
@@ -119,27 +119,7 @@
                                         </div>
                                     </button>
                                     <hr>
-                                    <div class="dropdown_options">
-                                        <ul>
-                                            <li class="logo_color" data-deptID="0">
-                                                All
-                                            </li>
-                                            <li class="logo_color" data-deptID="1">
-                                                Board
-                                            </li>
-                                            <li class="logo_color" data-deptID="2">
-                                                Administration
-                                            </li>
-                                            <li class="logo_color" data-deptID="3">
-                                                Mechanical
-                                            </li>
-                                            <li class="logo_color" data-deptID="4">
-                                                Electronics
-                                            </li>
-                                            <li class="logo_color" data-deptID="5">
-                                                Data
-                                            </li>
-                                        </ul>
+                                    <div class="dropdown_options" id="categorySelect_Dd">
                                     </div>
                                 </div>
                             </div>
