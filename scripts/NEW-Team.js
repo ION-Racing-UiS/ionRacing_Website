@@ -47,7 +47,7 @@ function createYearOptions(){
         year_li.onclick = () => setYearContent(years[i], years);
     };
     setYearContent(years[0], years); // Default
-    getData(years[0]);
+    getMembersData(years[0]);
 };
 
 
@@ -82,8 +82,28 @@ function create_Html_div(divClass) {
     div.className = divClass;
     return div; 
 };
-function create_Html_memberCard(memberName, memberRoles, imgCode, deptName, year){
-    let membersContainer = document.getElementById('boardMembers');
+function create_Html_memberCard(deptID, memberName, memberRoles, imgCode, deptName, year){
+    let deptId_txt = '';
+    switch (deptID) {
+        case 1:
+            deptId_txt = 'boardMembers';
+            break;
+        case 2:
+            deptId_txt = 'adminMembers';
+            break;
+        case 3:
+            deptId_txt = 'mechMembers';
+            break;
+        case 4:
+            deptId_txt = 'eleMembers';
+            break;
+        case 5:
+            deptId_txt = 'dataMembers';
+            break;
+        default:
+            break;
+    };
+    let membersContainer = document.getElementById(deptId_txt);
 
     let card = create_Html_div('membercard');
     let cardContentDiv = create_Html_div('membercard_content');
@@ -108,7 +128,7 @@ function create_Html_memberCard(memberName, memberRoles, imgCode, deptName, year
 };
 
 // Getting JSON-data
-function getData(year){
+function getMembersData(year){
     fetch(`/websiteData/teams/${year}-team.json`).then(res => res.json()).then(data => {
         data.forEach(element => {
            let deptID = element.deptID;
@@ -116,7 +136,7 @@ function getData(year){
            let members = element.members;
            
            members.forEach(member => {
-                create_Html_memberCard(member.name, member.roles, member.imgCode, deptName, year);
+                create_Html_memberCard(deptID, member.name, member.roles, member.imgCode, deptName, year);
            });
         });
     });
