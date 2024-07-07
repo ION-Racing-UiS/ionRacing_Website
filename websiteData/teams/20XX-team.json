@@ -1,7 +1,7 @@
 [
     {
-        "dept": 1,
-        "deptName": "Board",
+        "deptID": 1,
+        "deptName": "board",
         "members": [ 
             {
                 "name": "",
@@ -12,8 +12,8 @@
         ]
     },
     {
-        "dept": 2,
-        "deptName": "Administration",
+        "deptID": 2,
+        "deptName": "admin",
         "members": [ 
             {
                 "name": "",
@@ -24,8 +24,8 @@
         ]
     },
     {
-        "dept": 3,
-        "deptName": "Mechanical",
+        "deptID": 3,
+        "deptName": "mech",
         "members": [ 
             {
                 "name": "",
@@ -36,8 +36,8 @@
         ]
     },
     {
-        "dept": 4,
-        "deptName": "Electronics",
+        "deptID": 4,
+        "deptName": "ele",
         "members": [ 
             {
                 "name": "",
@@ -48,8 +48,8 @@
         ]
     },
     {
-        "dept": 5,
-        "deptName": "Data",
+        "deptID": 5,
+        "deptName": "data",
         "members": [ 
             {
                 "name": "",

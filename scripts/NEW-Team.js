@@ -26,10 +26,12 @@ function setYearContent(selectedYear, yearsArray){
 
     const t = document.getElementById(`ddOpt_${selectedYear}`);
     setDdColor(t, yearsArray);
+
+    // DOM STUFFS FOR THE CARDS
 };
 function createYearOptions(){
     // NB: remember to add new year at the START OF ARRAY!
-    let years = [2024, 2023, 2022];
+    let years = [2024, 2023];
 
     const yearSelectDiv = document.getElementById('yearSelect_Dd');
     const year_ul = document.createElement('ul');
@@ -45,9 +47,10 @@ function createYearOptions(){
         year_li.onclick = () => setYearContent(years[i], years);
     };
     setYearContent(years[0], years); // Default
+    getData(years[0]);
 };
 
-// liElement, relevantVar, relevantArray
+
 function setCategoryContent(selectedCategory, categories){
     const categorySpan = document.getElementById('displayedCategory');
     categorySpan.textContent = selectedCategory;
@@ -71,5 +74,50 @@ function createCategoryOptions(){
         category_li.onclick = () => setCategoryContent(categories[i], categories);
     };
     setCategoryContent(categories[0], categories); // Default
+};
 
+
+function create_Html_div(divClass) {
+    let div = document.createElement('div'); 
+    div.className = divClass;
+    return div; 
+};
+function create_Html_memberCard(memberName, memberRoles, imgCode, deptName, year){
+    let membersContainer = document.getElementById('boardMembers');
+
+    let card = create_Html_div('membercard');
+    let cardContentDiv = create_Html_div('membercard_content');
+
+    // IMG
+    let cardImg = document.createElement('img');
+    cardImg.src = `/img/teams/members/${year}/${deptName}/${imgCode}.jpg`;
+
+    let infoDiv = create_Html_div('member_info');
+    let memberName_p = document.createElement('p');
+    memberName_p.className = 'name_p';
+    memberName_p.textContent = memberName;
+    let memberRole_p = document.createElement('p');
+    memberRole_p.textContent = memberRoles;
+
+    membersContainer.appendChild(card);
+    card.appendChild(cardContentDiv);
+    cardContentDiv.appendChild(cardImg);
+    cardContentDiv.appendChild(infoDiv);
+    infoDiv.appendChild(memberName_p);
+    infoDiv.appendChild(memberRole_p);
+};
+
+// Getting JSON-data
+function getData(year){
+    fetch(`/websiteData/teams/${year}-team.json`).then(res => res.json()).then(data => {
+        data.forEach(element => {
+           let deptID = element.deptID;
+           let deptName = element.deptName;
+           let members = element.members;
+           
+           members.forEach(member => {
+                create_Html_memberCard(member.name, member.roles, member.imgCode, deptName, year);
+           });
+        });
+    });
 };

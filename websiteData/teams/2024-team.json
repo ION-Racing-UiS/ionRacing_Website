@@ -1,7 +1,7 @@
 [
     {
-        "dept": 1,
-        "deptName": "Board",
+        "deptID": 1,
+        "deptName": "board",
         "members": [ 
             {
                 "name": "Stian Nygård",
@@ -54,8 +54,8 @@
         ]
     },
     {
-        "dept": 2,
-        "deptName": "Administration",
+        "deptID": 2,
+        "deptName": "admin",
         "members": [ 
             {
                 "name": "Emma Digernes Parnas",
@@ -102,8 +102,8 @@
         ]
     },
     {
-        "dept": 3,
-        "deptName": "Mechanical",
+        "deptID": 3,
+        "deptName": "mech",
         "members": [ 
             {
                 "name": "Tomas Martin Alvestad",
@@ -210,8 +210,8 @@
         ]
     },
     {
-        "dept": 4,
-        "deptName": "Electronics",
+        "deptID": 4,
+        "deptName": "ele",
         "members": [ 
             {
                 "name": "Sondre Rosvoll Solheim'",
@@ -324,8 +324,8 @@
         ]
     },
     {
-        "dept": 5,
-        "deptName": "Data",
+        "deptID": 5,
+        "deptName": "data",
         "members": [ 
             {
                 "name": "Lars Johann Indreeide",
