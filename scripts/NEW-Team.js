@@ -1,3 +1,8 @@
+const dd_selected = {
+    selectedYear: '',
+    selectedCategory: ''
+};
+
 window.onload = function(){
     createYearOptions();
     createCategoryOptions();
@@ -16,6 +21,7 @@ function setDdColor(liElement, relevantArray){
 
 
 function setYearContent(selectedYear, yearsArray){
+    dd_selected.selectedYear = selectedYear;
     const teamHeroDiv = document.getElementById('team_hero');
     teamHeroDiv.style.backgroundImage = `url('/img/teams/team_photos/team_${selectedYear}.webp')`
 
@@ -28,6 +34,8 @@ function setYearContent(selectedYear, yearsArray){
     setDdColor(t, yearsArray);
 
     // DOM STUFFS FOR THE CARDS
+    getMembersData(selectedYear);
+    console.log(dd_selected.selectedYear);
 };
 function createYearOptions(){
     // NB: remember to add new year at the START OF ARRAY!
@@ -47,7 +55,7 @@ function createYearOptions(){
         year_li.onclick = () => setYearContent(years[i], years);
     };
     setYearContent(years[0], years); // Default
-    getMembersData(years[0]);
+    dd_selected.selectedYear = years[0];
 };
 
 
@@ -77,12 +85,19 @@ function createCategoryOptions(){
 };
 
 
+function clear_Html_Content(parent, child){
+    console.log('DELETE');
+    parent.removeChild(child);  
+};
 function create_Html_div(divClass) {
     let div = document.createElement('div'); 
     div.className = divClass;
     return div; 
 };
+
+
 function create_Html_memberCard(deptID, memberName, memberRoles, imgCode, deptName, year){
+    // DO SOME CHECKING - IF THERE IS CONTENT FROM BEFORE: delete it before updating with rendering new content
     let deptId_txt = '';
     switch (deptID) {
         case 1:
@@ -105,6 +120,8 @@ function create_Html_memberCard(deptID, memberName, memberRoles, imgCode, deptNa
     };
     let membersContainer = document.getElementById(deptId_txt);
 
+
+
     let card = create_Html_div('membercard');
     let cardContentDiv = create_Html_div('membercard_content');
 
@@ -125,7 +142,10 @@ function create_Html_memberCard(deptID, memberName, memberRoles, imgCode, deptNa
     cardContentDiv.appendChild(infoDiv);
     infoDiv.appendChild(memberName_p);
     infoDiv.appendChild(memberRole_p);
+
+    //clear_Html_Content(membersContainer, card);
 };
+
 
 // Getting JSON-data
 function getMembersData(year){
