@@ -21,7 +21,6 @@ function setDdColor(liElement, relevantArray){
 
 
 function setYearContent(selectedYear, yearsArray){
-    dd_selected.selectedYear = selectedYear;
     const teamHeroDiv = document.getElementById('team_hero');
     teamHeroDiv.style.backgroundImage = `url('/img/teams/team_photos/team_${selectedYear}.webp')`
 
@@ -33,9 +32,22 @@ function setYearContent(selectedYear, yearsArray){
     const t = document.getElementById(`ddOpt_${selectedYear}`);
     setDdColor(t, yearsArray);
 
+    console.log(`STORED: ${dd_selected.selectedYear}`);
+    console.log(`SELECTED: ${selectedYear}`);
+
     // DOM STUFFS FOR THE CARDS
-    getMembersData(selectedYear);
-    console.log(dd_selected.selectedYear);
+    if (dd_selected.selectedYear == '') {
+        getMembersData(selectedYear, 0);
+        dd_selected.selectedYear = selectedYear;
+    } 
+    else if (dd_selected.selectedYear != selectedYear){
+        getMembersData(selectedYear, 1);
+        getMembersData(selectedYear, 0);
+        dd_selected.selectedYear = selectedYear;
+    }
+    else {
+        return
+    };
 };
 function createYearOptions(){
     // NB: remember to add new year at the START OF ARRAY!
@@ -54,8 +66,8 @@ function createYearOptions(){
         year_li.id = `ddOpt_${years[i]}`;
         year_li.onclick = () => setYearContent(years[i], years);
     };
+    
     setYearContent(years[0], years); // Default
-    dd_selected.selectedYear = years[0];
 };
 
 
@@ -85,9 +97,9 @@ function createCategoryOptions(){
 };
 
 
-function clear_Html_Content(parent, child){
+function clear_Html_Content(child){
     console.log('DELETE');
-    parent.removeChild(child);  
+    child.remove();  
 };
 function create_Html_div(divClass) {
     let div = document.createElement('div'); 
@@ -97,7 +109,6 @@ function create_Html_div(divClass) {
 
 
 function create_Html_memberCard(deptID, memberName, memberRoles, imgCode, deptName, year){
-    // DO SOME CHECKING - IF THERE IS CONTENT FROM BEFORE: delete it before updating with rendering new content
     let deptId_txt = '';
     switch (deptID) {
         case 1:
@@ -120,11 +131,8 @@ function create_Html_memberCard(deptID, memberName, memberRoles, imgCode, deptNa
     };
     let membersContainer = document.getElementById(deptId_txt);
 
-
-
     let card = create_Html_div('membercard');
     let cardContentDiv = create_Html_div('membercard_content');
-
     // IMG
     let cardImg = document.createElement('img');
     cardImg.src = `/img/teams/members/${year}/${deptName}/${imgCode}.jpg`;
@@ -142,22 +150,31 @@ function create_Html_memberCard(deptID, memberName, memberRoles, imgCode, deptNa
     cardContentDiv.appendChild(infoDiv);
     infoDiv.appendChild(memberName_p);
     infoDiv.appendChild(memberRole_p);
-
-    //clear_Html_Content(membersContainer, card);
 };
 
 
 // Getting JSON-data
-function getMembersData(year){
-    fetch(`/websiteData/teams/${year}-team.json`).then(res => res.json()).then(data => {
-        data.forEach(element => {
-           let deptID = element.deptID;
-           let deptName = element.deptName;
-           let members = element.members;
-           
-           members.forEach(member => {
-                create_Html_memberCard(deptID, member.name, member.roles, member.imgCode, deptName, year);
-           });
-        });
-    });
+function getMembersData(year, yearStatus){
+    // DO SOME CHECKING - IF THERE IS CONTENT FROM BEFORE: delete it before updating with rendering new content
+    switch (yearStatus) {
+        case 0: // FALSE
+            fetch(`/websiteData/teams/${year}-team.json`).then(res => res.json()).then(data => {
+                data.forEach(element => {
+                    let deptID = element.deptID;
+                    let deptName = element.deptName;
+                    let members = element.members;
+                
+                    members.forEach(member => {
+                            create_Html_memberCard(deptID, member.name, member.roles, member.imgCode, deptName, year);
+                    });
+                });
+            });
+            break;
+        case 1: // TRUE
+            let elements = document.querySelectorAll('.membercard');
+            elements.forEach(function(element) {
+              clear_Html_Content(element);
+            });
+            break;
+    };
 };
