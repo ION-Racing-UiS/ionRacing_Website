@@ -45,7 +45,7 @@ input[type=radio] {
 }
 button.Settings_btn, button.SettingsView_btn{
     background-color: #09090d;
-    color: #ffffff;
+    color: #009DDF;
     border: none;
     padding: 0.1rem 1rem 0 1rem;
     margin: 0 !important; 
@@ -129,6 +129,11 @@ input#viewAll_opt{
     margin: 0;
     padding: 3rem 0.5rem 0 0.5rem;
 }
+
+#displayedCategory{
+    width: 120px;
+}
+
 
 /* For devices that can hover */
 @media (hover: hover){

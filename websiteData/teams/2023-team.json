@@ -1,0 +1,344 @@
+[
+    {
+        "deptID": 1,
+        "deptName": "board",
+        "members": [ 
+            {
+                "name": "Ole Mørkved",
+                "imgCode": "olmo",
+                "roles": "Project Leader",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Herman Berg Nilssen",
+                "imgCode": "heni",
+                "roles": "Chief Mechanical Engineer",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Philip Shahdadfar",
+                "imgCode": "phsh",
+                "roles": "Chief Electrical Engineer",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Lars Johann Indreeide",
+                "imgCode": "lajoin",
+                "roles": "Head of IT",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Stian Nygård",
+                "imgCode": "stny",
+                "roles": "Group leader Administration",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Andreas Byskov",
+                "imgCode": "anby",
+                "roles": "Chief Technical Engineer",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Einar Kjeka",
+                "imgCode": "eikj",
+                "roles": "Head of production",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Julia Tisko",
+                "imgCode": "juti",
+                "roles": "Chief financial Officer",
+                "linkedUrl": ""    
+            }
+        ]
+    },
+    {
+        "deptID": 2,
+        "deptName": "admin",
+        "members": [ 
+            {
+                "name": "Stian Nygård",
+                "imgCode": "stny",
+                "roles": "Group leader Administration",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Julia Tisko",
+                "imgCode": "juti",
+                "roles": "Chief financial Officer",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Lasse Bang Olsen",
+                "imgCode": "laol",
+                "roles": "Event Manager",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Marcel Loua",
+                "imgCode": "malo",
+                "roles": "Head of Sponsor Relations",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Johan Sundt Brekne",
+                "imgCode": "jobr",
+                "roles": "Sponsor Management",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Sindre Fidje Andersen",
+                "imgCode": "sian",
+                "roles": "Sponsor Management",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Julie Dalseid",
+                "imgCode": "juda",
+                "roles": "Sponsor Management",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Michelle jensen",
+                "imgCode": "filler",
+                "roles": "Graphic Design and PR",
+                "linkedUrl": ""    
+            }
+        ]
+    },
+    {
+        "deptID": 3,
+        "deptName": "mech",
+        "members": [ 
+            {
+                "name": "Hermann Berg Nilssen",
+                "imgCode": "heni",
+                "roles": "Chief Mechanical Engineer",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Omar Mohamad",
+                "imgCode": "ommo",
+                "roles": "Drivetrain",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Ole Mørkved",
+                "imgCode": "olmo",
+                "roles": "Suspension",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Ruben Østli",
+                "imgCode": "ruoos",
+                "roles": "Suspension & Bodywork",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Mathias Alten",
+                "imgCode": "maal",
+                "roles": "Bodywork",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Tomas Martin Alvestad",
+                "imgCode": "toal",
+                "roles": "Chassis",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "David Shapiro",
+                "imgCode": "dash",
+                "roles": "Ergonomics and Firewall",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Sondre Undheim Carlsen",
+                "imgCode": "soca",
+                "roles": "Ergonomics and Firewall",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Einar Kjeka",
+                "imgCode": "eikj",
+                "roles": "Aerodynamics",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Even Holen",
+                "imgCode": "evho",
+                "roles": "Aerodynamics",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Ruben Nordstokke",
+                "imgCode": "runo",
+                "roles": "Aerodynamics",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Karl Henrik Lermo",
+                "imgCode": "kale",
+                "roles": "Aerodynamics",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Jack Bystøl-Hill",
+                "imgCode": "jahi",
+                "roles": "Cooling",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Lise Knudsen",
+                "imgCode": "likn",
+                "roles": "Cooling",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Martin Larsen",
+                "imgCode": "mala",
+                "roles": "Pedals and Steering",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Nora Iversen",
+                "imgCode": "filler",
+                "roles": "Accumalator container",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Ole Emil Strømsnes Egelandsaa",
+                "imgCode": "oleg",
+                "roles": "Drivetrain",
+                "linkedUrl": ""    
+            }
+        ]
+    },
+    {
+        "deptID": 4,
+        "deptName": "ele",
+        "members": [ 
+            {
+                "name": "Philip Shahdadfar",
+                "imgCode": "phsh",
+                "roles": "Chief Electrical Engineer",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Andreas Byskov",
+                "imgCode": "anby",
+                "roles": "Chief Technical Engineer",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Per Gundersen Lund",
+                "imgCode": "pelu",
+                "roles": "HV-Circuitry",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Daniel Maudal",
+                "imgCode": "dama",
+                "roles": "Low Voltage",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Herman Sparøy",
+                "imgCode": "hesp",
+                "roles": "MCU",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Sondre Rosvoll Solheim",
+                "imgCode": "soso",
+                "roles": "ECU",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Runar Wallenius Skaget",
+                "imgCode": "rusk",
+                "roles": "ECU",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Sander Hovet",
+                "imgCode": "saho",
+                "roles": "ECU",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Mohammed Hassan Raghe",
+                "imgCode": "mora",
+                "roles": "Dashboard",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Trym Christensen",
+                "imgCode": "trch",
+                "roles": "Dashboard",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Sindre Mauland",
+                "imgCode": "sima",
+                "roles": "Dashboard",
+                "linkedUrl": ""    
+            }
+        ]
+    },
+    {
+        "deptID": 5,
+        "deptName": "data",
+        "members": [ 
+            {
+                "name": "Lars Johann Indreeide",
+                "imgCode": "lain",
+                "roles": "Head of IT",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Alexander Kruke Bjugan",
+                "imgCode": "albj",
+                "roles": "Software Developer",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Anna Sund",
+                "imgCode": "filler",
+                "roles": "Web Developer & Designer",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Tord Martin Ytredal",
+                "imgCode": "toyt",
+                "roles": "Logging, Software Developer",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Sebastian Gustavsen",
+                "imgCode": "segu",
+                "roles": "Logging, Software Developer",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Sem Reiestad",
+                "imgCode": "sere",
+                "roles": "Logging, Software Developer",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Truls Hansen Skadberg",
+                "imgCode": "filler",
+                "roles": "Mentor",
+                "linkedUrl": ""    
+            },
+            {
+                "name": "Jan Markus Høie",
+                "imgCode": "jahoe",
+                "roles": "Mentor",
+                "linkedUrl": ""
+            }
+        ]
+    }
+]

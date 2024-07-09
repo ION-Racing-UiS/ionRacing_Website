@@ -1,0 +1,62 @@
+[
+    {
+        "deptID": 1,
+        "deptName": "board",
+        "members": [ 
+            {
+                "name": "",
+                "imgCode": "",
+                "roles": "",
+                "linkedUrl": ""
+            }
+        ]
+    },
+    {
+        "deptID": 2,
+        "deptName": "admin",
+        "members": [ 
+            {
+                "name": "",
+                "imgCode": "",
+                "roles": "",
+                "linkedUrl": ""
+            }
+        ]
+    },
+    {
+        "deptID": 3,
+        "deptName": "mech",
+        "members": [ 
+            {
+                "name": "",
+                "imgCode": "",
+                "roles": "",
+                "linkedUrl": ""
+            }
+        ]
+    },
+    {
+        "deptID": 4,
+        "deptName": "ele",
+        "members": [ 
+            {
+                "name": "",
+                "imgCode": "",
+                "roles": "",
+                "linkedUrl": ""
+            }
+        ]
+    },
+    {
+        "deptID": 5,
+        "deptName": "data",
+        "members": [ 
+            {
+                "name": "",
+                "imgCode": "",
+                "roles": "",
+                "linkedUrl": ""
+            }
+        ]
+    }
+]

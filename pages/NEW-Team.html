@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ION Racing - Join Us</title>
+    <title>TEST - TEAM</title>
 
     <link rel="preload" href="/assets/fonts/bebas-neue-v10-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
 
@@ -12,12 +12,12 @@
     <link rel="icon" href="/assets/Tab/ionTabIcon.ico" sizes="16x16">
     <link rel="icon" href="/assets/Tab/ionTabIcon.ico" sizes="32x32">
     <link rel="apple-touch-icon" href="/assets/Tab/ionTabIcon.ico">
-
+    
     <link rel="stylesheet" href="/css/general.css">
-    <link rel="stylesheet" href="/css/join.css">
+    <link rel="stylesheet" href="/css/team.css">
 
 
-     <script src="/scripts/join.js" defer></script>
+    <script src="/scripts/NEW-Team.js" defer></script>
     <script src="/scripts/functionality.js" defer></script> <!-- *** defer = script loads only once the page has loaded *** -->
 </head>
 <body>
@@ -47,6 +47,7 @@
                     </li>
                     <li>
                         <a href="/pages/team.html">The Team</a>
+                        <hr>
                     </li>
                     <li>
                         <a href="/pages/partners.html">Partners</a>
@@ -56,156 +57,146 @@
                     </li>
                     <li>
                         <a href="/pages/join.html">Join Us</a>
-                        <hr>
                     </li>
                 </ul>
             </nav>  
         </div>          
     </header>
     
-        <main class="content_container white_text" id="join_main">
-        <div id="join_hero" class="fullscreen hero_container">
-            <div id="heroDivider_container">
-                <div class="join_heroContainer" id="join_student">
-                    <h1>Are You Our Next Crewmember</h1>
-                    <div style="display: flex; align-items: center; justify-content: center;">
-                        <a href="#join_studentSection">
-                            <span>Learn More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" viewBox="0 0 256 256"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
-                            </svg>
-                        </a>
+    
+    <main class="content_container white_text" id="teamApp">
+        <div id="team_hero" class="fullscreen hero_container">
+            <h1 class="center_text">The <span class="logo_color" id="displayedYear_hero"></span> Team</h1>
+            <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                <a class="hero_toContent_link" href="#team_content">
+                    <svg width="41" height="15" viewBox="0 0 41 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="path-1-inside-1_505_297" fill="white">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M39.2417 0.012207L20.5 8L1.80167 0.012207L0.5 0.585069L20.5 14.8196L40.5 0.575815L39.2417 0.012207Z"/>
+                        </mask>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M39.2417 0.012207L20.5 8L1.80167 0.012207L0.5 0.585069L20.5 14.8196L40.5 0.575815L39.2417 0.012207Z" fill="white"/>
+                        <path d="M39.2417 0.012207L43.3294 -9.11416L39.3411 -10.9005L35.3209 -9.18711L39.2417 0.012207ZM20.5 8L16.5715 17.196L20.4955 18.8723L24.4208 17.1993L20.5 8ZM1.80167 0.012207L5.73015 -9.18383L1.74246 -10.8873L-2.22648 -9.14061L1.80167 0.012207ZM0.5 0.585069L-3.52815 -8.56775L-19.6417 -1.47618L-5.29858 8.73225L0.5 0.585069ZM20.5 14.8196L14.7014 22.9668L20.5019 27.0952L26.3011 22.965L20.5 14.8196ZM40.5 0.575815L46.3011 8.72121L60.5278 -1.41096L44.5877 -8.55055L40.5 0.575815ZM35.3209 -9.18711L16.5792 -1.19931L24.4208 17.1993L43.1625 9.21152L35.3209 -9.18711ZM24.4285 -1.19603L5.73015 -9.18383L-2.12681 9.20824L16.5715 17.196L24.4285 -1.19603ZM-2.22648 -9.14061L-3.52815 -8.56775L4.52815 9.73789L5.82981 9.16502L-2.22648 -9.14061ZM-5.29858 8.73225L14.7014 22.9668L26.2986 6.67246L6.29858 -7.56211L-5.29858 8.73225ZM26.3011 22.965L46.3011 8.72121L34.6989 -7.56958L14.6989 6.67424L26.3011 22.965ZM44.5877 -8.55055L43.3294 -9.11416L35.154 9.13858L36.4123 9.70218L44.5877 -8.55055Z" fill="white" mask="url(#path-1-inside-1_505_297)"/>
+                    </svg>    
+                </a>
+            </div>
+            <div class="darken_overlay fullscreen"></div>
+        </div>
+
+        <div class="main_container" id="team_content">
+            <div style="display: flex; justify-content: center; ">
+                <div id="team_viewSetting">
+                    <div style="display: flex;" id="viewYear_container">
+                        <span>Meet the </span>
+                        <div class="dropdown">
+                            <button class="Settings_btn">
+                                <span id="displayedYear"></span>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#ffffff" viewBox="0 0 256 256">
+                                        <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </button>
+                            <hr>
+                            <div class="dropdown_options" id="yearSelect_Dd">
+
+                            </div>
+                        </div>
+                        <span>team</span>
                     </div>
-                    <div class="hero_overlayBtm"></div>
+    
+                    <div style="display: flex;" id="viewCategories_container">
+                        <span style="padding-right: 0.5rem;">View:</span>
+                        <div style="display: flex;">                        
+                            <div style="display: flex; flex-direction: row;">
+                                <div class="dropdown">
+                                    <button class="SettingsView_btn">
+                                        <span id="displayedCategory"></span>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#ffffff" viewBox="0 0 256 256">
+                                                <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                    </button>
+                                    <hr>
+                                    <div class="dropdown_options" id="categorySelect_Dd">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
-                <div class="join_heroContainer" id="join_partner">
-                    <h1>Interested in Partnership?</h1>
-                    <div style="display: flex; align-items: center; justify-content: center;">
-                        <a href="#join_partnerSection">
-                            <span>Learn More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" viewBox="0 0 256 256"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="hero_overlayBtm"></div>
+            </div>
+
+            <div class="team_showcase">
+                <div>
+                    <section id="board_section">
+                        <div class="section_divider flex_center" style="display: flex;">
+                            <div class="divider"><hr></div>
+                            <h4 class="team_showcase"> The Board </h4>
+                            <div class="divider"><hr></div>
+                        </div>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <div class="members_container" id="boardMembers">
+
+                            </div>
+                        </div>
+                    </section>
+                    <section id="admin_section">
+                        <div class="section_divider flex_center" style="display: flex;">
+                            <div class="divider"><hr></div>
+                            <h4 class="team_showcase"> Administration </h4>
+                            <div class="divider"><hr></div>
+                        </div>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <div class="members_container" id="adminMembers">
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="mech_section">
+                        <div class="section_divider flex_center" style="display: flex;">
+                            <div class="divider"><hr></div>
+                            <h4 class="team_showcase"> Mechanical </h4>
+                            <div class="divider"><hr></div>
+                        </div>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <div class="members_container" id="mechMembers">
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="ele_section">
+                        <div class="section_divider flex_center" style="display: flex;">
+                            <div class="divider"><hr></div>
+                            <h4 class="team_showcase"> Electronics </h4>
+                            <div class="divider"><hr></div>
+                        </div>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <div class="members_container" id="eleMembers">
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="data_section">
+                        <div class="section_divider flex_center" style="display: flex;">
+                            <div class="divider"><hr></div>
+                            <h4 class="team_showcase"> Data </h4>
+                            <div class="divider"><hr></div>
+                        </div>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <div class="members_container" id="dataMembers">
+
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
-
-        <section id="join_partnerSection" style="padding-bottom: 4rem;">
-            <article class="triangle_cointainer">
-                <div class="overlayTop"></div>
-                <div class="triangle"></div>
-                <div id="becomePartner_section">
-                    <h1>Become a Partner</h1>
-                    <div">
-                        <p style="padding-bottom: 0.5rem; padding-top: 1rem;">
-                            Partners help make ION Racing a reality, they are our greatest supporters!
-                        </p>
-                        <p>
-                            Check out this years <a href="/pages/partners.html" target="_blank" rel="partners" class="white_text">partners!</a>
-                        </p>
-                        <p>
-                            Should you be interested, please feel free to contact us via email or by filling out the application form below. If you have any questions, do not hesitate to reach out!               
-                        </p>
-                        <div class="buttons_container" style="display: flex;">
-                            <div class="gradient_btnContainer">
-                                <button class="gradient_btn"><a href="" target="_blank" style="color: #ffff; text-decoration: none;"">Fill Application</a></button>
-                            </div>
-                            <div class="gradient_btnContainer">
-                                <button class="gradient_btn"><a href="mailto:%70%6F%73%74%40%69%6F%6E%72%61%63%69%6E%67%2E%6E%6F?subject=Interested%20In%20Partnership" style="color: #ffff; text-decoration: none;"">Send Email</a></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <h2 class="center_text logo_color join_h2_article" style="margin-bottom: 2rem;">Why should you become a partner?</h2>
-                <div class="reasons_container" id="reasonsContainer_partners">
-                    <div class="reasons_item">
-                        <div style="display: flex; align-items: center; justify-content: center;">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#ffff" width="120" height="120">
-                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M32 192L256 64l224 128-224 128L32 192z"/>
-                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M112 240v128l144 80 144-80V240M480 368V192M256 320v128"/>
-                            </svg>
-                        </div>
-                        <span class="logo_color">Investment in Future Talent</span>
-                        <p>
-                            By supporting ION, partners give  students the opportunity to gain knowledge, skills, and experiences that can contribute to their future careers. 
-                        </p>
-                    </div>
-                    <div class="reasons_item">
-                        <div style="display: flex; align-items: center; justify-content: center;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="#ffff" viewBox="0 0 256 256">
-                                <path d="M119.76,217.94A8,8,0,0,1,112,224a8.13,8.13,0,0,1-2-.24l-32-8a8,8,0,0,1-2.5-1.11l-24-16a8,8,0,1,1,8.88-13.31l22.84,15.23,30.66,7.67A8,8,0,0,1,119.76,217.94Zm132.69-96.46a15.89,15.89,0,0,1-8,9.25l-23.68,11.84-55.08,55.09a8,8,0,0,1-7.6,2.1l-64-16a8.06,8.06,0,0,1-2.71-1.25L35.86,142.87,11.58,130.73a16,16,0,0,1-7.16-21.46L29.27,59.58h0a16,16,0,0,1,21.46-7.16l22.06,11,53-15.14a8,8,0,0,1,4.4,0l53,15.14,22.06-11a16,16,0,0,1,21.46,7.16l24.85,49.69A15.9,15.9,0,0,1,252.45,121.48Zm-46.18,12.94L179.06,80H147.24L104,122c12.66,8.09,32.51,10.32,50.32-7.63a8,8,0,0,1,10.68-.61l34.41,27.57Zm-187.54-18,17.69,8.85L61.27,75.58,43.58,66.73ZM188,152.66l-27.71-22.19c-19.54,16-44.35,18.11-64.91,5a16,16,0,0,1-2.72-24.82.6.6,0,0,1,.08-.08L137.6,67.06,128,64.32,77.58,78.73,50.21,133.46l49.2,35.15,58.14,14.53Zm49.24-36.24L212.42,66.73l-17.69,8.85,24.85,49.69Z">
-                                </path>
-                            </svg>
-                        </div>
-                        <span class="logo_color">Networking and Relationship Building</span>
-                        <p>
-                            We arrange events throughout the year, creating a platform to network and build relationships with students, faculty members, and other partners. 
-                            These connections can lead to future collaborations, partnerships, or potential hires.
-                        </p>
-                    </div>
-                    <div class="reasons_item">
-                        <div style="display: flex; align-items: center; justify-content: center;">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" fill="#ffff" width="120" height="120">
-                                <path d="M256 464c-114.69 0-208-93.31-208-208S141.31 48 256 48s208 93.31 208 208-93.31 208-208 208zm0-384c-97 0-176 79-176 176s79 176 176 176 176-78.95 176-176S353.05 80 256 80z"/><path d="M323.67 292c-17.4 0-34.21-7.72-47.34-21.73a83.76 83.76 0 01-22-51.32c-1.47-20.7 4.88-39.75 17.88-53.62S303.38 144 323.67 144c20.14 0 38.37 7.62 51.33 21.46s19.47 33 18 53.51a84 84 0 01-22 51.3C357.86 284.28 341.06 292 323.67 292zm55.81-74zM163.82 295.36c-29.76 0-55.93-27.51-58.33-61.33-1.23-17.32 4.15-33.33 15.17-45.08s26.22-18 43.15-18 32.12 6.44 43.07 18.14 16.5 27.82 15.25 45c-2.44 33.77-28.6 61.27-58.31 61.27zM420.37 355.28c-1.59-4.7-5.46-9.71-13.22-14.46-23.46-14.33-52.32-21.91-83.48-21.91-30.57 0-60.23 7.9-83.53 22.25-26.25 16.17-43.89 39.75-51 68.18-1.68 6.69-4.13 19.14-1.51 26.11a192.18 192.18 0 00232.75-80.17zM163.63 401.37c7.07-28.21 22.12-51.73 45.47-70.75a8 8 0 00-2.59-13.77c-12-3.83-25.7-5.88-42.69-5.88-23.82 0-49.11 6.45-68.14 18.17-5.4 3.33-10.7 4.61-14.78 5.75a192.84 192.84 0 0077.78 86.64l1.79-.14a102.82 102.82 0 013.16-20.02z"/>
-                            </svg>
-                        </div>
-                        <span class="logo_color">Meet potential future employees</span>
-                        <p>
-                            Partners can leverage their involvement to identify potential candidates for internships, entry-level positions and future hires.
-                        </p>
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section id="join_studentSection">
-            <div style="display: flex; justify-content: center; align-items: center;">
-                <section id="positions_section">
-                    <h2 class="logo_color">Positions</h2>
-                    <p style="margin-bottom: 2rem; margin-top: 0.5rem;">
-                        Check out the current positions at Ion Racing and their availability below. <br> 
-                        Can't find what you're looking for, or maybe you have a vision for a fresh role? <br> 
-                        We're all ears – <a href="mailto:%70%6F%73%74%40%69%6F%6E%72%61%63%69%6E%67%2E%6E%6F?subject=Question(s)%20Regarding%20Positions" style="color: #ffff;">share your ideas and aspirations with us</a>!
-                    </p>
-
-                        <div style="position: relative; height: 3rem; bottom: 0;">
-                                <a class="categoryContainer" id="category_0" onclick="setDepartment(0)">
-                                    Mechanical
-                                </a>
-                                <a class="categoryContainer" id="category_1" onclick="setDepartment(1)">
-                                    Electronics
-                                </a>
-                                <a class="categoryContainer" id="category_2" onclick="setDepartment(2)">
-                                    Admin
-                                </a>
-                                <a class="categoryContainer" id="category_3" onclick="setDepartment(3)">
-                                    Data
-                                </a>
-   
-                        </div>
-                        <div class="departments_container">
-                            <div id="dept_0" style="display: block;">
-
-                            </div>
-                            <div id="dept_1" style="display: none;">
-
-                            </div>
-
-                            <div id="dept_2" style="display: none;">
-
-                            </div>
-
-                            <div id="dept_3" style="display: none;">
-
-                            </div>
-                        </div>
-                        
-                </section>                  
-            </div>
-        </section>
     </main>
 
     <footer class="footer white_text" id="footer"> 
@@ -355,3 +346,4 @@
     </footer>
 </body>
 </html>
+
