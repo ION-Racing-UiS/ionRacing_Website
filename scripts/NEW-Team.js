@@ -51,7 +51,7 @@ function setYearContent(selectedYear, yearsArray){
 };
 function createYearOptions(){
     // NB: remember to add new year at the START OF ARRAY!
-    let years = [2024, 2023, 2016];
+    let years = [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016];
 
     const yearSelectDiv = document.getElementById('yearSelect_Dd');
     const year_ul = document.createElement('ul');
