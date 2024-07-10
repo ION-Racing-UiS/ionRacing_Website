@@ -115,6 +115,13 @@ input#viewAll_opt{
 .section_divider{
     padding-bottom: 1rem;
     width: 100%;
+    display: flex;
+}
+
+.section_content{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
 
 .members_container{
