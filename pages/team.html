@@ -17,8 +17,7 @@
     <link rel="stylesheet" href="/css/team.css">
 
 
-    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
-    <script src="/scripts/team.js" defer></script>
+    <script src="/scripts/team.js"></script>
     <script src="/scripts/functionality.js" defer></script> <!-- *** defer = script loads only once the page has loaded *** -->
 </head>
 <body>
@@ -66,8 +65,8 @@
     
     
     <main class="content_container white_text" id="teamApp">
-        <div id="team_hero" class="fullscreen hero_container" :style="{ backgroundImage: `url(${teamPhotoUrl})`}">
-            <h1 class="center_text">The <span class="logo_color" v-cloak> {{ setYear() }} </span> Team</h1>
+        <div id="team_hero" class="fullscreen hero_container">
+            <h1 class="center_text">The <span class="logo_color" id="displayedYear_hero"></span> Team</h1>
             <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
                 <a class="hero_toContent_link" href="#team_content">
                     <svg width="41" height="15" viewBox="0 0 41 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,9 +86,9 @@
                 <div id="team_viewSetting">
                     <div style="display: flex;" id="viewYear_container">
                         <span>Meet the </span>
-                        <div class="dropdown" v-cloak>
-                            <button class="Settings_btn" @click="toggle('year')">
-                                <span class="logo_color">{{ setYear() }}</span>
+                        <div class="dropdown">
+                            <button class="Settings_btn">
+                                <span id="displayedYear"></span>
                                 <div>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#ffffff" viewBox="0 0 256 256">
                                         <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
@@ -98,24 +97,20 @@
                                 </div>
                             </button>
                             <hr>
-                            <div class="dropdown_options" v-if="yearDropDownActive">
-                                <ul>
-                                    <li v-for="option in optReversed" :key="option.i" @click="registerYear(option.i)" :class="{ 'logo_color': isSelectedYear(option.i) }">
-                                        {{ option.year }}
-                                    </li>
-                                </ul>
+                            <div class="dropdown_options" id="yearSelect_Dd">
+
                             </div>
                         </div>
                         <span>team</span>
                     </div>
     
                     <div style="display: flex;" id="viewCategories_container">
-                        <span style="padding-right: 1.5rem;">View:</span>
+                        <span style="padding-right: 0.5rem;">View:</span>
                         <div style="display: flex;">                        
                             <div style="display: flex; flex-direction: row;">
-                                <div class="dropdown" v-cloak>
-                                    <button class="SettingsView_btn" @click="toggle('category')">
-                                        <span class="logo_color">{{ setCategory() }}</span>
+                                <div class="dropdown">
+                                    <button class="SettingsView_btn">
+                                        <span id="displayedCategory"></span>
                                         <div>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#ffffff" viewBox="0 0 256 256">
                                                 <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
@@ -124,12 +119,8 @@
                                         </div>
                                     </button>
                                     <hr>
-                                    <div class="dropdown_options" v-if="categoryDropDownActive">
-                                        <ul>
-                                            <li v-for="category in teamCategory" :key="category.categoryId" @click="setView(category.categoryId)" :class="{ 'logo_color': isSelectedCategory(category.categoryId) }">
-                                                {{ category.categoryTitle }}
-                                            </li>
-                                        </ul>
+                                    <div class="dropdown_options" id="categorySelect_Dd">
+                                    
                                     </div>
                                 </div>
                             </div>
@@ -139,119 +130,14 @@
                 </div>
             </div>
 
-            <div class="team_showcase" v-for="year in optReversed" :key="year.i">
-                <div v-if="checkYear(year.i)">
-                    <section class="board_section" v-if="teamCategory[1].isSelected">
-                        <div class="section_divider flex_center" style="display: flex;">
-                            <div class="divider"><hr></div>
-                            <h4 class="team_showcase"> The Board </h4>
-                            <div class="divider"><hr></div>
-                        </div>
-                        <div style="display: flex; justify-content: center; align-items: center;">
-                            <div class="members_container">
-                                <div class="membercard" v-for="member in year.boardMembers" :key="member.memberId" @click="setHover()">
-                                    <div class="membercard_content">
-                                        <img :src="'/img/teams/members/' + getYear() + '/board/' + member.imgCode + '.jpg'" alt="Team member image"> 
-                                        <div class="member_info">
-                                            <p class="name_p">{{ member.memberName }}</p>
-                                            <p>{{ member.roles }}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="board_section" v-if="teamCategory[2].isSelected">
-                        <div class="section_divider flex_center" style="display: flex;">
-                            <div class="divider"><hr></div>
-                            <h4 class="team_showcase"> Administration </h4>
-                            <div class="divider"><hr></div>
-                        </div>
-                        <div style="display: flex; justify-content: center; align-items: center;">
-                            <div class="members_container">
-                                <div class="membercard" v-for="member in year.adminMembers" :key="member.memberId">
-                                    <div class="membercard_content">
-                                        <img :src="'/img/teams/members/' + getYear() + '/admin/' + member.imgCode + '.jpg'" alt="Team member image"> 
-                                        <div class="member_info">
-                                            <p class="name_p">{{ member.memberName }}</p>
-                                            <p>{{ member.roles }}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="board_section" v-if="teamCategory[3].isSelected">
-                        <div class="section_divider flex_center" style="display: flex;">
-                            <div class="divider"><hr></div>
-                            <h4 class="team_showcase"> Mechanical </h4>
-                            <div class="divider"><hr></div>
-                        </div>
-                        <div style="display: flex; justify-content: center; align-items: center;">
-                            <div class="members_container">
-                                <div class="membercard" v-for="member in year.mechMembers" :key="member.memberId">
-                                    <div class="membercard_content">
-                                        <img :src="'/img/teams/members/' + getYear() + '/mech/' + member.imgCode + '.jpg'" alt="Team member image"> 
-                                        <div class="member_info">
-                                            <p class="name_p">{{ member.memberName }}</p>
-                                            <p>{{ member.roles }}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="board_section" v-if="teamCategory[4].isSelected">
-                        <div class="section_divider flex_center" style="display: flex;">
-                            <div class="divider"><hr></div>
-                            <h4 class="team_showcase"> Electronics </h4>
-                            <div class="divider"><hr></div>
-                        </div>
-                        <div style="display: flex; justify-content: center; align-items: center;">
-                            <div class="members_container">
-                                <div class="membercard" v-for="member in year.eleMembers" :key="member.memberId">
-                                    <div class="membercard_content">
-                                        <img :src="'/img/teams/members/' + getYear() + '/ele/' + member.imgCode + '.jpg'" alt="Team member image"> 
-                                        <div class="member_info">
-                                            <p class="name_p">{{ member.memberName }}</p>
-                                            <p>{{ member.roles }}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- *** IT  *** -->
-                    <section class="board_section" v-if="teamCategory[5].isSelected">
-                        <div class="section_divider flex_center" style="display: flex;">
-                            <div class="divider"><hr></div>
-                            <h4 class="team_showcase"> IT </h4>
-                            <div class="divider"><hr></div>
-                        </div>
-                        <div style="display: flex; justify-content: center; align-items: center;">
-                            <div class="members_container">
-                                <div class="membercard" v-for="member in year.itMembers" :key="member.memberId">
-                                    <div class="membercard_content">
-                                        <img :src="'/img/teams/members/' + getYear() + '/it/' + member.imgCode + '.jpg'" alt="Team member image"> 
-                                        <div class="member_info">
-                                            <p class="name_p">{{ member.memberName }}</p>
-                                            <p>{{ member.roles }}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+            <div class="team_showcase">
+                <div id="team_showcase">
                 </div>
             </div>
         </div>
     </main>
 
-    <footer class="footer white_text" id="footer"> 
+    <footer class="footer white_text" id="team_footer"> 
         <div class="footer_content_container">
             <div class="footer_items_container" id="browseSec">
                 <h3>Browse</h3>
@@ -398,3 +284,4 @@
     </footer>
 </body>
 </html>
+
