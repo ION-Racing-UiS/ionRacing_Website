@@ -4,9 +4,27 @@
         "deptName": "board",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Trygve Pollen",
+                "imgCode": "trpo",
+                "roles": "Team Leader",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Fredrik Rege",
+                "imgCode": "filler",
+                "roles": "Group Leader Administration",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Erlend Røstbø",
+                "imgCode": "erroe",
+                "roles": "Group Leader Mechanical",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Per Gundersen Lund",
+                "imgCode": "pelu",
+                "roles": "Group Leader Electronics",
                 "linkedUrl": ""
             }
         ]
@@ -16,9 +34,27 @@
         "deptName": "admin",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Fredrik Rege",
+                "imgCode": "filler",
+                "roles": "Group Leader Administration",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Nasra Abdille",
+                "imgCode": "naab",
+                "roles": "Economics",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Hisham Mohamed Abid",
+                "imgCode": "filler",
+                "roles": "Cost",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Alf Martin Hammerstad",
+                "imgCode": "alha",
+                "roles": "Media",
                 "linkedUrl": ""
             }
         ]
@@ -28,9 +64,63 @@
         "deptName": "mech",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Erlend Røstbø",
+                "imgCode": "erroe",
+                "roles": "Group Leader Mechanical",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Anders Gard",
+                "imgCode": "anga",
+                "roles": "Chassis & SES",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Martin Mildt",
+                "imgCode": "mami",
+                "roles": "Chassis",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Martin Larsen",
+                "imgCode": "mala",
+                "roles": "Steering System",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Olai Hagland",
+                "imgCode": "filler",
+                "roles": "Cooling System",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Sondre Mikkelsen",
+                "imgCode": "somi",
+                "roles": "Suspension",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Lars Andreas Flesjå Genthner",
+                "imgCode": "lage",
+                "roles": "Suspension",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Sigurd Grøvdal Hansen",
+                "imgCode": "siha",
+                "roles": "Fiber Layup",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Åse Marie Pettersen",
+                "imgCode": "aaspe",
+                "roles": "Ergonomics",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Vegard Bror Trodal",
+                "imgCode": "filler",
+                "roles": "Mentor",
                 "linkedUrl": ""
             }
         ]
@@ -40,9 +130,21 @@
         "deptName": "ele",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Per Gundersen Lund",
+                "imgCode": "pelu",
+                "roles": "Group Leader Electronics",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Andreas Byskov",
+                "imgCode": "anby",
+                "roles": "System Architect",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Jesper Flatheim",
+                "imgCode": "jefl",
+                "roles": "Wiring Harness",
                 "linkedUrl": ""
             }
         ]
@@ -52,9 +154,27 @@
         "deptName": "data",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Jan Markus Høie",
+                "imgCode": "jahoe",
+                "roles": "Group Leader IT",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Andreas Lindemark",
+                "imgCode": "filler",
+                "roles": "Software Developer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Yohannes Dawit Kassaye",
+                "imgCode": "filler",
+                "roles": "Software Developer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Truls Hansen Skadberg",
+                "imgCode": "filler",
+                "roles": "Mentor",
                 "linkedUrl": ""
             }
         ]

@@ -4,9 +4,45 @@
         "deptName": "board",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Olaf Nornes Kvamsøy",
+                "imgCode": "olkv",
+                "roles": "Team Leader",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Helge Vassbakk",
+                "imgCode": "heva",
+                "roles": "Cheif Electrical Engineer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Joakim Sandanger Pettersen",
+                "imgCode": "jope",
+                "roles": "Cheif Mechanical Engineer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Truls Mentzoni Skoglund",
+                "imgCode": "trsk",
+                "roles": "Supply Chain Manager",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Magnus Ljostveit",
+                "imgCode": "malj",
+                "roles": "Head of Finance",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Magne Årdal",
+                "imgCode": "maaar",
+                "roles": "Head of Marketing",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Olav Risa",
+                "imgCode": "olri",
+                "roles": "HMS",
                 "linkedUrl": ""
             }
         ]
@@ -16,9 +52,39 @@
         "deptName": "admin",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Magne Årdal",
+                "imgCode": "maaar",
+                "roles": "Head of Marketing",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Jan Alexander Bjerke",
+                "imgCode": "jabj",
+                "roles": "Media Manager",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Nora Fotland",
+                "imgCode": "nofo",
+                "roles": "Sponsor Relations",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Bente Egeland",
+                "imgCode": "beeg",
+                "roles": "Sponsor Relations",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Hanna Risinggård",
+                "imgCode": "hari",
+                "roles": "Event Manager",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Trym Ullestad",
+                "imgCode": "trul",
+                "roles": "Blog and Magazine",
                 "linkedUrl": ""
             }
         ]
@@ -28,9 +94,105 @@
         "deptName": "mech",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Philip Lundberg Jamissen",
+                "imgCode": "phja",
+                "roles": "Group Leader - Monocoque",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Joakim Sandanger Pettersen",
+                "imgCode": "jope",
+                "roles": "Monocoque design/SES",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Kaja Sofie Lamvik",
+                "imgCode": "kala",
+                "roles": "Inserts (Monocoque)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Karoline Kverneland",
+                "imgCode": "kakv",
+                "roles": "Ergonomics (Monocoque)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Marius Aasen",
+                "imgCode": "maaa",
+                "roles": "Main and front hoop (Monocoque)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Trygve Pollen",
+                "imgCode": "trpo",
+                "roles": "Assembly (Monocoque)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Olaf Nornes Kvamsøy",
+                "imgCode": "olkv",
+                "roles": "Monocoque production/SES",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Truls Mentzoni Skoglund",
+                "imgCode": "trsk",
+                "roles": "Group Leader - Suspension",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Kristoffer Nielsen",
+                "imgCode": "krni",
+                "roles": "Drivetrain (Suspension)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Maren Lodden",
+                "imgCode": "malo",
+                "roles": "Dampers & ARB (Suspension)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Mia Katrin Risan",
+                "imgCode": "miri",
+                "roles": "Brakes & Pedalbox (Suspension)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Audun Brønseth",
+                "imgCode": "aubr",
+                "roles": "Suspension",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Thea Emilie Finn",
+                "imgCode": "filler",
+                "roles": "Rims (Suspension)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Erik Benjamin Bruns",
+                "imgCode": "erbr",
+                "roles": "Wheel Hub (Suspension)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Tor Inge Berge",
+                "imgCode": "tobe",
+                "roles": "Coach (Suspension)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Marius Hansen",
+                "imgCode": "maha",
+                "roles": "Group Leader - Aerodynamic",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Eivind Vinnes",
+                "imgCode": "eivi",
+                "roles": "Sidepod Design, (Aerodynamic)",
                 "linkedUrl": ""
             }
         ]
@@ -40,9 +202,69 @@
         "deptName": "ele",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Olav Risa",
+                "imgCode": "olri",
+                "roles": "Group Leader - Battery",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Helge Vassbakk",
+                "imgCode": "heva",
+                "roles": "BMS, (Battery)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Benjamin Kristoffer Risa Vik",
+                "imgCode": "filler",
+                "roles": "Accumulator Design (Battery)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Anders Helle",
+                "imgCode": "anhe",
+                "roles": "Big Boss, High Voltage",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Sebastian Stokholm Ravndal",
+                "imgCode": "sera",
+                "roles": "High Voltage system",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Aleksander Ferkingstad",
+                "imgCode": "filler",
+                "roles": "Motorcontroller (High Voltage)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Svein Grøttå Ree",
+                "imgCode": "svre",
+                "roles": "Group Leader - Electronics",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Tellef Goderstad Sunne",
+                "imgCode": "tesu",
+                "roles": "ECU/Wire harness/ Misc. electronics",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Stian Sagen",
+                "imgCode": "stsa",
+                "roles": "TSAL/Shutdown Circuit (Electronics)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Fredrik Wigsnes Jensen",
+                "imgCode": "frje",
+                "roles": "μC-programming/ sensor analytics (Electronics)",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Aleksander Ferkingstad",
+                "imgCode": "filler",
+                "roles": "Coach (Electronics)",
                 "linkedUrl": ""
             }
         ]
@@ -52,11 +274,40 @@
         "deptName": "data",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Nicolas Fløysvik",
+                "imgCode": "nifl",
+                "roles": "Group Leader - Software",
                 "linkedUrl": ""
-            }
+            },
+            {
+                "name": "Hanna Risinggård",
+                "imgCode": "hari",
+                "roles": "Backend Developer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Trude Marie Sele",
+                "imgCode": "trse",
+                "roles": "Backend Developer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Alexander Lyon",
+                "imgCode": "ally",
+                "roles": "Frontend Developer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Stian Trondsen",
+                "imgCode": "sttr",
+                "roles": "Analytics software",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Fredrik Wigsnes Jensen",
+                "imgCode": "frje",
+                "roles": "μC-programming/ sensor analytics",
+                "linkedUrl": ""}
         ]
     }
 ]

@@ -745,7 +745,7 @@ footer .extras_conteiner p{
         margin: 0 0 4rem 0;
         padding: 0 0 0 3rem;
     }
-    #footer{
+    #footer, #team_footer{
         display: flex;
         align-items: center;
         flex-direction: column;

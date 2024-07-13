@@ -4,9 +4,39 @@
         "deptName": "board",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Erik Benjamin Bruns",
+                "imgCode": "erbr",
+                "roles": "Team Leader",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Sindre Varland",
+                "imgCode": "siva",
+                "roles": "COO",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Melissa Thomassen",
+                "imgCode": "meth",
+                "roles": "Head of Marketing",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Maria Mentel",
+                "imgCode": "mame",
+                "roles": "Head of Finance",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Alexander Thorkildsen",
+                "imgCode": "alth",
+                "roles": "Chief Mechanical Engineer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Raymond Tjørhom",
+                "imgCode": "ratj",
+                "roles": "Chief Electrical Engineer",
                 "linkedUrl": ""
             }
         ]
@@ -16,9 +46,57 @@
         "deptName": "admin",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Melissa Thomassen",
+                "imgCode": "meth",
+                "roles": "Head of Marketing",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Maren Joanna Julien",
+                "imgCode": "maju",
+                "roles": "Event Manager",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Truls Aslaksen",
+                "imgCode": "tras",
+                "roles": "Event",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Johan Bjørgvik",
+                "imgCode": "jobj",
+                "roles": "Event",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Olav Bjånes",
+                "imgCode": "olbj",
+                "roles": "Photo/Film",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Joachim Seyffarth",
+                "imgCode": "jose",
+                "roles": "Photo/Film",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Marita Førde",
+                "imgCode": "mafoe",
+                "roles": "Sponsor Relations",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Tord Jardar Håkonsen",
+                "imgCode": "tohaa",
+                "roles": "Business",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Abdur Rehman",
+                "imgCode": "filler",
+                "roles": "External Events",
                 "linkedUrl": ""
             }
         ]
@@ -28,9 +106,87 @@
         "deptName": "mech",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Aleksander Sund",
+                "imgCode": "alsu",
+                "roles": "Group Leader - Chassis",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Marius Aasen",
+                "imgCode": "maaa",
+                "roles": "Firewall, Seat & Harness",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Trym Pedersen",
+                "imgCode": "trpe",
+                "roles": "Bodywork",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Sigurd Grøvdal Hansen",
+                "imgCode": "siha",
+                "roles": "Bodywork",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Andrè Gjerde",
+                "imgCode": "angj",
+                "roles": "AIP & Crashbox",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Philip Jamissen",
+                "imgCode": "filler",
+                "roles": "Hoops & Cost",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Trygve Pollen",
+                "imgCode": "trpo",
+                "roles": "Group Leader - Suspension",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Arman Zarghooni",
+                "imgCode": "filler",
+                "roles": "Dampers & ARB",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Anders Vatland",
+                "imgCode": "anva",
+                "roles": "Pedal Box",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Erik Hagen",
+                "imgCode": "erha",
+                "roles": "Brake System",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Aksel Søraunet",
+                "imgCode": "aksoe",
+                "roles": "Steering-system/wheel/Suspension Geometry",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Vegard Johnsen",
+                "imgCode": "filler",
+                "roles": "Suspension Geometry",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Joan Catafal Predagosa",
+                "imgCode": "jopr",
+                "roles": "Topology Optimization",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Jocelyn Bojda",
+                "imgCode": "jobo",
+                "roles": "Planetary Gear",
                 "linkedUrl": ""
             }
         ]
@@ -40,9 +196,93 @@
         "deptName": "ele",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Stian Sagen",
+                "imgCode": "stsa",
+                "roles": "Group Leader - Powertrain",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Eivind Vinnes",
+                "imgCode": "eivi",
+                "roles": "Cooling & Sidepods",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Vegard Bror Trodal",
+                "imgCode": "vetr",
+                "roles": "Accumulator Container",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Hammad Ali",
+                "imgCode": "haal",
+                "roles": "Motor Controller",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Petter Minne",
+                "imgCode": "pemi",
+                "roles": "DC/DC",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Ruben Hesseberg",
+                "imgCode": "ruhe",
+                "roles": "DC/DC",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Jonas Tretteteig",
+                "imgCode": "jotr",
+                "roles": "Accumulator",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Per Gundersen Lund",
+                "imgCode": "pelu",
+                "roles": "Accumulator & Chargingcart",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Eirik Berge Knudsen",
+                "imgCode": "eikn",
+                "roles": "Group Leader - Electonics",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Håvard Lapin",
+                "imgCode": "filler",
+                "roles": "Shutdown",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Joakim Alsaker-Haugen",
+                "imgCode": "joha",
+                "roles": "ECU/Software",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Vebjørn Nåtun Krøyer",
+                "imgCode": "vekr",
+                "roles": "ECU/Sensors",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Andreas Byskov",
+                "imgCode": "anby",
+                "roles": "ECU/Sensors",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Christian Bauer-Nilsen",
+                "imgCode": "chni",
+                "roles": "Dashboard",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Sebastian Ravndal",
+                "imgCode": "sera",
+                "roles": "Mentor - Logistics",
                 "linkedUrl": ""
             }
         ]
@@ -52,9 +292,15 @@
         "deptName": "data",
         "members": [ 
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Truls Skadberg",
+                "imgCode": "trsk",
+                "roles": "Group Leader - IT",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Ali Karooni",
+                "imgCode": "alka",
+                "roles": "Website",
                 "linkedUrl": ""
             }
         ]
