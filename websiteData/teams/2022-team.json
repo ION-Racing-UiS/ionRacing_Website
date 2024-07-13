@@ -2,11 +2,35 @@
     {
         "deptID": 1,
         "deptName": "board",
-        "members": [ 
+        "members": [
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Vegard Bror Trodal",
+                "imgCode": "vetr",
+                "roles": "Project Leader",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Andreas Byskov",
+                "imgCode": "anby",
+                "roles": "Chief Electrical Engineer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Anders Gard",
+                "imgCode": "anga",
+                "roles": "Chief Mechanical Engineer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Julia Tisko",
+                "imgCode": "juti",
+                "roles": "Administration & CFO",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Jan Markus Høie",
+                "imgCode": "jahoe",
+                "roles": "Head of IT",
                 "linkedUrl": ""
             }
         ]
@@ -14,11 +38,35 @@
     {
         "deptID": 2,
         "deptName": "admin",
-        "members": [ 
+        "members": [
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Julia Tisko",
+                "imgCode": "juti",
+                "roles": "Administration/CFO",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Mariam Anna Urbonaite",
+                "imgCode": "maur",
+                "roles": "Sponsors",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Johannes Møllerup",
+                "imgCode": "jomoe",
+                "roles": "Sponsors",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Lasse Bang-Olsen",
+                "imgCode": "laol",
+                "roles": "Events",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Stian Nygård",
+                "imgCode": "stny",
+                "roles": "Media",
                 "linkedUrl": ""
             }
         ]
@@ -26,11 +74,77 @@
     {
         "deptID": 3,
         "deptName": "mech",
-        "members": [ 
+        "members": [
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Anders Gard",
+                "imgCode": "anga",
+                "roles": "Chief Mechanical Engineer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Einar Kjeka",
+                "imgCode": "eikj",
+                "roles": "Ergonomics",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Eric Michael Hofgaard",
+                "imgCode": "erho",
+                "roles": "Ergonomics",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Even Holen",
+                "imgCode": "evho",
+                "roles": "Accumulator Container",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Hermann Berg Nilssen",
+                "imgCode": "heni",
+                "roles": "Chassis & SES",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Tomas Martin Alvestad",
+                "imgCode": "toal",
+                "roles": "Chassis & SES",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Ole Mørkved",
+                "imgCode": "olmoe",
+                "roles": "Suspension",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Ruben Østli",
+                "imgCode": "ruoes",
+                "roles": "Suspension",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Jack RB Hill",
+                "imgCode": "jahi",
+                "roles": "Cooling",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Ruben Nordstokke",
+                "imgCode": "runo",
+                "roles": "Bodywork",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Mubarik Omar Ali Abdi",
+                "imgCode": "muab",
+                "roles": "Cooling",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Erlend Røstbø",
+                "imgCode": "filler",
+                "roles": "Mentor & CFD God",
                 "linkedUrl": ""
             }
         ]
@@ -38,11 +152,71 @@
     {
         "deptID": 4,
         "deptName": "ele",
-        "members": [ 
+        "members": [
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Andreas Byskov",
+                "imgCode": "anby",
+                "roles": "Chief Electrical Engineer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Gerd-Elise Hjelset",
+                "imgCode": "gehj",
+                "roles": "Accumulator",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Daniel Maudal",
+                "imgCode": "dama",
+                "roles": "Low Voltage",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Sondre Rosvoll Solheim",
+                "imgCode": "soso",
+                "roles": "Low Voltage",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Herman Sparøy",
+                "imgCode": "hesp",
+                "roles": "Dashboard",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Philip Shahdadfar",
+                "imgCode": "phsh",
+                "roles": "Dashboard",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Lars Johann Indreeide",
+                "imgCode": "lain",
+                "roles": "Dashboard & Logging",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Robin Holden",
+                "imgCode": "roho",
+                "roles": "ECU",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Runar Wallenius Skaget",
+                "imgCode": "rusk",
+                "roles": "ECU",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Sander Hovet",
+                "imgCode": "saho",
+                "roles": "ECU",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Per Gundersen Lund",
+                "imgCode": "filler",
+                "roles": "Mentor",
                 "linkedUrl": ""
             }
         ]
@@ -50,11 +224,41 @@
     {
         "deptID": 5,
         "deptName": "data",
-        "members": [ 
+        "members": [
             {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
+                "name": "Jan Markus Høie",
+                "imgCode": "jahoe",
+                "roles": "IT Wizard",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Alexander Kruke Bjugan",
+                "imgCode": "albj",
+                "roles": "Software Developer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Kristian Vezina",
+                "imgCode": "krve",
+                "roles": "Software Developer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Ole Kristian Valhammer",
+                "imgCode": "filler",
+                "roles": "Software Developer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Martin Lauritsen",
+                "imgCode": "filler",
+                "roles": "Software Developer",
+                "linkedUrl": ""
+            },
+            {
+                "name": "Truls Hansen Skadberg",
+                "imgCode": "filler",
+                "roles": "Mentor",
                 "linkedUrl": ""
             }
         ]
