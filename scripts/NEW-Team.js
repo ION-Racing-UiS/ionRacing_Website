@@ -7,8 +7,6 @@ const dd_selected = {
 window.onload = function(){
     createYearOptions();
 };
-
-
 function setDdColor(liElement, relevantArray){
     for (let i = 0; i < relevantArray.length; i++) {
         let a = document.getElementById(`ddOpt_${relevantArray[i]}`);
@@ -39,9 +37,9 @@ function setYearContent(selectedYear, yearsArray){
         createCategoryOptions(selectedYear);
     }
     else if (dd_selected.selectedYear !== selectedYear){
-        dd_selected.selectedYear = selectedYear;
         clear_Html_Content(categorySelect_ul);
         createCategoryOptions(selectedYear);
+        dd_selected.selectedYear = selectedYear;
     }
     else {
         return
@@ -66,7 +64,11 @@ function createYearOptions(){
         year_li.onclick = () => setYearContent(years[i], years);
     };
     yearSelectDiv.appendChild(df);
-    setYearContent(years[0], years); // Default
+    if (dd_selected.selectedYear === '') {
+        setYearContent(years[0], years); // Default
+    } else {
+        setYearContent(years[dd_selected.selectedYear], years);
+    };
 };
 
 
@@ -105,7 +107,7 @@ function setCategoryContent(selectedCategory, categories, yearSelected){
         dd_selected.selectedCategory = categoryID;
         getMembersData(yearSelected, 0, categoryID);
     } 
-    else if (dd_selected.selectedCategory !== categoryID || dd_selected.selectedYear === yearSelected){
+    else if ((dd_selected.selectedCategory !== categoryID && dd_selected.selectedYear === yearSelected) || (dd_selected.selectedCategory === categoryID && dd_selected.selectedYear !== yearSelected)){
         getMembersData(yearSelected, 1, dd_selected.selectedCategory);
         getMembersData(yearSelected, 0, categoryID);
         dd_selected.selectedCategory = categoryID;
@@ -226,11 +228,11 @@ function renderDept(deptID, deptName, members, year, df){
     });
     return df;
 };
-
 // Getting JSON-data and displaying it
 function getMembersData(year, yearStatus, categoryID){
     let team_showcaseDiv = document.getElementById('team_showcase');
     let i = categoryID - 1;
+    let team_footer = document.getElementById('team_footer');
 
     switch (yearStatus) {
         case 0: // FALSE --> DOM content doesn't exist, Create & Render DOM content
@@ -252,13 +254,15 @@ function getMembersData(year, yearStatus, categoryID){
                     df = renderDept(deptID, deptName, members, year, df);
                 };
                 team_showcaseDiv.appendChild(df);
+                team_footer.style.marginTop = '3rem';
             });
             break; 
         case 1: // TRUE --> DOM content exists, delete it
+            team_footer.style.marginTop = '400rem';
             let membersSections = document.querySelectorAll('.teamMembersSection');
             membersSections.forEach(function(section) {
                 clear_Html_Content(section);
-              });
+            });
             break;
     };
 };

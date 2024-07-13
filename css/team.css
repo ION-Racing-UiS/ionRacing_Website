@@ -141,7 +141,6 @@ input#viewAll_opt{
     width: 120px;
 }
 
-
 /* For devices that can hover */
 @media (hover: hover){
     .membercard::before,.membercard::after{
