@@ -2,13 +2,7 @@
     {
         "deptID": 1,
         "deptName": "board",
-        "members": [ 
-            {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
-                "linkedUrl": ""
-            },
+        "members": [
             {
                 "name": "Erik Benjamin Bruns",
                 "imgCode": "erbr",
@@ -50,13 +44,7 @@
     {
         "deptID": 2,
         "deptName": "admin",
-        "members": [ 
-            {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
-                "linkedUrl": ""
-            },
+        "members": [
             {
                 "name": "Kaylee Van Der Linden",
                 "imgCode": "kali",
@@ -74,13 +62,7 @@
     {
         "deptID": 3,
         "deptName": "mech",
-        "members": [ 
-            {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
-                "linkedUrl": ""
-            },
+        "members": [
             {
                 "name": "Philip Jamissen",
                 "imgCode": "phja",
@@ -193,13 +175,7 @@
     {
         "deptID": 4,
         "deptName": "ele",
-        "members": [ 
-            {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
-                "linkedUrl": ""
-            },
+        "members": [
             {
                 "name": "Anders Helle",
                 "imgCode": "anhe",
@@ -337,13 +313,7 @@
     {
         "deptID": 5,
         "deptName": "data",
-        "members": [ 
-            {
-                "name": "",
-                "imgCode": "",
-                "roles": "",
-                "linkedUrl": ""
-            },
+        "members": [
             {
                 "name": "Nicolas Fløysvik",
                 "imgCode": "nifl",
