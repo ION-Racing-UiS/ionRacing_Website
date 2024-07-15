@@ -87,13 +87,6 @@ button.SettingsView_btn span{
     border-radius: 3px;
 
     cursor: pointer;
-}
-.dropdown_options{
-    background-color: #13141E;
-    padding-bottom: 0.5rem;
-    border-radius: 3px;
-
-    cursor: pointer;
 
     overflow-y: auto; /* Enable vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -118,7 +111,6 @@ button.SettingsView_btn span{
     visibility: hidden;
     height: 0rem;
 }
-
 
 
 #viewCategories_container{
