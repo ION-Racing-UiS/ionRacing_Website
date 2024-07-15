@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/css/team.css">
 
 
+    <script src="/scripts/team_dropdown.js" defer></script>
     <script src="/scripts/team.js"></script>
     <script src="/scripts/functionality.js" defer></script> <!-- *** defer = script loads only once the page has loaded *** -->
 </head>
@@ -87,7 +88,7 @@
                     <div style="display: flex;" id="viewYear_container">
                         <span>Meet the </span>
                         <div class="dropdown">
-                            <button class="Settings_btn">
+                            <button class="Settings_btn" id="year_btn">
                                 <span id="displayedYear"></span>
                                 <div>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#ffffff" viewBox="0 0 256 256">
@@ -97,7 +98,7 @@
                                 </div>
                             </button>
                             <hr>
-                            <div class="dropdown_options" id="yearSelect_Dd">
+                            <div class="dropdown_options hidden" id="yearSelect_Dd">
 
                             </div>
                         </div>
@@ -109,7 +110,7 @@
                         <div style="display: flex;">                        
                             <div style="display: flex; flex-direction: row;">
                                 <div class="dropdown">
-                                    <button class="SettingsView_btn">
+                                    <button class="SettingsView_btn" id="category_btn">
                                         <span id="displayedCategory"></span>
                                         <div>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#ffffff" viewBox="0 0 256 256">
@@ -119,7 +120,7 @@
                                         </div>
                                     </button>
                                     <hr>
-                                    <div class="dropdown_options" id="categorySelect_Dd">
+                                    <div class="dropdown_options hidden" id="categorySelect_Dd">
                                     
                                     </div>
                                 </div>

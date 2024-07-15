@@ -61,7 +61,10 @@ function createYearOptions(){
         year_ul.appendChild(year_li);
         year_li.textContent = years[i];
         year_li.id = `ddOpt_${years[i]}`;
-        year_li.onclick = () => setYearContent(years[i], years);
+        year_li.onclick = function() {
+            setYearContent(years[i], years);
+            toggleDisplay('yearSelect_Dd');
+          };
     };
     yearSelectDiv.appendChild(df);
     if (dd_selected.selectedYear === '') {
@@ -129,7 +132,10 @@ function createCategoryOptions(yearSelected){
         category_li.textContent = categories[i];
         category_ul.appendChild(category_li);
         category_li.id = `ddOpt_${categories[i]}`;
-        category_li.onclick = () => setCategoryContent(categories[i], categories, yearSelected);
+        category_li.onclick = function() {
+            setCategoryContent(categories[i], categories, yearSelected);
+            toggleDisplay('categorySelect_Dd');
+          };
     };
 
     if (dd_selected.selectedCategory === '') {
