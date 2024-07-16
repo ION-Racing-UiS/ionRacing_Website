@@ -12,8 +12,8 @@ function toggleDisplay(dropdownID){
 
 // Eventlisteners for the dropdown buttons
 document.getElementById('year_btn').addEventListener('click', function(){
-    toggleDisplay('yearSelect_Dd')
+    toggleDisplay('yearSelect_Dd');
 });
 document.getElementById('category_btn').addEventListener('click', function(){
-    toggleDisplay('categorySelect_Dd')
+    toggleDisplay('categorySelect_Dd');
 });
