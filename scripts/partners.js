@@ -273,7 +273,7 @@ const partnersApp = Vue.createApp({
             },
             {
               i: 11, //check 2324
-              logo: "bronze/vmv.png",
+              logo: "bronze/vmv.pdf",
               url: "https://vmv.as/en/,"
             },
             {
@@ -282,7 +282,7 @@ const partnersApp = Vue.createApp({
               url: "https://smed.no/",
             },
             {
-              i: 13, //Tomas Martin maybe? Har den her til vi kan få avklart det
+              i: 13, //check 2324
               logo: "bronze/haaflu.png",
               url: "",
             },
