@@ -3,7 +3,7 @@
         "roleId": 0,
         "roleTitle": "Social media",
         "roleDescription": "As a part of our social media group, you will create and publish posts on our different social media platforms. You will also have the opportunity to write ION's newsletter, which is sent out to our sponsors. You are in charge of communication though social media, and keeping people updated on our progress.",
-        "roleImgCode": "/img/positions/admin/adminFiller.jpg",
+        "roleImgCode": "/img/positions/admin/socials.png",
         "tasks": ["Facebook & Instagram", "Create & Edit Posts", "Newsletter"]
     },
     {
@@ -11,28 +11,28 @@
         "roleTitle": "Event planner",
         "roleDescription": "By being a part of our event planners, you have a central role in the social part of the team.  An event planner is responsible for organizing and coordinating various types of events, ensuring that every aspect of the event is executed smoothly. Their role involves a wide range of tasks, which can vary depending on the type and scale of the event. You will co-host teambuilding, Christmas table, get togethers, stands and more.",
         "roleImgCode": "/img/positions/admin/adminFiller.jpg",
-        "tasks": ["In progress..."]
+        "tasks": ["Organizing", "Coordination", "Smooth Event Execution", "Teambuilding, Stands & more"]
     },
     {
         "roleId": 2,
         "roleTitle": "Sponsorships",
         "roleDescription": "One of ION's foundation stones are the sponsors. Each year we contact multiple businesses to create new connections and branch out to future workspaces. Dealing with sponsorships includes networking, presentations, meetings and contract work amongst other things.",
         "roleImgCode": "/img/positions/admin/sponsor.jpg",
-        "tasks": ["In progress..."]
+        "tasks": ["Connecting with businesses", "Sponsorships", "Networking", "Arrange Presentations, Meetings etc."]
     },
     {
         "roleId": 3,
         "roleTitle": "Photographer",
-        "roleDescription": "Being a photographer for ION will grant you a ticket behind the scenes across all departments. Your job is to capture IONs work through a lens. Play with images and edit photos for our social channels and posters.",
+        "roleDescription": "Being a photographer for ION will grant you a ticket behind the scenes across all departments. Your job is to capture ION's work through a lens. Play with images and edit photos for our social channels and posters.",
         "roleImgCode": "/img/positions/admin/adminFiller.jpg",
-        "tasks": ["In progress..."]
+        "tasks": ["Capturing Moments", "Taking Photos", "Being Present at Events", "Photo Editing"]
     },
     {
         "roleId": 4,
         "roleTitle": "Graphic designer",
         "roleDescription": "A graphic designer creates visual content to communicate messages, ideas, or information effectively through various mediums. Your work involves combining art and technology to produce designs that inspire, inform, or captivate an audience through ION. You will make posters, logos, merch and more!",
         "roleImgCode": "/img/positions/admin/adminFiller.jpg",
-        "tasks": ["In progress..."]
+        "tasks": ["Illustrations", "Photo Editing", "Communicating & Executing Ideas", "Using Graphic Design Software"]
     },
     {
         "roleId": 5,
