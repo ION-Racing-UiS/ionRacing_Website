@@ -45,6 +45,7 @@ function create_Html_ExtraElements(positionDiv, tasks) {
     extraDiv.className = 'position_extrasContainer';
 
     const tasksUl = document.createElement('ul');
+    tasksUl.className = 'keyPointsUL';
 
     const tasksSpan = document.createElement('span');
     tasksSpan.className = 'positionExtras';

@@ -304,6 +304,10 @@ span.position_title{
     position: absolute; bottom: 5%;
 }
 
+ul.keyPointsUL{
+    margin-top: 0;
+}
+
 
 /* ******************** MEDIA ******************** */
 
