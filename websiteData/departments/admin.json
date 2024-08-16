@@ -10,7 +10,7 @@
         "roleId": 1,
         "roleTitle": "Event planner",
         "roleDescription": "By being a part of our event planners, you have a central role in the social part of the team.  An event planner is responsible for organizing and coordinating various types of events, ensuring that every aspect of the event is executed smoothly. Their role involves a wide range of tasks, which can vary depending on the type and scale of the event. You will co-host teambuilding, Christmas table, get togethers, stands and more.",
-        "roleImgCode": "/img/positions/admin/adminFiller.jpg",
+        "roleImgCode": "/img/positions/admin/eventPlanner.png",
         "tasks": ["Organizing", "Coordination", "Smooth Event Execution", "Teambuilding, Stands & more"]
     },
     {
@@ -24,7 +24,7 @@
         "roleId": 3,
         "roleTitle": "Photographer",
         "roleDescription": "Being a photographer for ION will grant you a ticket behind the scenes across all departments. Your job is to capture ION's work through a lens. Play with images and edit photos for our social channels and posters.",
-        "roleImgCode": "/img/positions/admin/adminFiller.jpg",
+        "roleImgCode": "/img/positions/admin/photographer.jpg",
         "tasks": ["Capturing Moments", "Taking Photos", "Being Present at Events", "Photo Editing"]
     },
     {
