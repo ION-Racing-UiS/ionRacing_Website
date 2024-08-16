@@ -2,8 +2,8 @@
     {
         "roleId":0,
         "roleTitle":"Web developer",
-        "roleDescription":"As a web developer, you",
+        "roleDescription":"As a Web Developer, you will play a crucial role in maintaining and improving our website. Your primary responsibilities will include updating website content, ensuring smooth functionality, and implementing new features based on team feedback.  <br>You will get to communicate with other team members to help create an engaging and user-friendly online experience. Knowledge of basic JavaScript, HTML and CSS is recommended, as these are the backbone of any website!",
         "roleImgCode":"/img/positions/it/itFiller.jpg",
-        "tasks":["Maintainance", "UX & UI", "Web solutions", "Troubleshooting"]
+        "tasks":["HTML, CSS & JavaScript", "Maintenance", "UX & UI", "Web solutions", "Troubleshooting"]
     }
 ]
