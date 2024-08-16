@@ -358,7 +358,7 @@ ul.keyPointsUL{
     }
 
     .departments_container{
-        padding: 4rem 2rem 2rem 2rem;
+        padding: 4rem 2rem 0.01rem 2rem;
         width: 930px;
     }
     .position_container{
