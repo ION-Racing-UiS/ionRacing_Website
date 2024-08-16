@@ -48,7 +48,7 @@ function create_Html_ExtraElements(positionDiv, tasks) {
 
     const tasksSpan = document.createElement('span');
     tasksSpan.className = 'positionExtras';
-    tasksSpan.textContent = 'Relevant Tasks';
+    tasksSpan.textContent = 'Key Points';
 
     // Tasks DOM-appending
     positionDiv.appendChild(extraDiv);
