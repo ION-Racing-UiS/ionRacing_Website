@@ -352,6 +352,12 @@ ul.keyPointsUL{
 
 
 /*  --- DESKTOP ---  */
+@media only screen and (min-width: 1025px) {
+    #becomeCrew_section{
+        left: 55%;
+        width: 100%;
+    }
+}
 @media only screen and (min-width: 992px) {
     #join_student a, #join_partner a{
         bottom: 25%;
