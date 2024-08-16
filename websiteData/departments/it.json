@@ -2,7 +2,7 @@
     {
         "roleId":0,
         "roleTitle":"Web developer",
-        "roleDescription":"",
+        "roleDescription":"As a web developer, you",
         "roleImgCode":"/img/positions/it/itFiller.jpg",
         "tasks":["Maintainance", "UX & UI", "Web solutions", "Troubleshooting"]
     }

@@ -368,7 +368,7 @@ ul.keyPointsUL{
         row-gap: 1rem;
         column-gap: 2rem;
 
-        margin-bottom: 10rem;
+        margin-bottom: 6rem;
     }
     .positionImg_container{
         grid-row: span 2;
