@@ -305,7 +305,7 @@ span.position_title{
 }
 
 ul.keyPointsUL{
-    margin-top: 0;
+    margin-top: 2rem;
 }
 
 
@@ -352,7 +352,10 @@ ul.keyPointsUL{
 
 
 /*  --- DESKTOP ---  */
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
+    ul.keyPointsUL{
+        margin-top: 0;
+    }
     #becomeCrew_section{
         left: 55%;
         width: 100%;
