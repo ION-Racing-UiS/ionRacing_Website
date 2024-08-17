@@ -61,5 +61,12 @@
         "roleDescription":"Responsible for misc. support items such as the battery trolley, push bar, quick jack. <br> <br> You will learn:<br> Teamwork, Coordination skills, Welding, Grinding, Painting",
         "roleImgCode":"/img/positions/mech/mechFiller.jpg",
         "tasks":["Push bar", "Battery Trolley", "Misc Mechanical Parts", "Welding & Grinding", "Painting"]
+    },
+    {
+        "roleId":9,
+        "roleTitle":"Vehicle Dynamics",
+        "roleDescription":"Focuses on optimizing the cars performance by analyzing factors like suspension kinematics, aerodynamic impact & tire behavior using various simulation softwares. This gives the team valuable insight into how design choices affect the overall lap times of the car. <br><br>You will learn: <br>Vehicle dynamics, simulation, teamwork",
+        "roleImgCode":"/img/positions/mech/mechFiller.jpg",
+        "tasks":["Optimization", "Simulation", "Lap times"]
     }
 ]
