@@ -316,6 +316,14 @@ ul.keyPointsUL{
     .categoryContainer{
         font-size: 0.6rem;
     }
+    #join_partner h1{
+        position: absolute;
+        top: 25%;
+    }
+    #join_partner a{
+        position: absolute;
+        top: 50%;
+    }
 }
 
 
