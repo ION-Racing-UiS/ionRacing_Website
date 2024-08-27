@@ -98,7 +98,7 @@
     background: linear-gradient(0deg, rgba(9, 9, 13, 0.01) 0%, rgba(9, 9, 13, 0.5) 25%, rgba(9, 9, 13, 0.8) 50%, rgba(9, 9, 13, 1) 100%);}
 
 section#join_partnerSection, section#join_studentSection{
-    padding: 0 0 0 0;
+    padding: 0 0 5rem 0;
     margin-top: 5rem;
 }
 
