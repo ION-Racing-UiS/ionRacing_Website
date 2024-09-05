@@ -1,9 +1,58 @@
 [
     {
         "roleId":0,
-        "roleTitle":"Electro",
-        "roleDescription":"Description in progress...",
+        "roleTitle":"Electronic Control Unit",
+        "roleDescription":"The electronic control unit (ECU) is an in-house designed PCB. The main task of the ECU is to collect data from the pedal box and calculate appropriate motor torque and ensure safe operation of the vehicle. It is also responsible for activating and deactivating the motor controller. As a member of the ECU group, you will work with both hardware and software. <br><br> You will learn: <br> PCB Design, data processing, embedded design, teamwork, troubleshooting",
         "roleImgCode":"/img/positions/ele/eleFiller.jpg", 
-        "tasks":["In progress..."]
+        "tasks":["ECAD PCB Design", "C Programming", "Soldering", "Testing"]
+    },
+    {
+        "roleId":1,
+        "roleTitle":"Sensor systems",
+        "roleDescription":"The sensor systems consist of multiple in-house designed PCBs for data acquisition and processing, as well as the sensors itself. This data is used for optimizing the car and to verify its behaviour. As a member of the sensor group, you will work with both hardware and software. <br><br> You will learn: <br> PCB Design, data processing, embedded design, teamwork, sensors, troubleshooting",
+        "roleImgCode":"/img/positions/ele/eleFiller.jpg", 
+        "tasks":["ECAD PCB Design", "Programming in C & Python", "Soldering", "Testing"]
+    },
+    {
+        "roleId":2,
+        "roleTitle":"Motor Controller ",
+        "roleDescription":"The motor controller (MCU) consists of multiple in-house designed PCB’s. The MCU is responsible for regulating the speed, torque, and position of an electric motor by processing inputs and controlling the power supplied to the motor. As a member of the MCU group, you will work with both hardware and software. <br><br> You will learn: <br> PCB Design, data processing, embedded design, teamwork, motor theory, control theory, troubleshooting",
+        "roleImgCode":"/img/positions/ele/eleFiller.jpg", 
+        "tasks":["ECAD PCB Design", "C  Programming", "Soldering", "Testing", "High Voltage"]
+    },
+    {
+        "roleId":3,
+        "roleTitle":"Accumulator Management System",
+        "roleDescription":"The accumulator management system (AMS) consists of multiple in-house designed PCB’s. The AMS is responsible for managing the temperature, voltage and charging of the high voltage battery. It’s also responsible for different safety features too hinder over and undervoltage between the segments. As a member of the AMS group, you will work with both hardware and software. <br><br> You will learn: <br> PCB Design, analogue and digital design, data processing, embedded design, teamwork, battery theory, control theory, charging, troubleshooting ",
+        "roleImgCode":"/img/positions/ele/eleFiller.jpg", 
+        "tasks":["ECAD PCB Design", "Software", "Soldering", "Testing", "High Voltage"]
+    },
+    {
+        "roleId":4,
+        "roleTitle":"HV Safety",
+        "roleDescription":"HV safety consist of multiple non programable PCB’s. These are a part of the emergency shutdown system and is vital to keep the car safe. As a member of the HV Safety group you will mainly work with hardware. <br><br> You will learn: <br> PCB Design, analogue and digital design, Boolean logic, embedded design, teamwork, DC/DC, troubleshooting",
+        "roleImgCode":"/img/positions/ele/eleFiller.jpg", 
+        "tasks":["ECAD PCB Design", "Software", "Soldering", "Testing", "DC/DC"]
+    },
+    {
+        "roleId":5,
+        "roleTitle":"Dashboard",
+        "roleDescription":"Design, production and testing of the car’s dashboard interface. The dashboard Is responsible for giving the driver all the relevant information they need as well as allowing them to interact with the car. As a member of the dashboard, you will work with both hardware and software. <br><br> You will learn: <br> PCB design, analogue and digital design, data processing, embedded design, teamwork, HMI, troubleshooting",
+        "roleImgCode":"/img/positions/ele/eleFiller.jpg", 
+        "tasks":["ECAD PCB Design", "Software", "Soldering", "Testing ", "Display", "MCAD"]
+    },
+    {
+        "roleId":6,
+        "roleTitle":"Vehicle Dynamics",
+        "roleDescription":"The vehicle dynamics group are focusing on optimizing the vehicle performance by utilizing torque vectoring and traction control. This development will be vital for optimizing the maximum speed without losing traction. As a member of the vehicle dynamics group you will mainly work with software. <br><br> You will learn: <br> Vehicle dynamics, simulation, torque vectoring, traction control, teamwork, troubleshooting",
+        "roleImgCode":"/img/positions/ele/eleFiller.jpg", 
+        "tasks":["Matlab", "Simulink", "Altair Software", "Lap Time Simulation’s"]
+    },
+    {
+        "roleId":7,
+        "roleTitle":"Electrical Support",
+        "roleDescription":"The electrical support group helps to integrate the different sub-systems to complete the car. Being a part of the electrical support group is a good way to get an understanding of the car's entire electrical system. As a member of the electrical support team, you will work with both hardware and software. <br><br> You will learn: <br> Electrical systems, electrical wiring, teamwork, troubleshooting",
+        "roleImgCode":"/img/positions/ele/eleFiller.jpg", 
+        "tasks":["ECAD PCB Design", "Software", "Soldering", "Testing"]
     }
 ]
