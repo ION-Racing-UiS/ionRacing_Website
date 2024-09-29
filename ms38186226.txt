@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Verifikasjonsfil for domeneeierskap for Microsoft 365 – sted i nettstedsroten",
+  "Domain": "ionracing.no",
+  "Id": "dde65983-9ef6-4161-8478-b75250d31516"
+}
