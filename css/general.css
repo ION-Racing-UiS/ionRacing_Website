@@ -217,11 +217,6 @@ p{
 
     position: fixed;
     z-index: 9999;
-
-    transition: all 400ms ease-in-out;
-}
-.scroll_down .main_header{
-    transform: translate3d(0, -100%, 0);
 }
 
 
