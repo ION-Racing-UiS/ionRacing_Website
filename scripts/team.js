@@ -175,7 +175,7 @@ function setMemberLink(linkType, linkData, linkElement, svgElement){
         }
         svgElement.style.opacity = "0.5";
     } else {
-        svgElement.style.opacity = "0.05";
+        svgElement.style.opacity = "0.1";
         linkElement.style.pointerEvents = "none";
         linkElement.style.cursor = "default";
     };
