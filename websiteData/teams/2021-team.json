@@ -7,25 +7,29 @@
                 "name": "Trygve Pollen",
                 "imgCode": "trpo",
                 "roles": "Team Leader",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Fredrik Rege",
                 "imgCode": "filler",
                 "roles": "Group Leader Administration",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Erlend Røstbø",
                 "imgCode": "erroe",
                 "roles": "Group Leader Mechanical",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Per Gundersen Lund",
                 "imgCode": "pelu",
                 "roles": "Group Leader Electronics",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             }
         ]
     },
@@ -37,25 +41,29 @@
                 "name": "Fredrik Rege",
                 "imgCode": "filler",
                 "roles": "Group Leader Administration",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Nasra Abdille",
                 "imgCode": "naab",
                 "roles": "Economics",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Hisham Mohamed Abid",
                 "imgCode": "filler",
                 "roles": "Cost",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Alf Martin Hammerstad",
                 "imgCode": "alha",
                 "roles": "Media",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             }
         ]
     },
@@ -67,61 +75,71 @@
                 "name": "Erlend Røstbø",
                 "imgCode": "erroe",
                 "roles": "Group Leader Mechanical",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Anders Gard",
                 "imgCode": "anga",
                 "roles": "Chassis & SES",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Martin Mildt",
                 "imgCode": "mami",
                 "roles": "Chassis",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Martin Larsen",
                 "imgCode": "mala",
                 "roles": "Steering System",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Olai Hagland",
                 "imgCode": "filler",
                 "roles": "Cooling System",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Sondre Mikkelsen",
                 "imgCode": "somi",
                 "roles": "Suspension",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Lars Andreas Flesjå Genthner",
                 "imgCode": "lage",
                 "roles": "Suspension",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Sigurd Grøvdal Hansen",
                 "imgCode": "siha",
                 "roles": "Fiber Layup",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Åse Marie Pettersen",
                 "imgCode": "aaspe",
                 "roles": "Ergonomics",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Vegard Bror Trodal",
                 "imgCode": "filler",
                 "roles": "Mentor",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             }
         ]
     },
@@ -133,19 +151,22 @@
                 "name": "Per Gundersen Lund",
                 "imgCode": "pelu",
                 "roles": "Group Leader Electronics",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Andreas Byskov",
                 "imgCode": "anby",
                 "roles": "System Architect",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Jesper Flatheim",
                 "imgCode": "jefl",
                 "roles": "Wiring Harness",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             }
         ]
     },
@@ -157,25 +178,29 @@
                 "name": "Jan Markus Høie",
                 "imgCode": "jahoe",
                 "roles": "Group Leader IT",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Andreas Lindemark",
                 "imgCode": "filler",
                 "roles": "Software Developer",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Yohannes Dawit Kassaye",
                 "imgCode": "filler",
                 "roles": "Software Developer",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Truls Hansen Skadberg",
                 "imgCode": "filler",
                 "roles": "Mentor",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             }
         ]
     }

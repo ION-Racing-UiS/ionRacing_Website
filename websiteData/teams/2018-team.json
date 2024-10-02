@@ -7,37 +7,43 @@
                 "name": "Erik Benjamin Bruns",
                 "imgCode": "erbr",
                 "roles": "Team Leader",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Morten Stien",
                 "imgCode": "most",
                 "roles": "HR",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Kaylee Van Der Linden",
                 "imgCode": "kali",
                 "roles": "Head of Marketing",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Janne Rasmussen Klungland",
                 "imgCode": "jakl",
                 "roles": "Head of Finance",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Didrik Andreas Johannessen",
                 "imgCode": "dijo",
                 "roles": "Chief Mechanical Engineer",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Nicolas Fløysvik",
                 "imgCode": "nifl",
                 "roles": "Chief Electrical Engineer",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             }
         ]
     },
@@ -49,13 +55,15 @@
                 "name": "Kaylee Van Der Linden",
                 "imgCode": "kali",
                 "roles": "Head of Marketing",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Tord Jardar Håkonsen",
                 "imgCode": "filler",
                 "roles": "Business",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             }
         ]
     },
@@ -67,108 +75,126 @@
                 "name": "Philip Jamissen",
                 "imgCode": "phja",
                 "roles": "Group Leader - Monocoque",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Atle Stensland",
                 "imgCode": "atst",
                 "roles": "Inserts",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Bjørnar Saurdal",
                 "imgCode": "bjsa",
                 "roles": "SES",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {                "name": "Roy Andre Larsen",
                 "imgCode": "rola",
                 "roles": "Simulation",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Marius Aasen",
                 "imgCode": "maaa",
                 "roles": "Seat & firewall",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Trygve Pollen",
                 "imgCode": "trpo",
                 "roles": "Jackup",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Eivind Vinnes",
                 "imgCode": "eivi",
                 "roles": "Air inlet",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Duy Nguyen",
                 "imgCode": "dung",
                 "roles": "AIP & IA",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Erik August Drivflaadt",
                 "imgCode": "erdr",
                 "roles": "Sidepods",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Vegard Johnsen",
                 "imgCode": "vejo",
                 "roles": "Roll hoops",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Thea Emilie Finn",
                 "imgCode": "filler",
                 "roles": "Production of Monocoque",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Anders Sletsjøe",
                 "imgCode": "ansl",
                 "roles": "Inspection hatches",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Audun Brønseth",
                 "imgCode": "aubr",
                 "roles": "Group Leader - Suspension",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Tor Inge Berge",
                 "imgCode": "tobe",
                 "roles": "Suspension",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Roger Hole",
                 "imgCode": "roho",
                 "roles": "Brakes & Pedal box",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Hemn Ahmed",
                 "imgCode": "heah",
                 "roles": "Upright",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Lars Olav Lauvik",
                 "imgCode": "lala",
                 "roles": "Steeringsystem",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Ramzi Cherif",
                 "imgCode": "rach",
                 "roles": "Wheelhub",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             }
         ]
     },
@@ -180,133 +206,155 @@
                 "name": "Anders Helle",
                 "imgCode": "anhe",
                 "roles": "Big Boss - Powertrain",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Alexander Thorkildsen",
                 "imgCode": "alth",
                 "roles": "Simulations & machining",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Arild Garvik",
                 "imgCode": "arga",
                 "roles": "Inhouse Inverter",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Benjamin Kristoffer Risa Vik",
                 "imgCode": "bevi",
                 "roles": "Accumulator",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Harald Thirud Skutvik",
                 "imgCode": "hask",
                 "roles": "High Voltage electronics",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Magne Årdal",
                 "imgCode": "maaar",
                 "roles": "Motor & High voltage system",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Raymond Tjørhom",
                 "imgCode": "ratj",
                 "roles": "Inhouse Inverter",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Sindre Varland",
                 "imgCode": "siva",
                 "roles": "Gear",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Stian Sagen",
                 "imgCode": "stsa",
                 "roles": "Accumulator container",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Tiedemann Bratten",
                 "imgCode": "filler",
                 "roles": "Cooling system & machining",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Martin Aleksander Evensen",
                 "imgCode": "filler",
                 "roles": "Driveshafts",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Sondre Kaavik",
                 "imgCode": "filler",
                 "roles": "Accumulator",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Sebastian Stokholm Ravndal",
                 "imgCode": "sera",
                 "roles": "Group Leader - Low Voltage",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Eirik Knudsen",
                 "imgCode": "eikn",
                 "roles": "Low Voltage Electronics",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Håvard Lapin",
                 "imgCode": "haala",
                 "roles": "Telemetry",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Stian Gjesdal",
                 "imgCode": "stgj",
                 "roles": "Low Voltage Battery",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Tron Torsen",
                 "imgCode": "trto",
                 "roles": "Shutdown Circuit",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Elzat Kadeer",
                 "imgCode": "elka",
                 "roles": "Shutdown Circuit",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Trym Ullestad",
                 "imgCode": "trul",
                 "roles": "Low Voltage Components",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Tord Falch",
                 "imgCode": "tofa",
                 "roles": "Sensors",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Eivind Mesna",
                 "imgCode": "eime",
                 "roles": "Sensors",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Shahid Alajev",
                 "imgCode": "shal",
                 "roles": "Dashboard",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             }
         ]
     },
@@ -318,61 +366,71 @@
                 "name": "Nicolas Fløysvik",
                 "imgCode": "nifl",
                 "roles": "Group Leader - Software",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Stian Trondsen",
                 "imgCode": "sttr",
                 "roles": "Analytics Software",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Fredrik Wigsnes Jensen",
                 "imgCode": "frje",
                 "roles": "Documentation Software",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Daniel Barati",
                 "imgCode": "daba",
                 "roles": "Software Developer",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Ståle Andre Lund",
                 "imgCode": "stlu",
                 "roles": "Inventory System",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Sindre Tellevik",
                 "imgCode": "site",
                 "roles": "Inventory System",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Zahra Rezai",
                 "imgCode": "zare",
                 "roles": "Web Page",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Piraya Kerdpetch",
                 "imgCode": "pike",
                 "roles": "Web Page",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Qingqing Dai",
                 "imgCode": "filler",
                 "roles": "Web Page",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             },
             {
                 "name": "Jungwon Seo",
                 "imgCode": "filler",
                 "roles": "Software Developer",
-                "linkedUrl": ""
+                "linkedUrl": "",
+                "email": ""
             }
         ]
     }
