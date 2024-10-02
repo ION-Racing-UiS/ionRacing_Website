@@ -90,7 +90,7 @@ button.SettingsView_btn span{
 
     overflow-y: scroll; /* Enable vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
-    max-height: 11rem;
+    max-height: 12rem;
 }
 
 .dropdown_options::-webkit-scrollbar {
