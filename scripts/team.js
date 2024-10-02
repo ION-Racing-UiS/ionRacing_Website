@@ -176,6 +176,8 @@ function setMemberLink(linkType, linkData, linkElement, svgElement){
         svgElement.style.opacity = "0.5";
     } else {
         svgElement.style.opacity = "0.05";
+        linkElement.style.pointerEvents = "none";
+        linkElement.style.cursor = "default";
     };
 };
 function create_membersLinks_components(email, linkedIn, divElement){
