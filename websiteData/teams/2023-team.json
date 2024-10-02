@@ -7,57 +7,57 @@
                 "name": "Ole Mørkved",
                 "imgCode": "olmo",
                 "roles": "Project Leader",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Herman Berg Nilssen",
                 "imgCode": "heni",
                 "roles": "Chief Mechanical Engineer",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Philip Shahdadfar",
                 "imgCode": "phsh",
                 "roles": "Chief Electrical Engineer",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Lars Johann Indreeide",
                 "imgCode": "lajoin",
                 "roles": "Head of IT",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Stian Nygård",
                 "imgCode": "stny",
                 "roles": "Group leader Administration",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Andreas Byskov",
                 "imgCode": "anby",
                 "roles": "Chief Technical Engineer",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Einar Kjeka",
                 "imgCode": "eikj",
                 "roles": "Head of production",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Julia Tisko",
                 "imgCode": "juti",
                 "roles": "Chief financial Officer",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             }
         ]
     },
@@ -69,57 +69,57 @@
                 "name": "Stian Nygård",
                 "imgCode": "stny",
                 "roles": "Group leader Administration",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Julia Tisko",
                 "imgCode": "juti",
                 "roles": "Chief financial Officer",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Lasse Bang Olsen",
                 "imgCode": "laol",
                 "roles": "Event Manager",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Marcel Loua",
                 "imgCode": "malo",
                 "roles": "Head of Sponsor Relations",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Johan Sundt Brekne",
                 "imgCode": "jobr",
                 "roles": "Sponsor Management",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Sindre Fidje Andersen",
                 "imgCode": "sian",
                 "roles": "Sponsor Management",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Julie Dalseid",
                 "imgCode": "juda",
                 "roles": "Sponsor Management",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Michelle jensen",
                 "imgCode": "filler",
                 "roles": "Graphic Design and PR",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             }
         ]
     },
@@ -131,120 +131,120 @@
                 "name": "Hermann Berg Nilssen",
                 "imgCode": "heni",
                 "roles": "Chief Mechanical Engineer",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Omar Mohamad",
                 "imgCode": "ommo",
                 "roles": "Drivetrain",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Ole Mørkved",
                 "imgCode": "olmo",
                 "roles": "Suspension",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Ruben Østli",
                 "imgCode": "ruoos",
                 "roles": "Suspension & Bodywork",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Mathias Alten",
                 "imgCode": "maal",
                 "roles": "Bodywork",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Tomas Martin Alvestad",
                 "imgCode": "toal",
                 "roles": "Chassis",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "David Shapiro",
                 "imgCode": "dash",
                 "roles": "Ergonomics and Firewall",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Sondre Undheim Carlsen",
                 "imgCode": "soca",
                 "roles": "Ergonomics and Firewall",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Einar Kjeka",
                 "imgCode": "eikj",
                 "roles": "Aerodynamics",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Even Holen",
                 "imgCode": "evho",
                 "roles": "Aerodynamics",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Ruben Nordstokke",
                 "imgCode": "runo",
                 "roles": "Aerodynamics",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Karl Henrik Lermo",
                 "imgCode": "kale",
                 "roles": "Aerodynamics",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Jack Bystøl-Hill",
                 "imgCode": "jahi",
                 "roles": "Cooling",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Lise Knudsen",
                 "imgCode": "likn",
                 "roles": "Cooling",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Martin Larsen",
                 "imgCode": "mala",
                 "roles": "Pedals and Steering",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Nora Iversen",
                 "imgCode": "filler",
                 "roles": "Accumalator container",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Ole Emil Strømsnes Egelandsaa",
                 "imgCode": "oleg",
                 "roles": "Drivetrain",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             }
         ]
     },
@@ -256,78 +256,78 @@
                 "name": "Philip Shahdadfar",
                 "imgCode": "phsh",
                 "roles": "Chief Electrical Engineer",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Andreas Byskov",
                 "imgCode": "anby",
                 "roles": "Chief Technical Engineer",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Per Gundersen Lund",
                 "imgCode": "pelu",
                 "roles": "HV-Circuitry",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Daniel Maudal",
                 "imgCode": "dama",
                 "roles": "Low Voltage",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Herman Sparøy",
                 "imgCode": "hesp",
                 "roles": "MCU",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Sondre Rosvoll Solheim",
                 "imgCode": "soso",
                 "roles": "ECU",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Runar Wallenius Skaget",
                 "imgCode": "rusk",
                 "roles": "ECU",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Sander Hovet",
                 "imgCode": "saho",
                 "roles": "ECU",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Mohammed Hassan Raghe",
                 "imgCode": "mora",
                 "roles": "Dashboard",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Trym Christensen",
                 "imgCode": "trch",
                 "roles": "Dashboard",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Sindre Mauland",
                 "imgCode": "sima",
                 "roles": "Dashboard",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             }
         ]
     },
@@ -339,57 +339,57 @@
                 "name": "Lars Johann Indreeide",
                 "imgCode": "lain",
                 "roles": "Head of IT",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Alexander Kruke Bjugan",
                 "imgCode": "albj",
                 "roles": "Software Developer",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Anna Sund",
                 "imgCode": "filler",
                 "roles": "Web Developer & Designer",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": "anna-sund-84a509216/",
+                "email": null    
             },
             {
                 "name": "Tord Martin Ytredal",
                 "imgCode": "toyt",
                 "roles": "Logging, Software Developer",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Sebastian Gustavsen",
                 "imgCode": "segu",
                 "roles": "Logging, Software Developer",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Sem Reiestad",
                 "imgCode": "sere",
                 "roles": "Logging, Software Developer",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Truls Hansen Skadberg",
                 "imgCode": "filler",
                 "roles": "Mentor",
-                "linkedUrl": "",
-                "email": ""    
+                "linkedIn": null,
+                "email": null    
             },
             {
                 "name": "Jan Markus Høie",
                 "imgCode": "jahoe",
                 "roles": "Mentor",
-                "linkedUrl": "",
-                "email": ""
+                "linkedIn": null,
+                "email": null
             }
         ]
     }

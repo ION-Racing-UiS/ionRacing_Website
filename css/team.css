@@ -227,14 +227,14 @@ input#viewAll_opt{
 }
 .name_p{
     font-size: 1.2rem;
-    padding: 0.5rem 0 1rem 0;
+    padding: 2rem 0 1rem 0;
 }
 
 .memberContact_links_container{
     display: flex; 
     width: 100%; 
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 .memberContact_links{
     max-width: 50px; 
@@ -243,7 +243,6 @@ input#viewAll_opt{
 }
 .memberContact_links a svg{
     display: block;
-    opacity: 0.5;
 }
 
 
@@ -280,6 +279,10 @@ input#viewAll_opt{
         height: 20rem;
         padding-top: 3rem;
         padding-bottom: 4rem;
+    }
+
+    .name_p{
+        padding: 1rem 0 1rem 0;
     }
 }
 
@@ -327,5 +330,8 @@ input#viewAll_opt{
     }
     #team_viewSetting{
         padding-left: 8%;
+    }
+    .name_p{
+        padding: 1rem 0 1rem 0;
     }
 }
