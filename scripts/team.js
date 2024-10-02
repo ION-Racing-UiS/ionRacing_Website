@@ -193,7 +193,8 @@ function renderDept(deptID, deptName, members, year, df){
     let dividerEnd_div = create_Html_div('divider');
     let dividerEnd_hr = document.createElement('hr');
     
-    // Section-content
+    // !-- Section-content --!
+    // Member elements
     let sectionContent_div = create_Html_div('section_content');
     let membersContainer_div = create_Html_div('members_container');
     membersContainer_div.id = `${deptName}Members`;
@@ -224,6 +225,34 @@ function renderDept(deptID, deptName, members, year, df){
         memberName_p.textContent = member.name;
         let memberRole_p = document.createElement('p');
         memberRole_p.textContent = member.roles;
+        let memberLinksContainer_div = create_Html_div('memberContact_links_container');
+        // Email elements
+        let memberEmailContainer_div = create_Html_div('memberContact_links');
+        let memberEmailContainer_a = document.createElement("a");
+        memberEmailContainer_a.href = "http://google.com";
+        memberEmailContainer_a.target = "_blank";
+        // Create the svg and path element using the SVG namespace
+        let memberEmailContainer_svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        memberEmailContainer_svg.setAttribute("width", "30");
+        memberEmailContainer_svg.setAttribute("height", "30");
+        memberEmailContainer_svg.setAttribute("viewBox", "0 0 512 512");
+        memberEmailContainer_svg.setAttribute("fill", "#FFFFFF");
+        let memberEmailContainer_path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        memberEmailContainer_path.setAttribute("d", "M424 80H88a56.06 56.06 0 00-56 56v240a56.06 56.06 0 0056 56h336a56.06 56.06 0 0056-56V136a56.06 56.06 0 00-56-56zm-14.18 92.63l-144 112a16 16 0 01-19.64 0l-144-112a16 16 0 1119.64-25.26L256 251.73l134.18-104.36a16 16 0 0119.64 25.26z");
+
+        // LinkedIn elements
+        let memberLinkedInContainer_div = create_Html_div('memberContact_links');
+        let memberLinkedInContainer_a = document.createElement("a");
+        memberLinkedInContainer_a.href = "http://google.com";
+        memberLinkedInContainer_a.target = "_blank";
+        let memberLinkedInContainer_svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        memberLinkedInContainer_svg.setAttribute("width", "28");
+        memberLinkedInContainer_svg.setAttribute("height", "28");
+        memberLinkedInContainer_svg.setAttribute("viewBox", "0 0 512 512");
+        memberLinkedInContainer_svg.setAttribute("fill", "#FFFFFF");
+        let memberLinkedInContainer_path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        memberLinkedInContainer_path.setAttribute("fill", "#FFFFFF");
+        memberLinkedInContainer_path.setAttribute("d", "M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z");
     
         membersContainer_div.appendChild(card);
         card.appendChild(cardContentDiv);
@@ -231,6 +260,18 @@ function renderDept(deptID, deptName, members, year, df){
         cardContentDiv.appendChild(infoDiv);
         infoDiv.appendChild(memberName_p);
         infoDiv.appendChild(memberRole_p);
+
+        infoDiv.appendChild(memberLinksContainer_div);
+
+        memberLinksContainer_div.appendChild(memberEmailContainer_div);
+        memberEmailContainer_div.appendChild(memberEmailContainer_a);
+        memberEmailContainer_a.appendChild(memberEmailContainer_svg);
+        memberEmailContainer_svg.appendChild(memberEmailContainer_path);
+
+        memberLinksContainer_div.appendChild(memberLinkedInContainer_div);
+        memberLinkedInContainer_div.appendChild(memberLinkedInContainer_a);
+        memberLinkedInContainer_a.appendChild(memberLinkedInContainer_svg);
+        memberLinkedInContainer_svg.appendChild(memberLinkedInContainer_path);
     });
     return df;
 };
