@@ -161,14 +161,17 @@ function setSvgStyling(svgElement, width, height){
     svgElement.setAttribute("viewBox", "0 0 512 512");
     svgElement.setAttribute("fill", "#FFFFFF");
 };
-function setMemberLink(linkType, linkElement, svgElement){
-    if (linkType && linkType.length >= 5) {
+function setMemberLink(linkType, linkData, linkElement, svgElement){
+    console.log(linkData);
+    console.log(linkElement);
+    if (linkData && linkData.length >= 5) {
         switch (linkType) {
             case "email":
-                linkElement.href = `mailto:${linkType}`;
+                console.log("email");
+                linkElement.href = `mailto:${linkData}`;
                 break;
             case "linkedIn":
-                linkElement.href = `https://www.linkedin.com/in/${linkType}`;
+                linkElement.href = `https://www.linkedin.com/in/${linkData}`;
             break;
             default:
                 break;
@@ -176,7 +179,7 @@ function setMemberLink(linkType, linkElement, svgElement){
         svgElement.style.opacity = "0.5";
     } else {
         svgElement.style.opacity = "0.05";
-    }
+    };
 };
 function create_membersLinks_components(email, linkedIn, divElement){
     // EMAIL & LINKEDIN COMPONENTS
@@ -185,7 +188,7 @@ function create_membersLinks_components(email, linkedIn, divElement){
     memberEmailContainer_a.target = "_blank";
     let memberEmailContainer_svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     setSvgStyling(memberEmailContainer_svg, 30, 30);
-    setMemberLink(email, memberEmailContainer_a, memberEmailContainer_svg);
+    setMemberLink("email", email, memberEmailContainer_a, memberEmailContainer_svg);
     let memberEmailContainer_path = document.createElementNS("http://www.w3.org/2000/svg", "path");
     memberEmailContainer_path.setAttribute("d", "M424 80H88a56.06 56.06 0 00-56 56v240a56.06 56.06 0 0056 56h336a56.06 56.06 0 0056-56V136a56.06 56.06 0 00-56-56zm-14.18 92.63l-144 112a16 16 0 01-19.64 0l-144-112a16 16 0 1119.64-25.26L256 251.73l134.18-104.36a16 16 0 0119.64 25.26z");
 
@@ -195,7 +198,7 @@ function create_membersLinks_components(email, linkedIn, divElement){
     memberLinkedInContainer_a.target = "_blank";
     let memberLinkedInContainer_svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     setSvgStyling(memberLinkedInContainer_svg, 28, 28);
-    setMemberLink(linkedIn, memberLinkedInContainer_a, memberLinkedInContainer_svg);
+    setMemberLink("linkedIn", linkedIn, memberLinkedInContainer_a, memberLinkedInContainer_svg);
     let memberLinkedInContainer_path = document.createElementNS("http://www.w3.org/2000/svg", "path");
     memberLinkedInContainer_path.setAttribute("fill", "#FFFFFF");
     memberLinkedInContainer_path.setAttribute("d", "M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z");
