@@ -162,12 +162,9 @@ function setSvgStyling(svgElement, width, height){
     svgElement.setAttribute("fill", "#FFFFFF");
 };
 function setMemberLink(linkType, linkData, linkElement, svgElement){
-    console.log(linkData);
-    console.log(linkElement);
     if (linkData && linkData.length >= 5) {
         switch (linkType) {
             case "email":
-                console.log("email");
                 linkElement.href = `mailto:${linkData}`;
                 break;
             case "linkedIn":
