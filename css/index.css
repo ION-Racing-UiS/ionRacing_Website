@@ -31,15 +31,7 @@
     margin: 0 auto;
     width: 80%;
 }
-.home_section h3{
-    font-size: 1.5rem;
-    color: #ffff;
-    opacity: 0.8;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 0.5rem;
-    padding-bottom: 1rem;
-}
+
 #home_about_section p, #home_competition_section p{
     padding: 0.5rem 0 1.5rem 0;
 }

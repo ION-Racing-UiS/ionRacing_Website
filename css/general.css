@@ -37,9 +37,22 @@ body{
     display: none;
 }
 
+.home_section h3, #contacts_container h3, #contactLocation_container h3{
+    font-size: 1.5rem;
+    color: #ffff;
+    opacity: 0.8;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.5rem;
+    padding-bottom: 1rem;
+}
+
 .hero_container h1{
     color: #FFFFFF;
     font-weight: 800;
+}
+.standardColor{
+    color: #FFFFFF;
 }
 
 .gradient_btnContainer{
@@ -210,11 +223,7 @@ p{
 .main_header{
     width: 100%;
     background-color: #09090d;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    height: 4rem;
     position: fixed;
     z-index: 9999;
 }
@@ -228,7 +237,7 @@ p{
 
 .main_nav{
     list-style: none;
-    padding: 0 2rem 0 0;
+    padding: 0 0rem 0 0;
     margin: 0;
 
     z-index: 1000;
@@ -237,6 +246,7 @@ p{
 .main_nav a{
     text-decoration: none;
     font-size: 1rem;
+    padding-top: 0rem;
 }
 .main_nav li a{
     color: #ffffff;
@@ -252,7 +262,7 @@ p{
 }
 
 #main_nav ul li{
-    padding-right: 1rem;
+    padding-left: 1.5rem;
 }
 
 .nav_toggle_btn{
@@ -411,6 +421,15 @@ footer .extras_conteiner p{
     margin: 0 0 0.5rem 0;
 }
 
+.headerContent_container{
+    width: 100%; 
+    height: 100%; 
+    max-width: 1600px;  
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
 
 
 /* ******************** BUTTONS ******************** */
@@ -428,13 +447,36 @@ footer .extras_conteiner p{
 
 
 /* ******************** MEDIA ******************** */
-/*  PHONE MEDIA  */
-@media (max-width: 767px){
+/*  PHONE MEDIA & Tablet  */
+@media (max-width: 1023px){
     /*  BUTTONS  */
     .main_btn_style{
         width: 80%;
     }
-
+    .main_nav li{
+        width: 12rem;
+        margin: auto;
+    }
+    #navbarBtn_container{
+        width: 8rem;
+        background: linear-gradient(180deg, #7E05B8, #3726E7, #30C8F8);
+        border-radius: 5px;
+        padding: 0.1rem;
+        margin: auto;
+    }
+    #navbar_btn{
+        width: 100%;
+        display: block;
+        background-color: rgba(19, 20, 30, 0.95);;
+        text-align: center; 
+        border-radius: 5px;
+        padding: 0.8rem 0 0.8rem 0;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 1.5rem;
+    }
+}
+/*  PHONE MEDIA  */
+@media (max-width: 767px){
     /*  CONTENT CONTAINERS  */
     .content_container section{
         padding: 2rem 2rem 0 2rem;
@@ -496,14 +538,15 @@ footer .extras_conteiner p{
     }
 
     #main_nav ul[data-visible="false"]{
-        background-color: rgba(1, 61, 86, 0.25);  /* REMINDER: hsl(hue, saturation, lightness, alpha=transparency) */
+        background-color: rgba(19, 20, 30, 0.8);  /* REMINDER: hsl(hue, saturation, lightness, alpha=transparency) */
         backdrop-filter: blur(1rem);
         -webkit-backdrop-filter: blur(1rem);
         right: -100%;
         overflow: auto;
     }
     #main_nav ul[data-visible="true"]{
-        background-color: rgba(1, 61, 86, 0.25);  /* REMINDER: hsl(hue, saturation, lightness, alpha=transparency) */
+        background-color: rgba(19, 20, 30, 0.8);  /* REMINDER: hsl(hue, saturation, lightness, alpha=transparency) */
+        color: #13141E;
         backdrop-filter: blur(1rem);
         -webkit-backdrop-filter: blur(1rem);
         right: 0;
@@ -688,10 +731,6 @@ footer .extras_conteiner p{
     .nav_toggle_btn{
         margin: 0 0 0 85%;
     }
-
-    #main_nav ul li a{
-        font-size: 1.25rem;
-    }
 }
 
 
@@ -746,21 +785,38 @@ footer .extras_conteiner p{
         flex-direction: column;
     }
 
-
     #main_nav{
-        width: 500px;
+        width: auto;
         margin-right: 1rem;
-        padding-top: 1.25rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
     .main_nav{
         display: flex;
         justify-content: space-between;
     }
     .main_nav li a{
-        padding-right: 0;
+        padding-top: 0.25rem;   
+        display: block;     
     }
     .main_nav li:hover{
         color: #009DDF;
+    }
+    #navbarBtn_container{
+        width: 6rem;
+        background: linear-gradient(180deg, #7E05B8, #3726E7, #30C8F8);
+        border-radius: 5px;
+        padding: 0.1rem;
+    }
+    #navbar_btn{
+        width: 100%;
+        display: block;
+        background-color: #09090d;
+        text-align: center; 
+        border-radius: 5px;
+        padding: 0.25rem 0 0.25rem 0;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 1.25rem;
     }
 }
 

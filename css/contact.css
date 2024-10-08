@@ -1,0 +1,71 @@
+.content_container h1{
+    margin-top: 10%;
+    margin-left: 1rem;
+    margin-bottom: 5rem;
+}
+#contacts_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact_container{
+    
+}
+.contact_container h2{
+    padding: 0 0 1rem 0;
+}
+#contactLocation_container{
+    color: #FFFFFF;
+}
+#contactLocation_container h3, #contacts_container h3{
+    display: flex;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+#contactLocation_container h3{
+    max-width: 6.7rem;
+}
+#contactAddress_container{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ******************** MEDIA ******************** */
+
+/*  --- MOBILE ---  */
+@media (max-width: 767px){
+    .contact_container{
+        min-height: 10rem;
+        min-width: 85%;
+        margin-left: 2rem;
+    }
+    .content_container h1{
+        margin-top: 30%;
+        margin-bottom: 2.5rem;
+    }
+}
+
+
+/*  --- TABLET ---  */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/*  --- DESKTOP ---  */
+@media only screen and (min-width: 992px) {
+
+}
+
+
+/*  --- TABLET & DESKTOP ---  */
+@media only screen and (min-width: 767px){
+    .contact_container{
+        min-height: 15rem;
+        min-width: 30rem;
+        margin-left: 2rem;
+    }
+}

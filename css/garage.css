@@ -1,60 +1,21 @@
-#garage_hero{
-    background-color: #09090d;
-    background-image: url(/img/garagePage/unveilFiller.jpg);
-    background-size: cover;
-
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
-#garage_hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 180px;
-    background: linear-gradient(180deg, #09090d 50%, rgba(255,255,255,0) 100%);
-}
-#garage_hero h1, #garage_hero h2{
-    position: absolute;
-    top: 40%;
-    width: 100%;
-    text-align: center;
-    opacity: 0.9;
-}
-#garage_hero h2{
-    position: absolute;
-    top: 58%;
-    width: 100%;
-    text-align: center;
-    opacity: 0.5;
-}
-#garage_main{
-    padding: 15%;
-
+#garage_main div{
+  padding-top: 8rem;
+  padding: 6rem 2rem 0 2rem;
+  max-width: 1400px;
+  margin: auto;
 }
 
-h1 {
-  max-width: 70%;
-  font-size: 6.5rem; 
-}
-
-#garage_cont{
-  position: relative;
-  display: flex;
-  padding-top: 1100px;
+#garage_main div h1{
+  padding-bottom: 1rem;
 }
 
 .garageimg{
-  max-width: 70%;
-  max-height: 90%;
-  padding: 5em 0 5em 0;
-  width: 3243px;
-  /* -webkit-box-reflect: below -150px linear-gradient(0deg, transparent, black); */
-  /* for later i guess */
+  max-width: 100%;
 }
-
+.garage_cont img{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 
 /* ******************** MEDIA ******************** */
 
