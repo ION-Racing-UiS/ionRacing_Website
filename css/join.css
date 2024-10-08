@@ -11,7 +11,10 @@
     padding-right: 1rem;
 }
 #join_main{
-    max-width: 1600px;
+
+}
+#join_main p{
+    font-size: 0.925rem;
 }
 #join_hero{
     width: 100%;
