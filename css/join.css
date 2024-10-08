@@ -11,7 +11,7 @@
     padding-right: 1rem;
 }
 #join_main{
-
+    max-width: 1600px;
 }
 #join_main p{
     font-size: 0.925rem;
@@ -370,7 +370,7 @@ ul.keyPointsUL{
         margin-top: 0;
     }
     #becomeCrew_section{
-        left: 55%;
+        left: 40%;
         width: 100%;
     }
 }
