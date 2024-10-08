@@ -37,7 +37,7 @@ body{
     display: none;
 }
 
-.home_section h3, #contacts_container h3, #contactLocation_container h3{
+.home_section h3, #contacts_container h3, #contactLocation_container h3, #contactsEmails_container h3{
     font-size: 1.5rem;
     color: #ffff;
     opacity: 0.8;
@@ -154,7 +154,6 @@ h1, h2, h3{
     color: #FFFFFF;
 
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.9rem;
 }
 .logo_color{
     color: #009DDF;
@@ -182,7 +181,7 @@ h3{
 
 p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.9rem;
+    font-size: 1rem;
 
     margin: 0;
 }
@@ -796,7 +795,7 @@ footer .extras_conteiner p{
         justify-content: space-between;
     }
     .main_nav li a{
-        padding-top: 0.25rem;   
+        padding-top: 0.4rem;   
         display: block;     
     }
     .main_nav li:hover{
