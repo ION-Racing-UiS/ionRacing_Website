@@ -52,7 +52,6 @@
 #img1_item, #img2_item, #img3_item{
     width: 100%; 
     min-height: 200px; 
-    background-color: #009DDF;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.75;
