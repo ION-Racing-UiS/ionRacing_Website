@@ -46,16 +46,16 @@
     padding: 3rem 0rem 0rem 0rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 0.25rem;
-    row-gap: 0.25rem;
+    column-gap: 1rem;
+    row-gap: 1rem;
 }
 #img1_item, #img2_item, #img3_item{
     width: 100%; 
-    height: 200px; 
+    min-height: 200px; 
     background-color: #009DDF;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
+    opacity: 0.75;
 }
 #img1_item{
     grid-column-start: 1;
@@ -65,6 +65,7 @@
 #img2_item{
     grid-column-start: 1;
     grid-column-end: 3;
+    background-image: url(/img/contact/inngangVest.jpg);
 }
 #img3_item{
     grid-column-start: 3;
@@ -90,10 +91,13 @@
         margin: 0 2.5rem 0 2.5rem;
     }
     #img2_item, #img3_item{
-        height: 250px; 
+        min-height: 250px; 
+    }
+    #img2_item{
+        background-position: 0% 50%;
     }
     #img1_item{
-        height: 400px;
+        min-height: 400px;
     }
     .contact_container{
         width: 50%;
@@ -106,14 +110,12 @@
     #contactsEmails_container, .content_container h1, #contactLocation_container{
         margin: 0 5rem 0 5rem;
     }
-    #contactLocation_container{
-        padding-top: 4rem;
-    }
     #contactsEmails_container{
         padding-top: 5rem;
     }
     #contactLocation_container{
         display: flex;
+        padding-top: 8rem;
     }
     #contactAddress_container{
         width: 30%;
@@ -136,17 +138,29 @@
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row: 1 / 1;
+        background-position: 0% 40%;
     }
     #img3_item{
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row: 2 / 2;
-        background-position: 0% 50%;
+        background-position: 30% 35%;
+        background-size: 140% 140%;
     }
 }
 
-
-/*  --- TABLET & DESKTOP ---  */
-@media only screen and (min-width: 767px){
-
+/*  --- Larger desktops ---  */
+@media only screen and (min-width: 1441px){
+    #contactAddress_container{
+        width: 25%;
+    }
+    #locationImgGrid_container{
+        width: 75%;
+    }
+    #contactLocation_container{
+        margin-right: 0;
+    }
+    #img1_item, #img2_item, #img3_item{
+        min-height: 300px;
+    }
 }

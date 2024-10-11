@@ -12,10 +12,6 @@
 .garageimg{
   max-width: 100%;
 }
-.garage_cont img{
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
 
 /* ******************** MEDIA ******************** */
 
@@ -26,8 +22,6 @@
   }
 
 }
-
-
 
 
 /*  --- TABLET ---  */
