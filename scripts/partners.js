@@ -273,7 +273,7 @@ const partnersApp = Vue.createApp({
             },
             {
               i: 11, //check 2324
-              logo: "bronze/vmv.pdf",
+              logo: "bronze/vmv.png",
               url: "https://vmv.as/en/,"
             },
             {
