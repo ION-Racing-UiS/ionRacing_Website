@@ -3,70 +3,70 @@
         "roleId":0,
         "roleTitle":"Chassis",
         "roleDescription":"Design and production of the cars spaceframe and/or monocoque. The chassis is the main component of the car, tying all components together, in addition to protecting the driver in the event of an accident. <br> <br> You will learn:<br> Triangulation, force distribution, welding theory, teamwork, workshop skills.",
-        "roleImgCode":"/img/positions/mech/mechFiller.jpg",
+        "roleImgCode":"/img/positions/mech/chassis.png",
         "tasks":["Structural design", "Safety", "Triangulation", "Steel", "Welding", "Carbon fiber monocoque", "Spaceframe"]
     },
     {
         "roleId":1,
         "roleTitle":"Suspension, brakes and steering",
         "roleDescription":"Design and production of the car's suspension, breaks and steering. The purpose of the suspension is to keep the car stuck to the ground at all times, in addition to ensuring good handling and good driving capabilities. <br> <br> You will learn:<br> Force distribution, vehicle kinematics analysis, suspension theory, teamwork, workshop skills",
-        "roleImgCode":"/img/positions/mech/mechFiller.jpg",
+        "roleImgCode":"/img/positions/mech/suspension.jpg",
         "tasks":["Structural design", "Forces", "Simulations", "OptimumKinematics & OptimumLap", "Uprights", "Wheelhubs, Carbontubes & Bearings"]
     },
     {
         "roleId":2,
         "roleTitle":"Drivetrain",
         "roleDescription":"Design and production of the cars drivetrain. <br>The drivetrain transmits the forces given by the motor into the wheels. This is done either through direct drive, or by utilizing a gearbox connected to a transmission. <br><br> You will learn:<br> Transmission systems, gearbox design, bearings, gears, teamwork, lap time simulations, KISSsoft simulations, workshop skills.",
-        "roleImgCode":"/img/positions/mech/mechFiller.jpg",
+        "roleImgCode":"/img/positions/mech/drivetrain.png",
         "tasks":["Power Transfer", "Gearbox", "Chaindrive", "KISSsoft & Simulations", "Powertrain", "Electric motor"]
     },
     {
         "roleId":3,
         "roleTitle":"Ergonomics",
         "roleDescription":"Design and production of the cars cockpit and safety equipment. The ergonomics group is responsible for the drivers seat, firewall, dashboard and safety equipment.",
-        "roleImgCode":"/img/positions/mech/mechFiller.jpg",
+        "roleImgCode":"/img/positions/mech/ergonomics.jpg",
         "tasks":["Ergonomics & Comfort", "Cockpit", "Safety", "Drivers seat, Firewall & Dashboard"]
     },
     {
         "roleId":4,
         "roleTitle":"Aerodynamics",
         "roleDescription":"Design and production of the cars aero package. The cars aero package has the function of providing downforce to the car, resulting in better grip while driving, yielding faster lap times on the track. <br><br> You will learn:<br> CFD analysis, aerodynamic simulation, carbon fiber molding, CAD, surface modeling, teamwork, workshop skills.",
-        "roleImgCode":"/img/positions/mech/mechFiller.jpg",
+        "roleImgCode":"/img/positions/mech/aerodynamics.png",
         "tasks":["Aerodynamic simulations & Digital wind tunnel", "Ansys, NablaFlow & XFFLR5", "Downforce", "Airfoils", "Frontwing, Rearwing, Diffuser & Sidepods"]
     },
     {
         "roleId":5,
         "roleTitle":"Bodywork",
         "roleDescription":"Design and production of the cars bodywork. <br>The bodywork is a key component in ensuring good aerodynamic flow around the car, in addition to protecting the driver from foreign objects on the track. The bodywork is designed around the cars chassis and is coordinated along with other components. <br> <br> You will learn:<br> CAD, Teamwork, Carbonfiber molding and infusion, Workshop skills.",
-        "roleImgCode":"/img/positions/mech/mechFiller.jpg",
+        "roleImgCode":"/img/positions/mech/bodywork.jpg",
         "tasks":["Bodywork", "Carbon Fiber", "Aerodynamics", "CAD", "Surface modeling, Molding & Infusion"]
     },
     {
         "roleId":6,
         "roleTitle":"Cooling",
         "roleDescription":"Design and production of the cars cooling system. The cooling system is intended to keep the car running at a normal operating temperature at all times, controlling the heat from the motor and circuit boards. <br><br> You will learn:<br> Thermodynamic theory, Fluid dynamics, Cooling loops, teamwork, workshop skills.",
-        "roleImgCode":"/img/positions/mech/mechFiller.jpg",
+        "roleImgCode":"/img/positions/mech/cooling.png",
         "tasks":["Fluid Dynamics & Thermodynamics", "Water pump, Radiator & Coolant", "Cooling loop", "Flowrate"]
     },
     {
         "roleId":7,
         "roleTitle":"Electro-Mechanical",
         "roleDescription":"Coordination between mechanical and electrical systems on the car. Includes design and production of components such as the cars battery container, ECU & MCU containers. <br><br> You will learn:<br> Teamwork, coordination skills, carbon fiber molding and infusion, some electrical theory.",
-        "roleImgCode":"/img/positions/mech/mechFiller.jpg",
+        "roleImgCode":"/img/positions/mech/electromechanical.jpg",
         "tasks":["Coordination", "Electrical systems", "Battery, MCU & ECU Containers", "Wiring protection", "Mechanical guidance to the electrical team", "Workshop skills"]
     },
     {
         "roleId":8,
         "roleTitle":"Support systems mechanical",
         "roleDescription":"Responsible for misc. support items such as the battery trolley, push bar, quick jack. <br> <br> You will learn:<br> Teamwork, Coordination skills, Welding, Grinding, Painting",
-        "roleImgCode":"/img/positions/mech/mechFiller.jpg",
+        "roleImgCode":"/img/positions/mech/supportSystems.jpg",
         "tasks":["Push bar", "Battery Trolley", "Misc Mechanical Parts", "Welding & Grinding", "Painting"]
     },
     {
         "roleId":9,
         "roleTitle":"Vehicle Dynamics",
         "roleDescription":"Focuses on optimizing the cars performance by analyzing factors like suspension kinematics, aerodynamic impact & tire behavior using various simulation softwares. This gives the team valuable insight into how design choices affect the overall lap times of the car. <br><br>You will learn: <br>Vehicle dynamics, simulation, teamwork",
-        "roleImgCode":"/img/positions/mech/mechFiller.jpg",
+        "roleImgCode":"/img/positions/mech/vehicleDynamics.png",
         "tasks":["Optimization", "Simulation", "Lap times"]
     }
 ]
