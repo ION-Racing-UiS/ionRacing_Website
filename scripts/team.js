@@ -168,7 +168,7 @@ function setMemberLink(linkType, linkData, linkElement, svgElement){
                 linkElement.href = `mailto:${linkData}`;
                 break;
             case "linkedIn":
-                linkElement.href = `https://www.linkedin.com/in/${linkData}`;
+                linkElement.href = linkData;
             break;
             default:
                 break;
