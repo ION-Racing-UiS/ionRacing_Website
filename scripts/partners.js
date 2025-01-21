@@ -126,6 +126,11 @@ const partnersApp = Vue.createApp({
               logo: "gold/tekna.png",
               url: "https://www.tekna.no/en/",
             },
+            {
+              i: 5,
+              logo: "gold/trainor.png",
+              url: "https://trainor.no/",
+            }
           ],
         },
         // SILVER
@@ -159,11 +164,6 @@ const partnersApp = Vue.createApp({
               i: 3, //check 2324
               logo: "silver/WinTec.png",
               url: "https://windtec.no/",
-            },
-            {
-              i: 4, //check 2324
-              logo: "bronze/trainor.png",
-              url: "https://www.trainor.no/",
             },
             {
               i: 5, //check 2324
