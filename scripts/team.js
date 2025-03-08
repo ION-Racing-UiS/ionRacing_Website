@@ -275,6 +275,9 @@ function renderDept(deptID, deptName, members, year, df){
         // IMG
         let cardImg = document.createElement('img');
         cardImg.src = `/img/teams/members/${year}/${deptName}/${member.imgCode}.jpg`;
+        cardImg.onerror = function () {
+            cardImg.src = `/img/teams/members/${year}/${deptName}/filler.jpg`;
+        };
     
         let infoDiv = create_Html_div('member_info');
         let memberName_p = document.createElement('p');

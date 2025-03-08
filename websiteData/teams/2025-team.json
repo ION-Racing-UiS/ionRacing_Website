@@ -5,42 +5,42 @@
         "members": [ 
             {
                 "name": "Even Holen",
-                "imgCode": "",
+                "imgCode": "evho",
                 "roles": "Project leader (Master chief)",
                 "linkedIn": null,
                 "email": "leder@ionracing.no"
             },
             {
                 "name": "Emma Digernes Parnas",
-                "imgCode": "",
+                "imgCode": "emdipa",
                 "roles": "Admin leader (Supreme leader)",
                 "linkedIn": null,
                 "email": "e.parnas@ionracing.no"
             },
             {
                 "name": "Steven Høiland",
-                "imgCode": "",
+                "imgCode": "sthoe",
                 "roles": "Mechanical leader (professional princess secondary)",
                 "linkedIn": null,
                 "email": "mechanical@ionracing.no"
             },
             {
                 "name": "Sondre Rosvoll Solheim (Børre)",
-                "imgCode": "",
+                "imgCode": "soroso",
                 "roles": "Electro leader (Cult leader secondary)",
                 "linkedIn": null,
                 "email": "electronics@ionracing.no"
             },
             {
                 "name": "Sander Hovet",
-                "imgCode": "",
+                "imgCode": "saho",
                 "roles": "Technical leadership",
                 "linkedIn": null,
                 "email": "s.hovet@ionracing.no"
             },
             {
                 "name": "Thomas Fredhall Holguin",
-                "imgCode": "",
+                "imgCode": "thfrho",
                 "roles": "Data leader (Laptimesimulator secondary)",
                 "linkedIn": null,
                 "email": null
@@ -53,42 +53,42 @@
         "members": [ 
             {
                 "name": "Emma Digernes Parnas",
-                "imgCode": "",
+                "imgCode": "emdipa",
                 "roles": "Admin leader (Supreme leader)",
                 "linkedIn": null,
                 "email": "e.parnas@ionracing.no"
             },
             {
                 "name": "Marie Alle",
-                "imgCode": "",
+                "imgCode": "maal",
                 "roles": "Graphics",
                 "linkedIn": null,
                 "email": "m.alle@ionracing.no"
             },
             {
                 "name": "Stian Nygård",
-                "imgCode": "",
+                "imgCode": "stny",
                 "roles": "Hybrid (electric/diesel prototype)",
                 "linkedIn": null,
                 "email": "s.nygaard@ionracing.no"
             },
             {
                 "name": "Morteza Boub",
-                "imgCode": "",
+                "imgCode": "mobo",
                 "roles": "Potato",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Johan Sundt Brekne",
-                "imgCode": "",
+                "imgCode": "josubr",
                 "roles": "Financial manager",
                 "linkedIn": null,
                 "email": "economics@ionracing.no"
             },
             {
                 "name": "Anniken Skaar Nuland",
-                "imgCode": "",
+                "imgCode": "ansknu",
                 "roles": "Event manager",
                 "linkedIn": null,
                 "email": null
@@ -101,168 +101,168 @@
         "members": [ 
             {
                 "name": "Even Holen",
-                "imgCode": "",
+                "imgCode": "evho",
                 "roles": "Project leader (Master chief)",
                 "linkedIn": null,
                 "email": "leder@ionracing.no"
             },
             {
                 "name": "Vincent Nguyen",
-                "imgCode": "",
+                "imgCode": "ving",
                 "roles": "Bodywork",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Marcus Sundfør",
-                "imgCode": "",
+                "imgCode": "masu",
                 "roles": "Support systems",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Tabitha Bordich",
-                "imgCode": "",
+                "imgCode": "tabo",
                 "roles": "Steering ",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Ørjan Mannsverk",
-                "imgCode": "",
+                "imgCode": "oerma",
                 "roles": "Aerodynamics",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Sondre Carlsen",
-                "imgCode": "",
+                "imgCode": "soca",
                 "roles": "Composite",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Mathios Abraham",
-                "imgCode": "",
+                "imgCode": "maab",
                 "roles": "Cooling",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Dag Erik Narten",
-                "imgCode": "",
+                "imgCode": "daerna",
                 "roles": "Ergonomics",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Daniel Nygård",
-                "imgCode": "",
+                "imgCode": "dany",
                 "roles": "Ergonomics",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Jacob Hazell",
-                "imgCode": "",
+                "imgCode": "jaha",
                 "roles": "Chassis",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Oscar Andersen",
-                "imgCode": "",
+                "imgCode": "osan",
                 "roles": "Support systems",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Stjepan Gotovac",
-                "imgCode": "",
+                "imgCode": "stgo",
                 "roles": "Chassis",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Lise Knudsen",
-                "imgCode": "",
+                "imgCode": "likn",
                 "roles": "Drivetrain",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Adrian Elias Haugjord",
-                "imgCode": "",
+                "imgCode": "adelha",
                 "roles": "Aerodynamics",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Adrian Wollum",
-                "imgCode": "",
+                "imgCode": "adwo",
                 "roles": "Bodywork",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Axel Lövenörn Lystad",
-                "imgCode": "",
+                "imgCode": "axloly",
                 "roles": "Breaks & wheel suspension",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Kristian Rønningen",
-                "imgCode": "",
+                "imgCode": "krroe",
                 "roles": "Cooling (Cool guy)",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Ole Emil Egelandsaa",
-                "imgCode": "",
+                "imgCode": "olemeg",
                 "roles": "Drivetrain % aerodynamics",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Emil Walther Korth",
-                "imgCode": "",
+                "imgCode": "emwako",
                 "roles": "Electro mechanical",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Lasse Pihl",
-                "imgCode": "",
+                "imgCode": "lapi",
                 "roles": "Support systems",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Astror Albert (AstrorPus)",
-                "imgCode": "",
+                "imgCode": "asal",
                 "roles": "Suspension",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Steven Høiland",
-                "imgCode": "",
+                "imgCode": "sthoe",
                 "roles": "Mechanical leader (professional princess secondary)",
                 "linkedIn": null,
                 "email": "mechanical@ionracing.no"
             },
             {
                 "name": "Einar Lie",
-                "imgCode": "",
+                "imgCode": "eili",
                 "roles": "Chassis",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Daniel Offer",
-                "imgCode": "",
+                "imgCode": "daof",
                 "roles": "All over the place",
                 "linkedIn": null,
                 "email": null
@@ -275,126 +275,126 @@
         "members": [ 
             {
                 "name": "Sondre Rosvoll Solheim (Børre)",
-                "imgCode": "",
+                "imgCode": "soroso",
                 "roles": "Electro leader (Cult leader secondary)",
                 "linkedIn": null,
                 "email": "electronics@ionracing.no"
             },
             {
                 "name": "Joakim Olerud Jensen",
-                "imgCode": "",
+                "imgCode": "joolje",
                 "roles": "Robotics & signal",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Alister Suttie",
-                "imgCode": "",
+                "imgCode": "alsu",
                 "roles": "HV safety",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Tomas Øverby",
-                "imgCode": "",
+                "imgCode": "tooev",
                 "roles": "HV safety",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Tormod Engen",
-                "imgCode": "",
+                "imgCode": "toen",
                 "roles": "Support (electro)",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Robert Ingolf Oppedal",
-                "imgCode": "",
+                "imgCode": "roinop",
                 "roles": "HV safety",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Bjørn Lofthus",
-                "imgCode": "",
+                "imgCode": "bjlo",
                 "roles": "Sensor",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Philip Halfdan Prøsch",
-                "imgCode": "",
+                "imgCode": "phhapr",
                 "roles": "Battery",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Tayeb Amedi",
-                "imgCode": "",
+                "imgCode": "taam",
                 "roles": "Electro mechanical (Stevens b*tch secondary)",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Tom Mantel",
-                "imgCode": "",
+                "imgCode": "toma",
                 "roles": "All over the place",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Torjus Aartun",
-                "imgCode": "",
+                "imgCode": "toaa",
                 "roles": "Cable systems",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Aditya Borah",
-                "imgCode": "",
+                "imgCode": "adbo",
                 "roles": "Sensor",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Markus Brekka",
-                "imgCode": "",
+                "imgCode": "mabr",
                 "roles": "All over the place",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Sander Hovet",
-                "imgCode": "",
+                "imgCode": "saho",
                 "roles": "Technical leadership",
                 "linkedIn": null,
                 "email": "s.hovet@ionracing.no"
             },
             {
                 "name": "Runar Wallenius Skaget",
-                "imgCode": "",
+                "imgCode": "ruwask",
                 "roles": "Cybernetics",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Herman Sparøy",
-                "imgCode": "",
+                "imgCode": "hesp",
                 "roles": "MCU",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Athavan Tharmaratnam",
-                "imgCode": "",
+                "imgCode": "atth",
                 "roles": "All over the place",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Uliana Kulebyakina",
-                "imgCode": "",
+                "imgCode": "ulku",
                 "roles": "All over the place",
                 "linkedIn": null,
                 "email": null
@@ -407,21 +407,21 @@
         "members": [ 
             {
                 "name": "Thomas Fredhall Holguin",
-                "imgCode": "",
+                "imgCode": "thfrho",
                 "roles": "Data leader (Laptimesimulator secondary)",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Anna Sund",
-                "imgCode": "",
+                "imgCode": "ansu",
                 "roles": "Website",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Martin Lauritsen",
-                "imgCode": "",
+                "imgCode": "mala",
                 "roles": "All over the place",
                 "linkedIn": null,
                 "email": null
