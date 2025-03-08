@@ -59,18 +59,25 @@
                 "email": "e.parnas@ionracing.no"
             },
             {
-                "name": "Marie Alle",
-                "imgCode": "maal",
-                "roles": "Graphics",
-                "linkedIn": null,
-                "email": "m.alle@ionracing.no"
-            },
-            {
                 "name": "Stian Nygård",
                 "imgCode": "stny",
                 "roles": "Hybrid (electric/diesel prototype)",
                 "linkedIn": null,
                 "email": "s.nygaard@ionracing.no"
+            },
+            {
+                "name": "Anniken Skaar Nuland",
+                "imgCode": "ansknu",
+                "roles": "Event manager",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Marie Alle",
+                "imgCode": "maal",
+                "roles": "Graphics",
+                "linkedIn": null,
+                "email": "m.alle@ionracing.no"
             },
             {
                 "name": "Morteza Boub",
@@ -85,13 +92,6 @@
                 "roles": "Financial manager",
                 "linkedIn": null,
                 "email": "economics@ionracing.no"
-            },
-            {
-                "name": "Anniken Skaar Nuland",
-                "imgCode": "ansknu",
-                "roles": "Event manager",
-                "linkedIn": null,
-                "email": null
             }
         ]
     },
@@ -114,37 +114,9 @@
                 "email": null
             },
             {
-                "name": "Marcus Sundfør",
-                "imgCode": "masu",
-                "roles": "Support systems",
-                "linkedIn": null,
-                "email": null
-            },
-            {
                 "name": "Tabitha Bordich",
                 "imgCode": "tabo",
                 "roles": "Steering ",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Ørjan Mannsverk",
-                "imgCode": "oerma",
-                "roles": "Aerodynamics",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Sondre Carlsen",
-                "imgCode": "soca",
-                "roles": "Composite",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Mathios Abraham",
-                "imgCode": "maab",
-                "roles": "Cooling",
                 "linkedIn": null,
                 "email": null
             },
@@ -163,16 +135,9 @@
                 "email": null
             },
             {
-                "name": "Jacob Hazell",
-                "imgCode": "jaha",
-                "roles": "Chassis",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Oscar Andersen",
-                "imgCode": "osan",
-                "roles": "Support systems",
+                "name": "Mathios Abraham",
+                "imgCode": "maab",
+                "roles": "Cooling",
                 "linkedIn": null,
                 "email": null
             },
@@ -180,13 +145,6 @@
                 "name": "Stjepan Gotovac",
                 "imgCode": "stgo",
                 "roles": "Chassis",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Lise Knudsen",
-                "imgCode": "likn",
-                "roles": "Drivetrain",
                 "linkedIn": null,
                 "email": null
             },
@@ -208,6 +166,69 @@
                 "name": "Axel Lövenörn Lystad",
                 "imgCode": "axloly",
                 "roles": "Breaks & wheel suspension",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Astror Albert (AstrorPus)",
+                "imgCode": "asal",
+                "roles": "Suspension",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Steven Høiland",
+                "imgCode": "sthoe",
+                "roles": "Mechanical leader (professional princess secondary)",
+                "linkedIn": null,
+                "email": "mechanical@ionracing.no"
+            },
+            {
+                "name": "Daniel Offer",
+                "imgCode": "daof",
+                "roles": "All over the place",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Lise Knudsen",
+                "imgCode": "likn",
+                "roles": "Drivetrain",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Marcus Sundfør",
+                "imgCode": "masu",
+                "roles": "Support systems",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Ørjan Mannsverk",
+                "imgCode": "oerma",
+                "roles": "Aerodynamics",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Sondre Carlsen",
+                "imgCode": "soca",
+                "roles": "Composite",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Jacob Hazell",
+                "imgCode": "jaha",
+                "roles": "Chassis",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Oscar Andersen",
+                "imgCode": "osan",
+                "roles": "Support systems",
                 "linkedIn": null,
                 "email": null
             },
@@ -240,30 +261,9 @@
                 "email": null
             },
             {
-                "name": "Astror Albert (AstrorPus)",
-                "imgCode": "asal",
-                "roles": "Suspension",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Steven Høiland",
-                "imgCode": "sthoe",
-                "roles": "Mechanical leader (professional princess secondary)",
-                "linkedIn": null,
-                "email": "mechanical@ionracing.no"
-            },
-            {
                 "name": "Einar Lie",
                 "imgCode": "eili",
                 "roles": "Chassis",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Daniel Offer",
-                "imgCode": "daof",
-                "roles": "All over the place",
                 "linkedIn": null,
                 "email": null
             }
@@ -309,16 +309,30 @@
                 "email": null
             },
             {
-                "name": "Robert Ingolf Oppedal",
-                "imgCode": "roinop",
-                "roles": "HV safety",
+                "name": "Markus Brekka",
+                "imgCode": "mabr",
+                "roles": "All over the place",
                 "linkedIn": null,
                 "email": null
             },
             {
-                "name": "Bjørn Lofthus",
-                "imgCode": "bjlo",
-                "roles": "Sensor",
+                "name": "Sander Hovet",
+                "imgCode": "saho",
+                "roles": "Technical leadership",
+                "linkedIn": null,
+                "email": "s.hovet@ionracing.no"
+            },
+            {
+                "name": "Athavan Tharmaratnam",
+                "imgCode": "atth",
+                "roles": "All over the place",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Uliana Kulebyakina",
+                "imgCode": "ulku",
+                "roles": "All over the place",
                 "linkedIn": null,
                 "email": null
             },
@@ -330,6 +344,13 @@
                 "email": null
             },
             {
+                "name": "Tom Mantel",
+                "imgCode": "toma",
+                "roles": "All over the place",
+                "linkedIn": null,
+                "email": null
+            },
+            {
                 "name": "Tayeb Amedi",
                 "imgCode": "taam",
                 "roles": "Electro mechanical (Stevens b*tch secondary)",
@@ -337,9 +358,16 @@
                 "email": null
             },
             {
-                "name": "Tom Mantel",
-                "imgCode": "toma",
-                "roles": "All over the place",
+                "name": "Robert Ingolf Oppedal",
+                "imgCode": "roinop",
+                "roles": "HV safety",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Bjørn Lofthus",
+                "imgCode": "bjlo",
+                "roles": "Sensor",
                 "linkedIn": null,
                 "email": null
             },
@@ -358,20 +386,6 @@
                 "email": null
             },
             {
-                "name": "Markus Brekka",
-                "imgCode": "mabr",
-                "roles": "All over the place",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Sander Hovet",
-                "imgCode": "saho",
-                "roles": "Technical leadership",
-                "linkedIn": null,
-                "email": "s.hovet@ionracing.no"
-            },
-            {
                 "name": "Runar Wallenius Skaget",
                 "imgCode": "ruwask",
                 "roles": "Cybernetics",
@@ -382,20 +396,6 @@
                 "name": "Herman Sparøy",
                 "imgCode": "hesp",
                 "roles": "MCU",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Athavan Tharmaratnam",
-                "imgCode": "atth",
-                "roles": "All over the place",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Uliana Kulebyakina",
-                "imgCode": "ulku",
-                "roles": "All over the place",
                 "linkedIn": null,
                 "email": null
             }
