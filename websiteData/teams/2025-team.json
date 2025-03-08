@@ -59,13 +59,6 @@
                 "email": "e.parnas@ionracing.no"
             },
             {
-                "name": "Stian Nygård",
-                "imgCode": "stny",
-                "roles": "Hybrid (electric/diesel prototype)",
-                "linkedIn": null,
-                "email": "s.nygaard@ionracing.no"
-            },
-            {
                 "name": "Anniken Skaar Nuland",
                 "imgCode": "ansknu",
                 "roles": "Event manager",
@@ -107,11 +100,11 @@
                 "email": "mechanical@ionracing.no"
             },
             {
-                "name": "Even Holen",
-                "imgCode": "evho",
-                "roles": "Project leader",
+                "name": "Stian Nygård",
+                "imgCode": "stny",
+                "roles": "Ergonomics",
                 "linkedIn": null,
-                "email": "leder@ionracing.no"
+                "email": "s.nygaard@ionracing.no"
             },
             {
                 "name": "Vincent Nguyen",
@@ -151,7 +144,7 @@
             {
                 "name": "Stjepan Gotovac",
                 "imgCode": "stgo",
-                "roles": "Chassis",
+                "roles": "Spaceframe",
                 "linkedIn": null,
                 "email": null
             },
@@ -165,28 +158,28 @@
             {
                 "name": "Adrian Wollum",
                 "imgCode": "adwo",
-                "roles": "Bodywork",
+                "roles": "Aerodynamics",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Axel Lövenörn Lystad",
                 "imgCode": "axloly",
-                "roles": "Breaks & wheel suspension",
+                "roles": "Breaks",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Astror Albert",
                 "imgCode": "asal",
-                "roles": "Suspension",
+                "roles": "Lead Dynamics Engineer (Suspension secondary)",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Daniel Offer",
                 "imgCode": "daof",
-                "roles": "All over the place",
+                "roles": "Cooling",
                 "linkedIn": null,
                 "email": null
             },
@@ -200,14 +193,7 @@
             {
                 "name": "Marcus Sundfør",
                 "imgCode": "masu",
-                "roles": "Support systems",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Ørjan Mannsverk",
-                "imgCode": "oerma",
-                "roles": "Aerodynamics",
+                "roles": "Bodywork",
                 "linkedIn": null,
                 "email": null
             },
@@ -221,7 +207,7 @@
             {
                 "name": "Jacob Hazell",
                 "imgCode": "jaha",
-                "roles": "Chassis",
+                "roles": "Spaceframe",
                 "linkedIn": null,
                 "email": null
             },
@@ -235,14 +221,14 @@
             {
                 "name": "Kristian Rønningen",
                 "imgCode": "krroe",
-                "roles": "Cooling (Cool guy)",
+                "roles": "Cooling",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Ole Emil Egelandsaa",
                 "imgCode": "olemeg",
-                "roles": "Drivetrain % aerodynamics",
+                "roles": "Lead Powertrain Engineer (Drivetrain secondary)",
                 "linkedIn": null,
                 "email": null
             },
@@ -263,7 +249,7 @@
             {
                 "name": "Einar Lie",
                 "imgCode": "eili",
-                "roles": "Chassis",
+                "roles": "Lead Chassis Engineer (Spaceframe secondary)",
                 "linkedIn": null,
                 "email": null
             }
@@ -421,6 +407,13 @@
             },
             {
                 "name": "Martin Lauritsen",
+                "imgCode": "mala",
+                "roles": "All over the place",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Alex Armand",
                 "imgCode": "mala",
                 "roles": "All over the place",
                 "linkedIn": null,
