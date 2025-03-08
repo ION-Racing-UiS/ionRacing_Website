@@ -6,42 +6,42 @@
             {
                 "name": "Even Holen",
                 "imgCode": "evho",
-                "roles": "Project leader (Master chief)",
+                "roles": "Project leader",
                 "linkedIn": null,
                 "email": "leder@ionracing.no"
             },
             {
                 "name": "Emma Digernes Parnas",
                 "imgCode": "emdipa",
-                "roles": "Admin leader (Supreme leader)",
+                "roles": "Chief Administrative Officer",
                 "linkedIn": null,
                 "email": "e.parnas@ionracing.no"
             },
             {
                 "name": "Steven Høiland",
                 "imgCode": "sthoe",
-                "roles": "Mechanical leader (professional princess secondary)",
+                "roles": "Chief Mechanical Officer",
                 "linkedIn": null,
                 "email": "mechanical@ionracing.no"
             },
             {
                 "name": "Sondre Rosvoll Solheim (Børre)",
                 "imgCode": "soroso",
-                "roles": "Electro leader (Cult leader secondary)",
+                "roles": "Chief Electrical Officer",
                 "linkedIn": null,
                 "email": "electronics@ionracing.no"
             },
             {
                 "name": "Sander Hovet",
                 "imgCode": "saho",
-                "roles": "Technical leadership",
+                "roles": "Chief Technical Officer",
                 "linkedIn": null,
                 "email": "s.hovet@ionracing.no"
             },
             {
                 "name": "Thomas Fredhall Holguin",
                 "imgCode": "thfrho",
-                "roles": "Data leader (Laptimesimulator secondary)",
+                "roles": "Chief Information Officer",
                 "linkedIn": null,
                 "email": null
             }
@@ -54,7 +54,7 @@
             {
                 "name": "Emma Digernes Parnas",
                 "imgCode": "emdipa",
-                "roles": "Admin leader (Supreme leader)",
+                "roles": "Chief Administrative Officer",
                 "linkedIn": null,
                 "email": "e.parnas@ionracing.no"
             },
@@ -100,9 +100,16 @@
         "deptName": "mech",
         "members": [ 
             {
+                "name": "Steven Høiland",
+                "imgCode": "sthoe",
+                "roles": "Chief Mechanical Officer",
+                "linkedIn": null,
+                "email": "mechanical@ionracing.no"
+            },
+            {
                 "name": "Even Holen",
                 "imgCode": "evho",
-                "roles": "Project leader (Master chief)",
+                "roles": "Project leader",
                 "linkedIn": null,
                 "email": "leder@ionracing.no"
             },
@@ -170,18 +177,11 @@
                 "email": null
             },
             {
-                "name": "Astror Albert (AstrorPus)",
+                "name": "Astror Albert",
                 "imgCode": "asal",
                 "roles": "Suspension",
                 "linkedIn": null,
                 "email": null
-            },
-            {
-                "name": "Steven Høiland",
-                "imgCode": "sthoe",
-                "roles": "Mechanical leader (professional princess secondary)",
-                "linkedIn": null,
-                "email": "mechanical@ionracing.no"
             },
             {
                 "name": "Daniel Offer",
@@ -276,7 +276,7 @@
             {
                 "name": "Sondre Rosvoll Solheim (Børre)",
                 "imgCode": "soroso",
-                "roles": "Electro leader (Cult leader secondary)",
+                "roles": "Chief Electrical Officer",
                 "linkedIn": null,
                 "email": "electronics@ionracing.no"
             },
@@ -318,7 +318,7 @@
             {
                 "name": "Sander Hovet",
                 "imgCode": "saho",
-                "roles": "Technical leadership",
+                "roles": "Chief Technical Officer",
                 "linkedIn": null,
                 "email": "s.hovet@ionracing.no"
             },
@@ -353,7 +353,7 @@
             {
                 "name": "Tayeb Amedi",
                 "imgCode": "taam",
-                "roles": "Electro mechanical (Stevens b*tch secondary)",
+                "roles": "Electro mechanical",
                 "linkedIn": null,
                 "email": null
             },
@@ -408,7 +408,7 @@
             {
                 "name": "Thomas Fredhall Holguin",
                 "imgCode": "thfrho",
-                "roles": "Data leader (Laptimesimulator secondary)",
+                "roles": "Chief Information Officer",
                 "linkedIn": null,
                 "email": null
             },
