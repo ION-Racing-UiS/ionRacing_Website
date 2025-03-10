@@ -44,6 +44,13 @@
                 "roles": "Chief Information Officer",
                 "linkedIn": null,
                 "email": null
+            },
+            {
+                "name": "Johan Sundt Brekne",
+                "imgCode": "josubr",
+                "roles": "Chief Financial Officer",
+                "linkedIn": null,
+                "email": "economics@ionracing.no"
             }
         ]
     },
@@ -75,14 +82,14 @@
             {
                 "name": "Morteza Boub",
                 "imgCode": "mobo",
-                "roles": "Potato",
+                "roles": "Sponsor work",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Johan Sundt Brekne",
                 "imgCode": "josubr",
-                "roles": "Financial manager",
+                "roles": "Chief Financial Officer",
                 "linkedIn": null,
                 "email": "economics@ionracing.no"
             }
@@ -165,7 +172,7 @@
             {
                 "name": "Axel Lövenörn Lystad",
                 "imgCode": "axloly",
-                "roles": "Breaks",
+                "roles": "Brakes",
                 "linkedIn": null,
                 "email": null
             },
@@ -269,7 +276,7 @@
             {
                 "name": "Joakim Olerud Jensen",
                 "imgCode": "joolje",
-                "roles": "Robotics & signal",
+                "roles": "AMS (HV secondary)",
                 "linkedIn": null,
                 "email": null
             },
@@ -290,14 +297,14 @@
             {
                 "name": "Tormod Engen",
                 "imgCode": "toen",
-                "roles": "Support (electro)",
+                "roles": "Wire harness",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Markus Brekka",
                 "imgCode": "mabr",
-                "roles": "All over the place",
+                "roles": "MCU",
                 "linkedIn": null,
                 "email": null
             },
@@ -311,28 +318,28 @@
             {
                 "name": "Athavan Tharmaratnam",
                 "imgCode": "atth",
-                "roles": "All over the place",
+                "roles": "MCU",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Uliana Kulebyakina",
                 "imgCode": "ulku",
-                "roles": "All over the place",
+                "roles": "ECU",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Philip Halfdan Prøsch",
                 "imgCode": "phhapr",
-                "roles": "Battery",
+                "roles": "Electro mechanical",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Tom Mantel",
                 "imgCode": "toma",
-                "roles": "All over the place",
+                "roles": "Sensor (LV secondary)",
                 "linkedIn": null,
                 "email": null
             },
@@ -360,7 +367,7 @@
             {
                 "name": "Torjus Aartun",
                 "imgCode": "toaa",
-                "roles": "Cable systems",
+                "roles": "Wire harness",
                 "linkedIn": null,
                 "email": null
             },
@@ -374,7 +381,7 @@
             {
                 "name": "Runar Wallenius Skaget",
                 "imgCode": "ruwask",
-                "roles": "Cybernetics",
+                "roles": "Vehicle dynamics",
                 "linkedIn": null,
                 "email": null
             },
