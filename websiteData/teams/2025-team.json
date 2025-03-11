@@ -114,20 +114,6 @@
                 "email": "s.nygaard@ionracing.no"
             },
             {
-                "name": "Vincent Nguyen",
-                "imgCode": "ving",
-                "roles": "Bodywork",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Tabitha Bordich",
-                "imgCode": "tabo",
-                "roles": "Steering ",
-                "linkedIn": null,
-                "email": null
-            },
-            {
                 "name": "Dag Erik Narten",
                 "imgCode": "daerna",
                 "roles": "Ergonomics",
@@ -142,8 +128,64 @@
                 "email": null
             },
             {
+                "name": "Vincent Nguyen",
+                "imgCode": "ving",
+                "roles": "Bodywork",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Marcus Sundfør",
+                "imgCode": "masu",
+                "roles": "Bodywork",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Tabitha Bordich",
+                "imgCode": "tabo",
+                "roles": "Steering ",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Tayeb Amedi",
+                "imgCode": "taam",
+                "roles": "Electro mechanical",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Philip Halfdan Prøsch",
+                "imgCode": "phhapr",
+                "roles": "Electro mechanical",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Emil Walther Korth",
+                "imgCode": "emwako",
+                "roles": "Electro mechanical",
+                "linkedIn": null,
+                "email": null
+            },
+            {
                 "name": "Mathios Abraham",
                 "imgCode": "maab",
+                "roles": "Cooling",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Daniel Offer",
+                "imgCode": "daof",
+                "roles": "Cooling",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Kristian Rønningen",
+                "imgCode": "krroe",
                 "roles": "Cooling",
                 "linkedIn": null,
                 "email": null
@@ -152,6 +194,20 @@
                 "name": "Stjepan Gotovac",
                 "imgCode": "stgo",
                 "roles": "Spaceframe",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Jacob Hazell",
+                "imgCode": "jaha",
+                "roles": "Spaceframe",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Einar Lie",
+                "imgCode": "eili",
+                "roles": "Lead Chassis Engineer (Spaceframe secondary)",
                 "linkedIn": null,
                 "email": null
             },
@@ -183,52 +239,11 @@
                 "linkedIn": null,
                 "email": null
             },
-            {
-                "name": "Daniel Offer",
-                "imgCode": "daof",
-                "roles": "Cooling",
-                "linkedIn": null,
-                "email": null
-            },
+
             {
                 "name": "Lise Knudsen",
                 "imgCode": "likn",
                 "roles": "Drivetrain",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Marcus Sundfør",
-                "imgCode": "masu",
-                "roles": "Bodywork",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Sondre Carlsen",
-                "imgCode": "soca",
-                "roles": "Composite",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Jacob Hazell",
-                "imgCode": "jaha",
-                "roles": "Spaceframe",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Oscar Andersen",
-                "imgCode": "osan",
-                "roles": "Support systems",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Kristian Rønningen",
-                "imgCode": "krroe",
-                "roles": "Cooling",
                 "linkedIn": null,
                 "email": null
             },
@@ -240,9 +255,16 @@
                 "email": null
             },
             {
-                "name": "Emil Walther Korth",
-                "imgCode": "emwako",
-                "roles": "Electro mechanical",
+                "name": "Sondre Carlsen",
+                "imgCode": "soca",
+                "roles": "Composite",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Oscar Andersen",
+                "imgCode": "osan",
+                "roles": "Support systems",
                 "linkedIn": null,
                 "email": null
             },
@@ -250,13 +272,6 @@
                 "name": "Lasse Pihl",
                 "imgCode": "lapi",
                 "roles": "Support systems",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Einar Lie",
-                "imgCode": "eili",
-                "roles": "Lead Chassis Engineer (Spaceframe secondary)",
                 "linkedIn": null,
                 "email": null
             }
@@ -272,6 +287,13 @@
                 "roles": "Chief Electrical Officer",
                 "linkedIn": null,
                 "email": "electronics@ionracing.no"
+            },
+            {
+                "name": "Sander Hovet",
+                "imgCode": "saho",
+                "roles": "Chief Technical Officer",
+                "linkedIn": null,
+                "email": "s.hovet@ionracing.no"
             },
             {
                 "name": "Joakim Olerud Jensen",
@@ -295,8 +317,22 @@
                 "email": null
             },
             {
+                "name": "Robert Ingolf Oppedal",
+                "imgCode": "roinop",
+                "roles": "HV safety",
+                "linkedIn": null,
+                "email": null
+            },
+            {
                 "name": "Tormod Engen",
                 "imgCode": "toen",
+                "roles": "Wire harness",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Torjus Aartun",
+                "imgCode": "toaa",
                 "roles": "Wire harness",
                 "linkedIn": null,
                 "email": null
@@ -309,15 +345,15 @@
                 "email": null
             },
             {
-                "name": "Sander Hovet",
-                "imgCode": "saho",
-                "roles": "Chief Technical Officer",
-                "linkedIn": null,
-                "email": "s.hovet@ionracing.no"
-            },
-            {
                 "name": "Athavan Tharmaratnam",
                 "imgCode": "atth",
+                "roles": "MCU",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Herman Sparøy",
+                "imgCode": "hesp",
                 "roles": "MCU",
                 "linkedIn": null,
                 "email": null
@@ -330,13 +366,6 @@
                 "email": null
             },
             {
-                "name": "Philip Halfdan Prøsch",
-                "imgCode": "phhapr",
-                "roles": "Electro mechanical",
-                "linkedIn": null,
-                "email": null
-            },
-            {
                 "name": "Tom Mantel",
                 "imgCode": "toma",
                 "roles": "Sensor (LV secondary)",
@@ -344,30 +373,9 @@
                 "email": null
             },
             {
-                "name": "Tayeb Amedi",
-                "imgCode": "taam",
-                "roles": "Electro mechanical",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Robert Ingolf Oppedal",
-                "imgCode": "roinop",
-                "roles": "HV safety",
-                "linkedIn": null,
-                "email": null
-            },
-            {
                 "name": "Bjørn Lofthus",
                 "imgCode": "bjlo",
                 "roles": "Sensor",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Torjus Aartun",
-                "imgCode": "toaa",
-                "roles": "Wire harness",
                 "linkedIn": null,
                 "email": null
             },
@@ -382,13 +390,6 @@
                 "name": "Runar Wallenius Skaget",
                 "imgCode": "ruwask",
                 "roles": "Vehicle dynamics",
-                "linkedIn": null,
-                "email": null
-            },
-            {
-                "name": "Herman Sparøy",
-                "imgCode": "hesp",
-                "roles": "MCU",
                 "linkedIn": null,
                 "email": null
             }
@@ -415,14 +416,14 @@
             {
                 "name": "Martin Lauritsen",
                 "imgCode": "mala",
-                "roles": "All over the place",
+                "roles": "Fullstack",
                 "linkedIn": null,
                 "email": null
             },
             {
                 "name": "Alex Armand",
                 "imgCode": "mala",
-                "roles": "All over the place",
+                "roles": "Fullstack",
                 "linkedIn": null,
                 "email": null
             }

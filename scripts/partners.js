@@ -102,27 +102,27 @@ const partnersApp = Vue.createApp({
           class_partnerDiv: "gold_partner",
           partners: [
             {
-              i: 0, //check 2324
+              i: 0, 
               logo: "gold/clarion.png",
               url: "https://www.strawberry.no/hotell/norge/stavanger/clarion-hotel-energy/?utm_campaign=gmb-listing&utm_medium=organic&utm_source=google",
             },
             {
-              i: 1, //check 2324
+              i: 1, 
               logo: "gold/nablaflow.png",
               url: "https://nablaflow.io/en",
             },
             {
-              i: 2, //check 2324
+              i: 2, 
               logo: "gold/skf.png",
               url: "https://www.skf.com/no",
             },
             {
-              i: 3, //check 2324
+              i: 3, 
               logo: "gold/ansys.png",
               url: "https://www.ansys.com/",
             },
             {
-              i: 4, //check 2324
+              i: 4, 
               logo: "gold/tekna.png",
               url: "https://www.tekna.no/en/",
             },
@@ -151,52 +151,52 @@ const partnersApp = Vue.createApp({
           class_partnerDiv: "silver_partner",
           partners: [
             {
-              i: 1, //check 2324
+              i: 1, 
               logo: "silver/bremnes.png",
               url: "https://seashore.no/",
             },
             {
-              i: 2, //check 2324
+              i: 2, 
               logo: "silver/tekna.png",
               url: "https://www.tekna.no/en/",
             },
             {
-              i: 3, //check 2324
+              i: 3, 
               logo: "silver/WinTec.png",
               url: "https://windtec.no/",
             },
             {
-              i: 5, //check 2324
+              i: 5, 
               logo: "silver/lyse.png",
               url: "https://www.lyse.no/",
             },
             {
-              i: 6, //check 2324
+              i: 6, 
               logo: "silver/stamas.webp",
               url: "https://www.stamas.no/",
             },
             {
-              i: 7, //check 2324
+              i: 7, 
               logo: "silver/nito.svg",
               url: "https://www.nito.no/en/",
             },
             { // might need to go live?
-              i: 8, //check 2324     
+              i: 8,      
               logo: "silver/vectornav.png",
               url: "https://www.vectornav.com/",
             },
             //{
-            //  i: 9, //check 2324
+            //  i: 9, 
             //  logo: "silver/solatrykkeri.png", 
             //  url: "https://www.solatrykkeri.no/",
             //},
             {
-              i: 10, //check 2324
+              i: 10, 
               logo: "silver/vibemyr.png",
               url: "https://vibemyr.no/",
             },
             {
-              i: 11, //check 2324
+              i: 11, 
               logo: "silver/biesterfeld.png",
               url: "https://biesterfeld.no/",
             },
@@ -222,7 +222,7 @@ const partnersApp = Vue.createApp({
           class_partnerDiv: "bronze_partner",
           partners: [
             {
-              i: 1, //check 2324
+              i: 1, 
               logo: "bronze/meik.png",
               url: "https://www.meik.no/",
             },
@@ -232,59 +232,64 @@ const partnersApp = Vue.createApp({
               url: "https://www.bohncontainer.no/",
             },
             {
-              i: 3, //check 2324
+              i: 3, 
               logo: "bronze/saertex.png",
               url: "https://www.saertex.com/en",
             },
             {
-              i: 4, //check 2324
+              i: 4, 
               logo: "bronze/bender.png",
               url: "https://www.bender.de/en/",
             },
             {
-              i: 5, //check 2324
+              i: 5, 
               logo: "bronze/kna.png",
               url: "https://knakleppmotorsport.no/",
             },
             {
-              i: 6, //check 2324
+              i: 6, 
               logo: "bronze/hydro.png",
               url: "https://www.hydro.com/",
             },
             {
-              i: 7, //check 2324
+              i: 7, 
               logo: "bronze/miscgames.webp",
               url: "https://www.miscgames.com/",
             },
             {
-              i: 8, //check 2324
+              i: 8, 
               logo: "bronze/reime.png",
               url: "https://www.reime.no/",
             },
             {
-              i: 9, //check 2324
+              i: 9, 
               logo: "silver/rs.png", // Todo: fix folder and image structure
               url: "https://no.rs-online.com/web/",
             },
             {
-              i: 10, //check 2324
+              i: 10,
               logo: "bronze/propaint.png",
               url: "", //no url
             },
             {
-              i: 11, //check 2324
+              i: 11,
               logo: "bronze/vmv.png",
               url: "https://vmv.as/en/,"
             },
             {
-              i: 12, //check 2324
+              i: 12,
               logo: "bronze/smed.png",
               url: "https://smed.no/",
             },
             {
-              i: 13, //check 2324
+              i: 13,
               logo: "bronze/haaflu.png",
               url: "",
+            },
+            {
+              i: 14,
+              logo: "bronze/coficab.png",
+              url: "https://www.coficab.com/",
             },
           ],
         },
