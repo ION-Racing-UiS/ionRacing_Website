@@ -298,7 +298,14 @@
             {
                 "name": "Joakim Olerud Jensen",
                 "imgCode": "joolje",
-                "roles": "AMS (HV secondary)",
+                "roles": "Elektro - Lead HV systems Engineer (AMS secondary)",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Joakim Hopen",
+                "imgCode": "joho",
+                "roles": "Wiring harness",
                 "linkedIn": null,
                 "email": null
             },
@@ -368,7 +375,7 @@
             {
                 "name": "Tom Mantel",
                 "imgCode": "toma",
-                "roles": "Sensor (LV secondary)",
+                "roles": "Elektro-Lead LV systems engineer (Sensor secondary)",
                 "linkedIn": null,
                 "email": null
             },
