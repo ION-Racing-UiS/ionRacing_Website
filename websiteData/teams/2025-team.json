@@ -92,7 +92,22 @@
                 "roles": "Chief Financial Officer",
                 "linkedIn": null,
                 "email": "economics@ionracing.no"
+            },
+            {                
+                "name": "Jaime Casanova",
+                "imgCode": "jaca",
+                "roles": "Photography",
+                "linkedIn": null,
+                "email": null
+            },
+            {                
+                "name": "Juan Paulo Gabriel Amurao",
+                "imgCode": "juam",
+                "roles": "Event management/sponsor work",
+                "linkedIn": null,
+                "email": null
             }
+
         ]
     },
     {
@@ -376,6 +391,13 @@
                 "name": "Tom Mantel",
                 "imgCode": "toma",
                 "roles": "Elektro-Lead LV systems engineer (Sensor secondary)",
+                "linkedIn": null,
+                "email": null
+            },
+            {
+                "name": "Ole Emil Egelandsaa",
+                "imgCode": "olem",
+                "roles": "Lead Powertrain Engineer (Drivetrain secondary)",
                 "linkedIn": null,
                 "email": null
             },
