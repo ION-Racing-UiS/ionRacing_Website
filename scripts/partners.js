@@ -262,7 +262,7 @@ const partnersApp = Vue.createApp({
         },
         {
           // Section data
-          active: true,
+          active: false,
           i: 4,
           id: "supportplus_section",
           partner_class: "",
@@ -293,7 +293,7 @@ const partnersApp = Vue.createApp({
         },
         {
           // Section data
-          active: true,
+          active: false,
           i: 4,
           id: "support_section",
           partner_class: "",
