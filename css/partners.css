@@ -126,6 +126,14 @@
     max-width: 100px;
 }
 
+.supportplus_partner img {
+    max-width: 90px;
+}
+
+.support_partner img{
+    max-width: 80px;
+}
+
 .main_partner a, .plat_partner a, .gold_partner a, .silver_partner a, .bronze_partner a{
     display: flex;
     align-items: center;
@@ -317,10 +325,27 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         gap: 0rem;
-        align-self: center;
     }
     .bronze_partner img{
         max-width: 120px;
+    }
+    #supportplus_section{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0rem;
+        align-self: center;
+    }
+    .supportplus_partner img{
+        max-width: 100px;
+    }
+    #support_section{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0rem;
+        align-self: center;
+    }
+    .support_partner img{
+        max-width: 100px;
     }
 }
 
