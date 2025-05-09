@@ -166,7 +166,7 @@ const partnersApp = Vue.createApp({
             },
             {
               i: 2,
-              logo: "silver/hydroscand.pdf",
+              logo: "silver/hydroscand.png",
               url: "https://www.hydroscand.no"
             },
             {
@@ -176,7 +176,7 @@ const partnersApp = Vue.createApp({
             },
             {
               i: 4,
-              logo: "silver/solatrykkeri.pdf",
+              logo: "silver/solatrykkeri.png",
               url: "https://www.solatrykkeri.no"
             },
             {
@@ -230,7 +230,7 @@ const partnersApp = Vue.createApp({
             // },
             {
               i: 3,
-              logo: "bronze/astrup.ai",
+              logo: "bronze/astrup.png",
               url: "https://astrup.no",
             },
             {
@@ -255,7 +255,7 @@ const partnersApp = Vue.createApp({
             },
             {
               i: 8,
-              logo: "bronze/tredal.pdf", // TODO: Color issue with black text on black background
+              logo: "bronze/tredal.png", // TODO: Color issue with black text on black background
               url: "https://tredal.no"
             },
           ],
@@ -312,7 +312,7 @@ const partnersApp = Vue.createApp({
             },
             {
               i: 1,
-              logo: "support/mekonomen.pdf",
+              logo: "support/mekonomen.png",
               url: "https://www.mekonomen.no"
             },
             {
