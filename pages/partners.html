@@ -118,7 +118,7 @@
                     <div :id="category.id">
                         <div v-for="partner in category.partners" :key="partner.i" :class="category.class_partnerDiv" v-if="category.active" class="">
                             <a :href="partner.url" target="_blank">
-                               <img :src="'/img/logos/' + partner.logo" alt="Partner logo"> 
+                               <img v-if="partner.logo" :src="'/img/logos/' + partner.logo" alt="Partner logo"> 
                             </a>
                             <p v-if="category.showP" class="Partner_txt">
                                 {{ partner.txt }}

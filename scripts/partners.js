@@ -128,7 +128,7 @@ const partnersApp = Vue.createApp({
             {
               i: 6, 
               logo: "gold/WinTec.png",
-              url: "https://windtec.no/",
+              url: "https://www.spilka.com/no",
             },
           ],
         },
@@ -171,17 +171,18 @@ const partnersApp = Vue.createApp({
             },
             {
               i: 3,
-              logo: "silver/ideatec.png", // TODO: Missing logo
+              logo: "", // TODO: Missing logo
+              // logo: "silver/ideatec.png", // TODO: Missing logo
               url: "https://www.ideatec.no"
             },
             {
               i: 4,
-              logo: "silver/solatrykkeri.png",
+              logo: "silver/solatrykkeri.jpg",
               url: "https://www.solatrykkeri.no"
             },
             {
               i: 5,
-              logo: "silver/bøhn.png",
+              logo: "silver/bohn.png",
               url: "https://www.bohncontainer.no/",
             },
             {
@@ -240,7 +241,8 @@ const partnersApp = Vue.createApp({
             },
             {
               i: 5,
-              logo: "bronze/steelwork.png", // TODO: Missing logo
+              logo: "", // TODO: Missing logo
+              // logo: "bronze/steelwork.png", // TODO: Missing logo
               url: "https://steelwork.no"
             },
             {
@@ -262,7 +264,7 @@ const partnersApp = Vue.createApp({
         },
         {
           // Section data
-          active: false,
+          active: true,
           i: 4,
           id: "supportplus_section",
           partner_class: "",
@@ -293,7 +295,7 @@ const partnersApp = Vue.createApp({
         },
         {
           // Section data
-          active: false,
+          active: true,
           i: 4,
           id: "support_section",
           partner_class: "",
@@ -327,7 +329,8 @@ const partnersApp = Vue.createApp({
             },
             {
               i: 4, 
-              logo: "support/reime.png",
+              logo: "",
+              // logo: "support/reime.png",
               url: "https://www.reime.no/",
             },
           ],
