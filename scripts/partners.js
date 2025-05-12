@@ -65,22 +65,16 @@ const partnersApp = Vue.createApp({
               txt: "CaeTek provides software and cloud solutions for simulation, IoT, high performance computing (HPC), data analytics, and artificial intelligence (AI).",
             },
             {
-              i: 3,
+              i: 4,
               logo: "platinum/kisssoft.svg",
               url: "https://www.kisssoft.com/en",
               txt: "KISSsoft® is a modular calculation program for the design, optimization and verification of machine elements according to international standards. The individually customized software packages for a wide variety of applications guarantee tailor made solutions and the integration to all common CAD software complete the product.",
             },
             {
-              i: 4,
+              i: 5,
               logo: "platinum/metallteknikk.png",
               url: "https://metallteknikk.no/",
               txt: "Metallteknikk is a subsupplier of advanced sheet metal processing and welding of mainly stainless-steel materials. Metallteknikk has modern machinery for the processing of plates, consisting of lasers, plasma, punching, and bending machines. ",
-            },
-            {
-              i: 5,
-              logo: "platinum/tesla.svg",
-              url: "https://www.tesla.com/",
-              txt: "Tesla, a trailblazer in electric vehicles and sustainable energy, leads the automotive industry with cutting-edge technology and environmental consciousness. Committed to quality and sustainability, Tesla stands at the forefront of innovation in electric vehicle manufacturing.",
             },
           ],
         },
@@ -103,34 +97,39 @@ const partnersApp = Vue.createApp({
           partners: [
             {
               i: 0, 
-              logo: "gold/clarion.png",
-              url: "https://www.strawberry.no/hotell/norge/stavanger/clarion-hotel-energy/?utm_campaign=gmb-listing&utm_medium=organic&utm_source=google",
-            },
-            {
-              i: 1, 
               logo: "gold/nablaflow.png",
               url: "https://nablaflow.io/en",
             },
             {
-              i: 2, 
+              i: 1, 
               logo: "gold/skf.png",
               url: "https://www.skf.com/no",
             },
             {
-              i: 3, 
+              i: 2, 
               logo: "gold/ansys.png",
               url: "https://www.ansys.com/",
             },
             {
-              i: 4, 
-              logo: "gold/tekna.png",
-              url: "https://www.tekna.no/en/",
+              i: 3,
+              logo: "gold/trainor.png",
+              url: "https://trainor.no/",
+            },
+            {
+              i: 4,
+              logo: "gold/molex.png", // TODO: Full white logo / missing logo
+              url: "https://www.molex.com/en-us/home"
             },
             {
               i: 5,
-              logo: "gold/trainor.png",
-              url: "https://trainor.no/",
-            }
+              logo: "gold/coficab.png",
+              url: "https://www.coficab.com/",
+            },
+            {
+              i: 6, 
+              logo: "gold/WinTec.png",
+              url: "https://windtec.no/",
+            },
           ],
         },
         // SILVER
@@ -151,57 +150,45 @@ const partnersApp = Vue.createApp({
           class_partnerDiv: "silver_partner",
           partners: [
             {
-              i: 1, 
-              logo: "silver/bremnes.png",
-              url: "https://seashore.no/",
-            },
-            {
-              i: 2, 
+              i: 0, 
               logo: "silver/tekna.png",
               url: "https://www.tekna.no/en/",
             },
+            // { // might need to go live?
+            //   i: 5,      
+            //   logo: "silver/vectornav.png",
+            //   url: "https://www.vectornav.com/",
+            // },
             {
-              i: 3, 
-              logo: "silver/WinTec.png",
-              url: "https://windtec.no/",
-            },
-            {
-              i: 5, 
-              logo: "silver/lyse.png",
-              url: "https://www.lyse.no/",
-            },
-            {
-              i: 6, 
-              logo: "silver/stamas.webp",
-              url: "https://www.stamas.no/",
-            },
-            {
-              i: 7, 
-              logo: "silver/nito.svg",
-              url: "https://www.nito.no/en/",
-            },
-            { // might need to go live?
-              i: 8,      
-              logo: "silver/vectornav.png",
-              url: "https://www.vectornav.com/",
-            },
-            //{
-            //  i: 9, 
-            //  logo: "silver/solatrykkeri.png", 
-            //  url: "https://www.solatrykkeri.no/",
-            //},
-            {
-              i: 10, 
+              i: 1, 
               logo: "silver/vibemyr.png",
               url: "https://vibemyr.no/",
             },
             {
-              i: 11, 
-              logo: "silver/biesterfeld.png",
-              url: "https://biesterfeld.no/",
+              i: 2,
+              logo: "silver/hydroscand.png",
+              url: "https://www.hydroscand.no"
             },
-
-
+            {
+              i: 3,
+              logo: "silver/ideatec.png", // TODO: Missing logo
+              url: "https://www.ideatec.no"
+            },
+            {
+              i: 4,
+              logo: "silver/solatrykkeri.png",
+              url: "https://www.solatrykkeri.no"
+            },
+            {
+              i: 5,
+              logo: "silver/bøhn.png",
+              url: "https://www.bohncontainer.no/",
+            },
+            {
+              i: 6,
+              logo: "silver/smed.png",
+              url: "https://smed.no/",
+            },
           ],
         },
         // BRONZE
@@ -222,74 +209,126 @@ const partnersApp = Vue.createApp({
           class_partnerDiv: "bronze_partner",
           partners: [
             {
-              i: 1, 
-              logo: "bronze/meik.png",
-              url: "https://www.meik.no/",
-            },
-            {
-              i: 2, //might get removed, demmes spons e kinda wacky
-              logo: "bronze/bøhn.png",
-              url: "https://www.bohncontainer.no/",
-            },
-            {
-              i: 3, 
-              logo: "bronze/saertex.png",
-              url: "https://www.saertex.com/en",
-            },
-            {
-              i: 4, 
-              logo: "bronze/bender.png",
-              url: "https://www.bender.de/en/",
-            },
-            {
-              i: 5, 
-              logo: "bronze/kna.png",
-              url: "https://knakleppmotorsport.no/",
-            },
-            {
-              i: 6, 
-              logo: "bronze/hydro.png",
-              url: "https://www.hydro.com/",
-            },
-            {
-              i: 7, 
-              logo: "bronze/miscgames.webp",
-              url: "https://www.miscgames.com/",
-            },
-            {
-              i: 8, 
-              logo: "bronze/reime.png",
-              url: "https://www.reime.no/",
-            },
-            {
-              i: 9, 
-              logo: "silver/rs.png", // Todo: fix folder and image structure
+              i: 0, 
+              logo: "bronze/rs.png",
               url: "https://no.rs-online.com/web/",
             },
             {
-              i: 10,
+              i: 1,
               logo: "bronze/propaint.png",
               url: "", //no url
             },
             {
-              i: 11,
+              i: 2,
               logo: "bronze/vmv.png",
               url: "https://vmv.as/en/,"
             },
+            // {
+            //   i: 13,
+            //   logo: "bronze/haaflu.png",
+            //   url: "",
+            // },
             {
-              i: 12,
-              logo: "bronze/smed.png",
-              url: "https://smed.no/",
+              i: 3,
+              logo: "bronze/astrup.png",
+              url: "https://astrup.no",
             },
             {
-              i: 13,
-              logo: "bronze/haaflu.png",
-              url: "",
+              i: 4, 
+              logo: "bronze/nito.svg",
+              url: "https://www.nito.no/en/",
             },
             {
-              i: 14,
-              logo: "bronze/coficab.png",
-              url: "https://www.coficab.com/",
+              i: 5,
+              logo: "bronze/steelwork.png", // TODO: Missing logo
+              url: "https://steelwork.no"
+            },
+            {
+              i: 6, 
+              logo: "bronze/stamas.webp",
+              url: "https://www.stamas.no/",
+            },
+            {
+              i: 7,
+              logo: "bronze/sundfornaturstein.png",
+              url: ""
+            },
+            {
+              i: 8,
+              logo: "bronze/tredal.png", // TODO: Color issue with black text on black background
+              url: "https://tredal.no"
+            },
+          ],
+        },
+        {
+          // Section data
+          active: false,
+          i: 4,
+          id: "supportplus_section",
+          partner_class: "",
+          label: "Support+",
+          url: "/pages/partners.html",
+          icon_fill: "#CD7F32",
+          d: '',
+          svgMarkup: '',
+          // Partner data
+          class_partnerDiv: "supportplus_partner",
+          partners: [
+            {
+              i: 0, 
+              logo: "supportplus/3dnet.png",
+              url: "https://3dnet.no"
+            },
+            {
+              i: 1, 
+              logo: "supportplus/hydro.png",
+              url: "https://www.hydro.com/",
+            },
+            {
+              i: 2, 
+              logo: "supportplus/biesterfeld.png",
+              url: "https://biesterfeld.no/",
+            },
+          ],
+        },
+        {
+          // Section data
+          active: false,
+          i: 4,
+          id: "support_section",
+          partner_class: "",
+          label: "Support",
+          url: "/pages/partners.html",
+          icon_fill: "#CD7F32",
+          d: '',
+          svgMarkup: '',
+          // Partner data
+          class_partnerDiv: "support_partner",
+          partners: [
+            {
+              i: 0, 
+              logo: "support/unitek.png", // TODO: Logo issue black text on black background
+              url: "https://www.unitek-industrie-elektronik.de/en/",
+            },
+            {
+              i: 1,
+              logo: "support/mekonomen.png",
+              url: "https://www.mekonomen.no"
+            },
+            {
+              i: 2,
+              logo: "support/polymaker.png",
+              url: "https://polymaker.com"
+            },
+            {
+              i: 3, 
+              logo: "support/kna.png",
+              url: "https://knakleppmotorsport.no/",
+            },
+            {
+              i: 4, 
+              logo: "support/reime.png",
+              url: "https://www.reime.no/",
             },
           ],
         },
