@@ -53,25 +53,7 @@ const partnersApp = Vue.createApp({
               txt: "The University of Stavanger (UiS) is an innovative and international university with a strong commitment to well-being, green transition, and lifelong learning. It fosters an open and collaborative environment for education, research, and artistic development, engaging with global communities for meaningful impact.",
             },
             {
-              i: 2,
-              logo: "platinum/altium.svg",
-              url: "https://www.altium.com/",
-              txt: "Altium is a global software company that provides electronic design solutions used for designing printed circuit boards. Altium Designer, serves industries like automotive, aerospace, defense, and telecommunications, offering unified electronics design in a Microsoft Windows environment.",
-            },
-            {
-              i: 3,
-              logo: "platinum/caetek.png",
-              url: "https://caetek.fi/",
-              txt: "CaeTek provides software and cloud solutions for simulation, IoT, high performance computing (HPC), data analytics, and artificial intelligence (AI).",
-            },
-            {
-              i: 4,
-              logo: "platinum/kisssoft.svg",
-              url: "https://www.kisssoft.com/en",
-              txt: "KISSsoft® is a modular calculation program for the design, optimization and verification of machine elements according to international standards. The individually customized software packages for a wide variety of applications guarantee tailor made solutions and the integration to all common CAD software complete the product.",
-            },
-            {
-              i: 5,
+              i: 1,
               logo: "platinum/metallteknikk.png",
               url: "https://metallteknikk.no/",
               txt: "Metallteknikk is a subsupplier of advanced sheet metal processing and welding of mainly stainless-steel materials. Metallteknikk has modern machinery for the processing of plates, consisting of lasers, plasma, punching, and bending machines. ",
@@ -332,6 +314,42 @@ const partnersApp = Vue.createApp({
               logo: "",
               // logo: "support/reime.png",
               url: "https://www.reime.no/",
+            },
+          ],
+        },
+        {
+          // Section data
+          active: true,
+          i: 4,
+          id: "software_section",
+          partner_class: "",
+          label: "Software",
+          url: "/pages/partners.html",
+          icon_fill: "#CD7F32",
+          d: '',
+          svgMarkup: '',
+          // Partner data
+          class_partnerDiv: "software_partner",
+          partners: [
+            {
+              i: 0, 
+              logo: "software/altium.svg",
+              url: "https://www.altium.com/",
+            },
+            {
+              i: 1,
+              logo: "software/caetek.png",
+              url: "https://caetek.fi/"
+            },
+            {
+              i: 2,
+              logo: "software/kisssoft.svg",
+              url: "https://www.kisssoft.com/en"
+            },
+            {
+              i: 3, 
+              logo: "software/rapidharness.png",
+              url: "https://rapidharness.com/",
             },
           ],
         },

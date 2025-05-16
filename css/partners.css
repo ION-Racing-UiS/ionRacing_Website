@@ -131,10 +131,14 @@
 }
 
 .support_partner img{
-    max-width: 80px;
+    max-width: 90px;
 }
 
-.main_partner a, .plat_partner a, .gold_partner a, .silver_partner a, .bronze_partner a{
+.software_partner img {
+    max-width: 90px;
+}
+
+.main_partner a, .plat_partner a, .gold_partner a, .silver_partner a, .bronze_partner a, #supportplus_section a, #support_section a, #software_section a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,14 +158,14 @@
 #plat_section, #gold_section{
     flex-direction: column;
 }
-#bronze_section, #silver_section{
+#bronze_section, #silver_section, #supportplus_section, #support_section, #software_section{
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0rem;
     align-self: center;
 }
-#bronze_section a, #silver_section a{
+#bronze_section a, #silver_section a, #supportplus_section a, #support_section a, #software_section a{
     padding: 0 2rem 0 2rem;
 }
 
@@ -345,6 +349,15 @@
         align-self: center;
     }
     .support_partner img{
+        max-width: 100px;
+    }
+    #software_section{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0rem;
+        align-self: center;
+    }
+    .software_partner img{
         max-width: 100px;
     }
 }
